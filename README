@@ -1,0 +1,4 @@
+CUDA-LDPC-BER-Simulator -- cuda simulator
+scripts -- all small work scripts, mostly auxilary scripts
+spectrumSources -- spectrum calculation related sources
+tests -- all tests
