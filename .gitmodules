@@ -1,3 +1,0 @@
-[submodule "CUDA-LDPC-BER-Simulator"]
-	path = CUDA-LDPC-BER-Simulator
-	url = git@github.com:antonkov/CUDA-LDPC-BER-Simulator.git
