@@ -133,7 +133,7 @@ public class TannerSpectrumFinderTable {
 
         final int MAX_ENTRIES_TO_SHOW = 3;
         out.println("Results");
-        out.print("Filename TimeSpectrum(ms) ");
+        out.print("Filename ");
         for (int i = 1; i <= MAX_ENTRIES_TO_SHOW; i++)
             out.print("spectrum" + i + " ");
         out.println();
@@ -164,7 +164,7 @@ public class TannerSpectrumFinderTable {
                 SolveReport report = solve(in);
 
                 long time = System.currentTimeMillis() - startTime;
-                out.print(filename + " " + time + " ");
+                out.print(filename + " ");
                 int shown = 0;
                 for (int i = 1; i < report.spectrum.length; i++) {
                     if (report.spectrum[i] != 0 && shown < MAX_ENTRIES_TO_SHOW) {

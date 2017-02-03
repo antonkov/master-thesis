@@ -37,7 +37,7 @@ public class RandomMarking {
             Random rng = new Random(19);
             for (int sample = 0; sample < numberSamples; sample++) {
                 String baseName = file.getName().split("\\.")[0];
-                String name = String.format("%s/%s%03d.mtx", outFolder, baseName, sample);
+                String name = String.format("%s/%s_%03d.mtx", outFolder, baseName, sample);
                 try (PrintWriter out = new PrintWriter(name)) {
                     out.println("proto_matrix"); // matrix format
                     out.println(r + " " + c);
