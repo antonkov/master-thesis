@@ -21,6 +21,7 @@ for test, row_df in df.groupby(level=0):
 x = df.index.levels[1]
 
 # Plot the average over replicates with bootstrap resamples
-sns.tsplot(data, time=x, err_style="boot_traces", n_boot=500)
+sns.tsplot(data, time=x, err_style='unit_traces')
+#sns.tsplot(data, time=x, err_style="boot_traces", n_boot=500)
 
 sns.plt.show()

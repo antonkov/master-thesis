@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import CheckButtons
 import matplotlib.style as style
 from collections import OrderedDict
+import matplotlib
 
-style.use('ggplot')
+matplotlib.rcParams.update({'font.size': 10})
+matplotlib.rcParams['figure.figsize'] = 20, 11
 
 def read_ssv(filename):
     return pd.read_csv(filename, delim_whitespace=True, header=1, index_col=False)
@@ -34,24 +36,29 @@ stat = stat.sort_values(by='fer')
 print stat
 
 fig, ax = plt.subplots()
-plt.subplots_adjust(right=0.8)
-rax = plt.axes([0.82, 0.1, 0.1, 0.8])
+plt.xlabel('fer')
+plt.subplots_adjust(right=0.75)
+rax = plt.axes([0.76, 0.1, 0.23, 0.8], frameon=True)
 #n, = df.base.unique().shape
 n_bins = 10
 n = 10
 buttonStates = [False] * n
-cols = ['blue', 'red', 'orange', 'green']
+cols = ['blue', 'red', 'orange', 'green', 'black', 'yellow', 'magenta', 'grey', 'cyan', 'darkgreen']
+cols = cols[:n]
 inRange = lambda x: x < 5
 data = []
+names = []
 for i in range(0, n):
+    name = ' '.join(map(str, [i] + list(stat.iloc[i].values)))
+    names.append(name)
     xs = df.loc[i].fer.tolist()
     data.append(filter(inRange, xs))
 
-check = CheckButtons(rax, map(str, range(n)), buttonStates)
-
+rax.set_title('test spec1 spec2 spec3 fer')
+check = CheckButtons(rax, names, buttonStates)
 
 def func(label):
-    label = int(label)
+    label = int(label.split()[0])
     ax.cla()
     buttonStates[label] = not buttonStates[label]
     dataToPlot = []
@@ -61,6 +68,7 @@ def func(label):
     ax.hist(dataToPlot, n_bins, histtype='bar')
     plt.draw()
 
+plt.legend()
 check.on_clicked(func)
 
 plt.show()

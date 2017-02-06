@@ -33,15 +33,21 @@ plt.subplots_adjust(right=0.75)
 rax = plt.axes([0.76, 0.1, 0.23, 0.8], frameon=True)
 n = len(data)
 
+cols = ['blue', 'red', 'orange', 'green', 'black', 'yellow', 'magenta', 'grey', 'cyan', 'darkgreen'] * 10
+cols = cols[:len(data)]
 names = []
 plots = []
 id = 0
 for y in data:
     s = ' '.join(spectrum.loc[id].values)
     names.append(s)
-    plot, = ax.plot(x, y, label=s, visible=False)
+    plot, = ax.plot(x, y, label=str(id), visible=True, color=cols[id])
     plots.append(plot)
     id += 1
+
+ax.legend()
+for plot in plots:
+    plot.set_visible(False)
 
 check = CheckButtons(rax, names, [False] * n)
 #for rect in check.rectangles:
