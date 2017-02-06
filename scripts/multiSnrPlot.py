@@ -11,8 +11,8 @@ def read_ssv(filename):
 
 
 # Data parsing
-df = read_ssv('../reports/ComparableTest100KReport.txt')
-spectrum = read_ssv('../reports/ComparableTestSpectrum.txt')
+df = read_ssv('../reports/ComparableTest6HigherReport.txt')
+spectrum = read_ssv('../reports/ComparableTest6HigherSpectrum.txt')
 spectrum = pd.concat([spectrum['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d{3})', expand=True),
                       spectrum.drop('Filename', 1)], axis=1)
 print spectrum
