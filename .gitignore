@@ -2,3 +2,5 @@ gentests/*
 *.un~
 *.o
 .idea
+.DS_store
+__pycache__
