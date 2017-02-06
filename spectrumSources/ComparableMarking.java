@@ -119,7 +119,13 @@ public class ComparableMarking {
             for (int i = 0; i < numberSamples; i++) {
                 mtx[i] = markMatrix(hd, M);
                 specs[i] = new TannerSpectrumFinderTable().solve(r,c, M, mtx[i]).spectrum;
+                if (specs[i][4] != 0) {
+                    i--;
+                } else if (i % 1000 == 0) {
+                    System.err.println(i + " found");
+                }
             }
+            System.err.println("" + numberSamples + " matrices found.");
             ArrayList<int[][]> samples = calcSamples(mtx, specs);
 
             int sample = 0;
