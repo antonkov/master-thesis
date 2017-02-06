@@ -3,7 +3,7 @@ import java.util.*;
 
 public class TannerSpectrumFinderTable {
 
-    class Edge {
+    private class Edge {
         int from, to;
         int c;
         Edge backEdge;
@@ -19,10 +19,10 @@ public class TannerSpectrumFinderTable {
         }
     }
 
-    ArrayList<Edge>[] g;
-    ArrayList<Edge> edges;
+    private ArrayList<Edge>[] g;
+    private ArrayList<Edge> edges;
 
-    void clearDp() {
+    private void clearDp() {
         for (Edge e : edges) {
             for (long[] a : e.dp) {
                 Arrays.fill(a, 0);
@@ -30,7 +30,7 @@ public class TannerSpectrumFinderTable {
         }
     }
 
-    void addBiEdge(int from, int to, int c, int M, int spectrumSize) {
+    private void addBiEdge(int from, int to, int c, int M, int spectrumSize) {
         Edge e1 = new Edge(from, to, c, edges.size(), M, spectrumSize);
         edges.add(e1);
         Edge e2 = new Edge(to, from, M-c, edges.size(), M, spectrumSize);
@@ -42,7 +42,7 @@ public class TannerSpectrumFinderTable {
         g[to].add(e2);
     }
 
-    void removeBiEdge(Edge e) {
+    private void removeBiEdge(Edge e) {
         Edge backEdge = e.backEdge;
         edges.remove(e);
         edges.remove(backEdge);
@@ -52,22 +52,16 @@ public class TannerSpectrumFinderTable {
 
     final int spectrumSize = 20;
 
-    SolveReport solve(Scanner in) {
-        // Input and init
-        int J = in.nextInt();
-        int K = in.nextInt();
+    SolveReport solve(int J, int K, int M, int[][] ws) {
         int n = J + K; // Count vertices
         int m = J * K; // Count edges
-        int M = in.nextInt(); // Module of expansion
         g = new ArrayList[n + 1];
         edges = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
             g[i] = new ArrayList<>();
         }
-        int[][] ws = new int[J][K];
         for (int i = 0; i < J; i++) {
             for (int j = 0; j < K; j++) {
-                ws[i][j] = in.nextInt();
                 int from = i;
                 int to = J + j;
                 int c = ws[i][j];
@@ -128,7 +122,7 @@ public class TannerSpectrumFinderTable {
         public SolveReport() {}
     }
 
-    void run(String[] filesAndFolders) {
+    private void run(String[] filesAndFolders) {
         PrintWriter out = new PrintWriter(System.out);
 
         final int MAX_ENTRIES_TO_SHOW = 3;
@@ -161,7 +155,18 @@ public class TannerSpectrumFinderTable {
 
                 long startTime = System.currentTimeMillis();
 
-                SolveReport report = solve(in);
+                // Input and init
+                int J = in.nextInt();
+                int K = in.nextInt();
+                int M = in.nextInt(); // Module of expansion
+                int[][] ws = new int[J][K];
+                for (int i = 0; i < J; i++) {
+                    for (int j = 0; j < K; j++) {
+                        ws[i][j] = in.nextInt();
+                    }
+                }
+
+                SolveReport report = solve(J, K, M, ws);
 
                 long time = System.currentTimeMillis() - startTime;
                 out.print(filename + " ");

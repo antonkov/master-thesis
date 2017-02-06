@@ -8,6 +8,12 @@ import java.util.*;
  */
 public class RandomMarking {
 
+    final boolean USE_FILTER = true;
+
+    boolean filter(long[] spectrum) {
+        return spectrum[4] == 0;
+    }
+
     void run(String[] args) throws FileNotFoundException {
         int start = 0;
         if (args.length < 3) {
@@ -35,23 +41,39 @@ public class RandomMarking {
                 }
             }
             Random rng = new Random(19);
-            for (int sample = 0; sample < numberSamples; sample++) {
+            int tried = 0;
+            int sample = 0;
+            while (sample < numberSamples) {
+                tried++;
                 String baseName = file.getName().split("\\.")[0];
                 String name = String.format("%s/%s_%03d.mtx", outFolder, baseName, sample);
+                int[][] hMarked = new int[r][c];
+                for (int i = 0; i < r; i++) {
+                    for (int j = 0; j < c; j++) {
+                        if (hd[i][j] != -1) {
+                            hMarked[i][j] = rng.nextInt(M);
+                        } else {
+                            hMarked[i][j] = -1;
+                        }
+                    }
+                }
+                if (USE_FILTER) {
+                    TannerSpectrumFinderTable.SolveReport report = new TannerSpectrumFinderTable().solve(r, c, M, hMarked);
+                    if (!filter(report.spectrum)) {
+                        continue;
+                    }
+                }
                 try (PrintWriter out = new PrintWriter(name)) {
                     out.println("proto_matrix"); // matrix format
                     out.println(r + " " + c);
                     out.println(M);
                     for (int i = 0; i < r; i++) {
                         for (int j = 0; j < c; j++) {
-                            if (hd[i][j] != -1) {
-                                out.print(rng.nextInt(M) + " ");
-                            } else {
-                                out.print(hd[i][j] + " ");
-                            }
+                            out.print(hMarked[i][j] + " ");
                         }
                         out.println();
                     }
+                    sample++;
                 }
             }
         }
