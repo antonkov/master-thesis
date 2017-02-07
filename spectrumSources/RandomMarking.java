@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class RandomMarking {
 
-    final boolean USE_FILTER = true;
+    final boolean USE_FILTER = false;
     Random rng = new Random(19);
 
     boolean filter(long[] spectrum) {
@@ -57,10 +57,13 @@ public class RandomMarking {
             }
             int tried = 0;
             int sample = 0;
+            int numZeros = 0;
+            while (Math.pow(10, numZeros) < numberSamples)
+                numZeros++;
             while (sample < numberSamples) {
                 tried++;
                 String baseName = file.getName().split("\\.")[0];
-                String name = String.format("%s/%s_%03d.mtx", outFolder, baseName, sample);
+                String name = String.format("%s/%s_%0" + numZeros + "d.mtx", outFolder, baseName, sample);
                 int[][] hMarked = markMatrix(hd, M);
                 if (USE_FILTER) {
                     TannerSpectrumFinderTable.SolveReport report = new TannerSpectrumFinderTable().solve(r, c, M, hMarked);
