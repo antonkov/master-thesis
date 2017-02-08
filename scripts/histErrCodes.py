@@ -1,8 +1,6 @@
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.widgets import CheckButtons
-import matplotlib.style as style
 from collections import OrderedDict
 import matplotlib
 
