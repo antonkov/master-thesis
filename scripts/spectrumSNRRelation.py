@@ -12,7 +12,7 @@ matplotlib.rcParams['figure.figsize'] = 20, 11
 def read_ssv(filename):
     return pd.read_csv(filename, delim_whitespace=True, header=1, index_col=False)
 
-reportName = 'RandomBase5_19'
+reportName = 'RandomBase5_19AtLeast6_19'
 report = read_ssv('../reports/' + reportName + 'Report.txt')
 spectrum = read_ssv('../reports/' + reportName + 'Spectrum.txt')
 report = pd.concat([report['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d*)', expand=True),
@@ -27,20 +27,20 @@ df.fer = df.fer.astype(float)
 
 def spectrumList(row):
     SPEC_LEN = 15
-    spec = np.zeros(SPEC_LEN)
+    spec = [0] * SPEC_LEN
     for i in range(1, 4):
         lenCycle, cnt = map(int, row['spectrum{}'.format(i)].split(':'))
         spec[lenCycle] = cnt
     return spec
 
 specs = df.apply(spectrumList, axis=1)
-print specs
 n = len(specs.index)
 print 'specs done'
 
 cntComparable = 0
 betterSnr = 0
 for i in range(n):
+    print i
     for j in range(n):
         si = specs[i]
         sj = specs[j]
