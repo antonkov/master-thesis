@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.*;
 
 public class TannerSpectrumFinderTable {
@@ -71,43 +73,43 @@ public class TannerSpectrumFinderTable {
             }
         }
 
-        int fakeRoot = n;
-
         // Solve
         long[] spectrum = new long[spectrumSize + 1];
         for (int root = 0; root < n; root++) {
-            clearDp();
+            for (Edge eStart : g[root]) {
+                if (eStart.to < root)
+                    continue;
 
-            addBiEdge(fakeRoot, root, 0, M, spectrumSize);
-            for (Edge e : g[fakeRoot]) {
-                e.dp[0][0] = 1;
-            }
+                clearDp();
 
-            for (int len = 1; len <= spectrumSize; len++) {
-                for (Edge eIncoming : edges) {
-                    for (int w = 0; w < M; w++) {
-                        long cntPaths = eIncoming.dp[len - 1][w];
-                        if (cntPaths != 0) {
-                            for (Edge e : g[eIncoming.to]) {
-                                if (e.edgeNum != eIncoming.backEdge.edgeNum && e.to >= root) {
-                                    int wNext = w + e.c;
-                                    if (wNext >= M) {
-                                        wNext -= M;
+                eStart.dp[1][eStart.c] = 1;
+
+                for (int len = 2; len <= spectrumSize; len++) {
+                    for (Edge eIncoming : edges) {
+                        for (int w = 0; w < M; w++) {
+                            long cntPaths = eIncoming.dp[len - 1][w];
+                            if (cntPaths != 0) {
+                                for (Edge e : g[eIncoming.to]) {
+                                    if (e.edgeNum != eIncoming.backEdge.edgeNum && e.to >= root) {
+                                        int wNext = w + e.c;
+                                        if (wNext >= M) {
+                                            wNext -= M;
+                                        }
+                                        e.dp[len][wNext] += cntPaths;
                                     }
-                                    e.dp[len][wNext] += cntPaths;
                                 }
                             }
                         }
                     }
-                }
 
-                for (Edge e : g[root]) {
-                    Edge incoming = e.backEdge;
-                    spectrum[len] += incoming.dp[len][0];
+                    for (Edge e : g[root]) {
+                        if (e.edgeNum != eStart.edgeNum) {
+                            Edge incoming = e.backEdge;
+                            spectrum[len] += incoming.dp[len][0];
+                        }
+                    }
                 }
             }
-
-            removeBiEdge(g[fakeRoot].get(0));
         }
 
         // Report
