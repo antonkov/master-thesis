@@ -111,6 +111,8 @@ public class TannerSpectrumFinderTable {
                 }
             }
         }
+        for (int i = 0; i < spectrum.length; i++)
+            spectrum[i] /= 2; // can go on cycle in two directions
 
         // Report
         SolveReport report = new SolveReport();
