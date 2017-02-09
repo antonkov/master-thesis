@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class ComparableMarking {
 
-    final boolean USE_FILTER = false;
+    final boolean USE_FILTER = true;
     Random rng = new Random(19);
 
     boolean filter(long[] spectrum) {
@@ -122,8 +122,8 @@ public class ComparableMarking {
                 if (USE_FILTER) {
                     if (!filter(specs[i])) {
                         i--;
+                        continue;
                     }
-                    continue;
                 }
                 if (i % 1000 == 0) {
                     System.err.println(i + " found");
