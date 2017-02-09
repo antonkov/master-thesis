@@ -12,19 +12,20 @@ def read_ssv(filename):
 
 
 # Data parsing
-reportName = 'ComparableTest6Higher'
+reportName = 'ComparableTest'
 df = read_ssv('../reports/' + reportName + 'Report.txt')
 spectrum = read_ssv('../reports/' + reportName + 'Spectrum.txt')
-spectrum = pd.concat([spectrum['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d{3})', expand=True),
+spectrum = pd.concat([spectrum['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d*)', expand=True),
                       spectrum.drop('Filename', 1)], axis=1)
 print spectrum
-df = pd.concat([df['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d{3})', expand=True),
+df = pd.concat([df['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d*)', expand=True),
            df['SNR'], df['FER%']], axis=1)
 df = df.rename(columns={'FER%': 'fer'})
 df.drop_duplicates(subset=['test', 'fer'], inplace=True)
 df.index = pd.MultiIndex.from_arrays(df[['test', 'SNR']].values.T)
 del df['test']
 del df['SNR']
+print df
 data = []
 for test, row_df in df.groupby(level=0):
     data.append(row_df['fer'].values)
