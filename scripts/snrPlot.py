@@ -15,6 +15,7 @@ df = read_ssv('../reports/allSnrAllRandom.txt')
 df = pd.concat([df['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d{3})', expand=True),
            df['SNR'], df['FER%']], axis=1)
 df = df.rename(columns={'FER%': 'fer'})
+df.drop_duplicates(subset=['test', 'fer'], inplace=True)
 df.index = pd.MultiIndex.from_arrays(df[['test', 'SNR']].values.T)
 del df['test']
 del df['SNR']
@@ -26,7 +27,9 @@ x = df.index.levels[1]
 f, ax = plt.subplots(figsize=(7, 7))
 ax.set(yscale='log')
 # Plot the average over replicates with bootstrap resamples
-sns.tsplot(data, time=x, err_style='unit_traces')
+for ys in data:
+    sns.plt.plot(x[:len(ys)], ys, color='green', lw=0.3)
+#sns.tsplot(data, time=x, err_style='unit_traces')
 #sns.tsplot(data, time=x, err_style="boot_traces", n_boot=500)
 
 sns.plt.show()

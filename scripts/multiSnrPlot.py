@@ -12,14 +12,15 @@ def read_ssv(filename):
 
 
 # Data parsing
-df = read_ssv('../reports/ComparableTest6HigherReport.txt')
-spectrum = read_ssv('../reports/ComparableTest6HigherSpectrum.txt')
+df = read_ssv('../reports/ComparableTestReport.txt')
+spectrum = read_ssv('../reports/ComparableTestSpectrum.txt')
 spectrum = pd.concat([spectrum['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d{3})', expand=True),
                       spectrum.drop('Filename', 1)], axis=1)
 print spectrum
 df = pd.concat([df['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d{3})', expand=True),
            df['SNR'], df['FER%']], axis=1)
 df = df.rename(columns={'FER%': 'fer'})
+df.drop_duplicates(subset=['test', 'fer'], inplace=True)
 df.index = pd.MultiIndex.from_arrays(df[['test', 'SNR']].values.T)
 del df['test']
 del df['SNR']
@@ -42,7 +43,7 @@ id = 0
 for y in data:
     s = ' '.join(spectrum.loc[id].values)
     names.append(s)
-    plot, = ax.semilogy(x, y, label=str(id), visible=True, color=cols[id])
+    plot, = ax.semilogy(x[:len(y)], y, label=str(id), visible=True, color=cols[id])
     plots.append(plot)
     id += 1
 
