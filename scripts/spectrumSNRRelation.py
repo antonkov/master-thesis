@@ -12,7 +12,7 @@ matplotlib.rcParams['figure.figsize'] = 20, 11
 def read_ssv(filename):
     return pd.read_csv(filename, delim_whitespace=True, header=1, index_col=False)
 
-reportName = 'RandomBase5_19AtLeast6_19'
+reportName = 'RandomBase5_19'
 report = read_ssv('../reports/' + reportName + 'Report.txt')
 spectrum = read_ssv('../reports/' + reportName + 'Spectrum.txt')
 report = pd.concat([report['Filename'].str.extract('b5_10_\d{4}_(?P<test>\d*)', expand=True),
