@@ -1,6 +1,9 @@
+# Plots SNR - FER for set of matrices.
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib.pyplot as plt
+
 sns.set(style="darkgrid", palette="Set2")
 
 
@@ -20,6 +23,8 @@ for test, row_df in df.groupby(level=0):
     data.append(row_df['fer'].values)
 x = df.index.levels[1]
 
+f, ax = plt.subplots(figsize=(7, 7))
+ax.set(yscale='log')
 # Plot the average over replicates with bootstrap resamples
 sns.tsplot(data, time=x, err_style='unit_traces')
 #sns.tsplot(data, time=x, err_style="boot_traces", n_boot=500)

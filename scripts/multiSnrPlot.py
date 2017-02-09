@@ -1,3 +1,4 @@
+# SNR - FER plots for set of matrices with check boxes to choose which to display. Displays spectrum in legend.
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.widgets import CheckButtons
@@ -41,7 +42,7 @@ id = 0
 for y in data:
     s = ' '.join(spectrum.loc[id].values)
     names.append(s)
-    plot, = ax.plot(x, y, label=str(id), visible=True, color=cols[id])
+    plot, = ax.semilogy(x, y, label=str(id), visible=True, color=cols[id])
     plots.append(plot)
     id += 1
 
