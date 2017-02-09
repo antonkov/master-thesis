@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class ComparableMarking {
 
-    final boolean USE_FILTER = true;
+    final boolean USE_FILTER = false;
     Random rng = new Random(19);
 
     boolean filter(long[] spectrum) {
@@ -119,19 +119,26 @@ public class ComparableMarking {
             for (int i = 0; i < numberSamples; i++) {
                 mtx[i] = markMatrix(hd, M);
                 specs[i] = new TannerSpectrumFinderTable().solve(r,c, M, mtx[i]).spectrum;
-                if (specs[i][4] != 0) {
-                    i--;
-                } else if (i % 1000 == 0) {
+                if (USE_FILTER) {
+                    if (!filter(specs[i])) {
+                        i--;
+                    }
+                    continue;
+                }
+                if (i % 1000 == 0) {
                     System.err.println(i + " found");
                 }
             }
             System.err.println("" + numberSamples + " matrices found.");
             ArrayList<int[][]> samples = calcSamples(mtx, specs);
 
+            int cntZeros = 0;
+            while (Math.pow(10, cntZeros) < samples.size())
+                cntZeros++;
             int sample = 0;
             for (int[][] H : samples) {
                 String baseName = file.getName().split("\\.")[0];
-                String name = String.format("%s/%s_%03d.mtx", outFolder, baseName, sample);
+                String name = String.format("%s/%s_%0" + cntZeros + "d.mtx", outFolder, baseName, sample);
 
                 try (PrintWriter out = new PrintWriter(name)) {
                     out.println("proto_matrix"); // matrix format
