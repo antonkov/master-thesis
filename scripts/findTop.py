@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def read_ssv(filename):
     return pd.read_csv(filename, delim_whitespace=True, header=1, index_col=False)
 
-name = '../reports/findTopRandomBase5_19'
+name = '../reports/findTopRandomMarking69'
 def read():
     with open(name) as f:
         cur_line = f.readline()
