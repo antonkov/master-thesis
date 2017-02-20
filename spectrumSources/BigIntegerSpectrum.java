@@ -4,7 +4,7 @@ import java.io.PrintWriter;
 import java.math.BigInteger;
 import java.util.*;
 
-public class BigIntegerSpectrumStress {
+public class BigIntegerSpectrum {
 
     private class Edge {
         int from, to;
@@ -153,9 +153,9 @@ public class BigIntegerSpectrumStress {
                     }
                 }
                 /* Definition of add: check[i] = i
-                int[] check = new int[spectrumSize + 1];
+                int[] check = new int[SPECTRUM_SIZE + 1];
                 for (int i = 1; i < add.length; i++) {
-                    for (int j = 1; j * i <= spectrumSize; j++) {
+                    for (int j = 1; j * i <= SPECTRUM_SIZE; j++) {
                         check[j * i] += add[i];
                     }
                 }
@@ -264,7 +264,7 @@ public class BigIntegerSpectrumStress {
     }
 
     public static void main(String[] args) {
-        new BigIntegerSpectrumStress().run(args);
+        new BigIntegerSpectrum().run(args);
     }
 
 }

@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.*;
 
-public class SpectrumFix {
+public class Spectrum {
 
     private class Edge {
         int from, to;
@@ -47,7 +47,8 @@ public class SpectrumFix {
         g[to].add(e2);
     }
 
-    final int spectrumSize = 30;
+    // params
+    private int SPECTRUM_SIZE;
 
     SolveReport solve(int J, int K, int M, int[][] ws) {
         int n = J + K; // Count vertices
@@ -62,14 +63,14 @@ public class SpectrumFix {
                 int to = J + j;
                 int c = ws[i][j];
                 if (c != -1) {
-                    addBiEdge(from, to, c, M, spectrumSize);
+                    addBiEdge(from, to, c, M, SPECTRUM_SIZE);
                 }
             }
         }
 
-        int[] add = new int[spectrumSize + 1];
+        int[] add = new int[SPECTRUM_SIZE + 1];
         add[1] = 1;
-        for (int i = 2; i <= spectrumSize; i++) {
+        for (int i = 2; i <= SPECTRUM_SIZE; i++) {
             add[i] = i;
             for (int j = 2; j <= i; j++) {
                 if (i % j == 0) {
@@ -78,22 +79,22 @@ public class SpectrumFix {
             }
         }
         /* Definition of add: check[i] = i
-        int[] check = new int[spectrumSize + 1];
+        int[] check = new int[SPECTRUM_SIZE + 1];
         for (int i = 1; i < add.length; i++) {
-            for (int j = 1; j * i <= spectrumSize; j++) {
+            for (int j = 1; j * i <= SPECTRUM_SIZE; j++) {
                 check[j * i] += add[i];
             }
         }*/
-        long[] spectrum = new long[spectrumSize + 1];
+        long[] spectrum = new long[SPECTRUM_SIZE + 1];
         for (int root = 0; root < n; root++) {
             for (Edge eStart : g[root]) {
                 clearDp();
 
                 eStart.dp[1][eStart.c] = 1;
 
-                long[][] cntCyclesThroughEdge = new long[M][spectrumSize + 1];
+                long[][] cntCyclesThroughEdge = new long[M][SPECTRUM_SIZE + 1];
 
-                for (int len = 2; len <= spectrumSize; len++) {
+                for (int len = 2; len <= SPECTRUM_SIZE; len++) {
                     for (Edge eIncoming : edges) {
                         for (int w = 0; w < M; w++) {
                             long cntPaths = eIncoming.dp[len - 1][w];
@@ -120,7 +121,7 @@ public class SpectrumFix {
                     }
                 }
 
-                for (int len = 1; len <= spectrumSize; len++) {
+                for (int len = 1; len <= SPECTRUM_SIZE; len++) {
                     for (int sCnt = 1; sCnt <= len; sCnt++) {
                         if (len % sCnt == 0) {
                             for (int sw = 0; sw < M; sw++) {
@@ -218,8 +219,13 @@ public class SpectrumFix {
         out.close();
     }
 
+    public Spectrum(int spectrumSize) {
+        this.SPECTRUM_SIZE = spectrumSize;
+    }
+
     public static void main(String[] args) {
-        new SpectrumFix().run(args);
+        final int DEFAULT_SPECTRUM_SIZE = 20;
+        new Spectrum(DEFAULT_SPECTRUM_SIZE).run(args);
     }
 
 }
