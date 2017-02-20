@@ -3,39 +3,56 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.*;
 
-public class SpectrumFix {
+public class Stress {
 
     private class Edge {
         int from, to;
         int c;
         Edge backEdge;
         int edgeNum;
-        long[][] dp;
 
-        public Edge(int from, int to, int c, int edgeNum, int M, int spectrumSize) {
+        public Edge(int from, int to, int c, int edgeNum) {
             this.from = from;
             this.to = to;
             this.c = c;
             this.edgeNum = edgeNum;
-            this.dp = new long[spectrumSize + 1][M];
+        }
+    }
+
+    private class Path {
+        private Edge[] es;
+        private int hash;
+
+        public Path(Edge[] es) {
+            this.es = es;
+            hash = Arrays.hashCode(es);
+        }
+
+        @Override
+        public int hashCode() {
+            return hash;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+
+            Path path = (Path) o;
+
+            // Probably incorrect - comparing Object[] arrays with Arrays.equals
+            return Arrays.equals(es, path.es);
         }
     }
 
     private ArrayList<Edge>[] g;
     private ArrayList<Edge> edges;
 
-    private void clearDp() {
-        for (Edge e : edges) {
-            for (long[] a : e.dp) {
-                Arrays.fill(a, 0);
-            }
-        }
-    }
-
-    private void addBiEdge(int from, int to, int c, int M, int spectrumSize) {
-        Edge e1 = new Edge(from, to, c, edges.size(), M, spectrumSize);
+    private void addBiEdge(int from, int to, int c, int M) {
+        Edge e1 = new Edge(from, to, c, edges.size());
         edges.add(e1);
-        Edge e2 = new Edge(to, from, M-c, edges.size(), M, spectrumSize);
+        int c2 = (c == 0 ? 0 : M - c);
+        Edge e2 = new Edge(to, from, c2, edges.size());
         edges.add(e2);
 
         e1.backEdge = e2;
@@ -44,19 +61,13 @@ public class SpectrumFix {
         g[to].add(e2);
     }
 
-    private void removeBiEdge(Edge e) {
-        Edge backEdge = e.backEdge;
-        edges.remove(e);
-        edges.remove(backEdge);
-        g[e.from].remove(e);
-        g[backEdge.from].remove(backEdge);
-    }
-
-    final int spectrumSize = 20;
+    final int MAX_PATH_LEN = 8;
+    final int SPECTRUM_SIZE = 2 * MAX_PATH_LEN;
+    final int MAX_ENTRIES_TO_SHOW = SPECTRUM_SIZE;
+    long[] spectrum;
 
     SolveReport solve(int J, int K, int M, int[][] ws) {
         int n = J + K; // Count vertices
-        int m = J * K; // Count edges
         g = new ArrayList[n + 1];
         edges = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
@@ -68,53 +79,97 @@ public class SpectrumFix {
                 int to = J + j;
                 int c = ws[i][j];
                 if (c != -1) {
-                    addBiEdge(from, to, c, M, spectrumSize);
+                    addBiEdge(from, to, c, M);
                 }
             }
         }
-
-        // Solve
-        long[] spectrum = new long[spectrumSize + 1];
+        spectrum = new long[SPECTRUM_SIZE + 1];
+        HashSet<Path>[] hs = new HashSet[SPECTRUM_SIZE + 1];
+        for (int i = 0; i <= SPECTRUM_SIZE; i++) {
+            hs[i] = new HashSet<>();
+        }
+        //System.out.println(M + " " + n);
         for (int root = 0; root < n; root++) {
-            for (Edge eStart : g[root]) {
-                if (eStart.to < root)
-                    continue;
-
-                clearDp();
-
-                eStart.dp[1][eStart.c] = 1;
-
-                for (int len = 2; len <= spectrumSize; len++) {
-                    for (Edge eIncoming : edges) {
-                        for (int w = 0; w < M; w++) {
-                            long cntPaths = eIncoming.dp[len - 1][w];
-                            if (cntPaths != 0) {
-                                for (Edge e : g[eIncoming.to]) {
-                                    if (e.edgeNum != eIncoming.backEdge.edgeNum && e.to >= root) {
-                                        int wNext = w + e.c;
-                                        if (wNext >= M) {
-                                            wNext -= M;
-                                        }
-                                        e.dp[len][wNext] += cntPaths;
-                                    }
+            ArrayList<Edge[]>[][][] paths;
+            paths = new ArrayList[MAX_PATH_LEN + 1][M][n];
+            for (int i = 0; i <= MAX_PATH_LEN; i++) {
+                for (int j = 0; j < M; j++) {
+                    for (int k = 0; k < n; k++) {
+                        paths[i][j][k] = new ArrayList<>();
+                    }
+                }
+            }
+            for (Edge e : g[root]) {
+                paths[1][e.c][e.to].add(new Edge[]{e});
+            }
+            for (int len = 2; len <= MAX_PATH_LEN; len++) {
+                for (int w = 0; w < M; w++) {
+                    for (int v = 0; v < n; v++) {
+                        for (Edge[] path : paths[len - 1][w][v]) {
+                            Edge lastEdge = path[path.length - 1];
+                            for (Edge e : g[v]) {
+                                if (e != lastEdge.backEdge) {
+                                    Edge[] newPath = new Edge[len];
+                                    for (int i = 0; i < len - 1; i++)
+                                        newPath[i] = path[i];
+                                    newPath[len - 1] = e;
+                                    paths[len][(w + e.c) % M][e.to].add(newPath);
                                 }
                             }
                         }
                     }
-
-                    for (Edge e : g[root]) {
-                        if (e.edgeNum != eStart.edgeNum) {
-                            Edge incoming = e.backEdge;
-                            spectrum[len] += incoming.dp[len][0];
+                }
+                for (int w = 0; w < M; w++) {
+                    for (int v = 0; v < n; v++) {
+                        for (Edge[] path1 : paths[len][w][v]) {
+                            for (Edge[] path2 : paths[len][w][v]) {
+                                if (path1[len - 1] != path2[len - 1] &&
+                                        path1[0] != path2[0]) {
+                                    Edge[] path = new Edge[2 * len];
+                                    int p = 0;
+                                    for (int i = 0; i < len; i++)
+                                        path[p++] = path1[i];
+                                    for (int i = len - 1; i >= 0; i--)
+                                        path[p++] = path2[i].backEdge;
+                                    int bestStart = 0;
+                                    for (int start = 1; start < path.length; start++) {
+                                        for (int i = 0; i < path.length; i++) {
+                                            int i1 = (start + i) % path.length;
+                                            int i2 = (bestStart + i) % path.length;
+                                            if (path[i1].edgeNum != path[i2].edgeNum) {
+                                                if (path[i1].edgeNum < path[i2].edgeNum) {
+                                                    bestStart = start;
+                                                }
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    Edge[] shiftedPath = new Edge[path.length];
+                                    for (int i = 0; i < path.length; i++) {
+                                        shiftedPath[i] = path[(bestStart + i) % path.length];
+                                    }
+                                    hs[2 * len].add(new Path(shiftedPath));
+                                }
+                            }
                         }
                     }
                 }
             }
-        }
-        for (int i = 0; i < spectrum.length; i++)
-            spectrum[i] /= 2; // can go on cycle in two directions
 
-        // Report
+        }
+
+        for (int i = 0; i <= SPECTRUM_SIZE; i++) {
+            if (hs[i].size() != 0) {
+                spectrum[i] = hs[i].size() / 2;
+                for (Path p : hs[i]) {
+                    /*for (Edge e : p.es) {
+                        System.out.print(e.edgeNum + "(" + e.from + ", " + e.to + ") ");
+                    }
+                    System.out.println();*/
+                }
+            }
+        }
+
         SolveReport report = new SolveReport();
         report.spectrum = spectrum;
         return report;
@@ -123,13 +178,13 @@ public class SpectrumFix {
     class SolveReport {
         long[] spectrum;
 
-        public SolveReport() {}
+        public SolveReport() {
+        }
     }
 
     private void run(String[] filesAndFolders) {
         PrintWriter out = new PrintWriter(System.out);
 
-        final int MAX_ENTRIES_TO_SHOW = 20;
         out.println("Results");
         out.print("Filename ");
         for (int i = 1; i <= MAX_ENTRIES_TO_SHOW; i++)
@@ -191,7 +246,7 @@ public class SpectrumFix {
     }
 
     public static void main(String[] args) {
-        new SpectrumFix().run(args);
+        new Stress().run(args);
     }
 
 }
