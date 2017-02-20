@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-/**
- * Created by antonkov on 1/31/17.
- */
 public class GallagerGen {
 
     int J, K;
@@ -34,10 +31,10 @@ public class GallagerGen {
             }
         }
         for (int stripStart = M; stripStart < r; stripStart += M) {
-            int[] perm = randomPermutation(M);
-            for (int i = 0; i < M; i++) {
-                for (int j = 0; j < c; j++) {
-                    a[stripStart + i][j] = a[perm[i]][j];
+            int[] perm = randomPermutation(c);
+            for (int j = 0; j < c; j++) {
+                for (int i = 0; i < M; i++) {
+                    a[stripStart + i][j] = a[i][perm[j]];
                 }
             }
         }
