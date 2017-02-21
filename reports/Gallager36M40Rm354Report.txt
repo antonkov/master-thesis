@@ -1,2 +1,4 @@
-Results to get FER=0.001
+Results to get FER=0.01
 Filename Time(ms) SNR
+../gentests/Gallager/Gallager36M40Rm354/354_00.mtx 30078.1 2.23047 
+../gentests/Gallager/Gallager36M40Rm354/354_01.mtx 28766.6 2.24609 

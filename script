@@ -1,7 +1,7 @@
 type="Gallager"
 size="36"
-for M in 10 40 100; do
-    for test in 354 259 200 371 113 287; do
+for M in 40 100; do
+    for test in 354 287; do
         curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
         echo "$curdir"
         mkdir -p "$curdir"
@@ -9,14 +9,14 @@ for M in 10 40 100; do
         java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
         cd ..
         cd CUDA-LDPC-BER-Simulator
-        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        ./codeSnr -f 0.01 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
         cd ..
     done
 done
 type="Richardson36"
 size="36"
 for M in 10 40 100; do
-    for test in 326 899 508 586 255 606; do
+    for test in 326 606; do
         curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
         echo "$curdir"
         mkdir -p "$curdir"
@@ -24,14 +24,14 @@ for M in 10 40 100; do
         java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
         cd ..
         cd CUDA-LDPC-BER-Simulator
-        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        ./codeSnr -f 0.01 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
         cd ..
     done
 done
 type="Gallager"
 size="48"
-for M in 10 40 100; do
-    for test in 677 982 502 469 638 344; do
+for M in 5 20 50; do
+    for test in 677 344; do
         curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
         echo "$curdir"
         mkdir -p "$curdir"
@@ -39,14 +39,14 @@ for M in 10 40 100; do
         java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
         cd ..
         cd CUDA-LDPC-BER-Simulator
-        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        ./codeSnr -f 0.01 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
         cd ..
     done
 done
 type="Richardson"
 size="48"
-for M in 10 40 100; do
-    for test in 42 469 206 78 785 193; do
+for M in 5 20 50; do
+    for test in 42 193; do
         curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
         echo "$curdir"
         mkdir -p "$curdir"
@@ -54,7 +54,7 @@ for M in 10 40 100; do
         java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
         cd ..
         cd CUDA-LDPC-BER-Simulator
-        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        ./codeSnr -f 0.01 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
         cd ..
     done
 done

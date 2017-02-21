@@ -1,2 +1,22 @@
 Results to get FER=0.001
 Filename Time(ms) SNR
+../gentests/Gallager/Gallager36M10Rm371/371_00.mtx 15069.6 3.84375 
+../gentests/Gallager/Gallager36M10Rm371/371_01.mtx 14499.9 3.85156 
+../gentests/Gallager/Gallager36M10Rm371/371_02.mtx 15800.2 3.67578 
+../gentests/Gallager/Gallager36M10Rm371/371_03.mtx 6775.68 5 
+../gentests/Gallager/Gallager36M10Rm371/371_04.mtx 14305.3 3.84375 
+../gentests/Gallager/Gallager36M10Rm371/371_05.mtx 7862.27 5 
+../gentests/Gallager/Gallager36M10Rm371/371_06.mtx 15682.7 3.89453 
+../gentests/Gallager/Gallager36M10Rm371/371_07.mtx 16732.2 3.66016 
+../gentests/Gallager/Gallager36M10Rm371/371_08.mtx 15609.6 3.8125 
+../gentests/Gallager/Gallager36M10Rm371/371_09.mtx 16150.3 3.78516 
+../gentests/Gallager/Gallager36M10Rm371/371_10.mtx 842.015 5 
+../gentests/Gallager/Gallager36M10Rm371/371_11.mtx 12512.2 3.96094 
+../gentests/Gallager/Gallager36M10Rm371/371_12.mtx 16254.4 3.78516 
+../gentests/Gallager/Gallager36M10Rm371/371_13.mtx 7900.82 5 
+../gentests/Gallager/Gallager36M10Rm371/371_14.mtx 4933.5 5 
+../gentests/Gallager/Gallager36M10Rm371/371_15.mtx 13206 3.95703 
+../gentests/Gallager/Gallager36M10Rm371/371_16.mtx 15622 3.73828 
+../gentests/Gallager/Gallager36M10Rm371/371_17.mtx 6287.52 5 
+../gentests/Gallager/Gallager36M10Rm371/371_18.mtx 4861.69 5 
+../gentests/Gallager/Gallager36M10Rm371/371_19.mtx 13684.6 3.95703 
