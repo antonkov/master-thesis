@@ -3,12 +3,14 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Random;
 
 public class RichardsonGen {
 
     int J, K;
     int M;
     int r, c;
+    Random rng = new Random(19);
 
     void genMatrix(int[][] a) {
         for (int[] aa : a)
@@ -19,7 +21,7 @@ public class RichardsonGen {
             for (int j = 0; j < K; j++)
                 indicesList.add(i);
         }
-        Collections.shuffle(indicesList);
+        Collections.shuffle(indicesList, rng);
         for (int j = 0; j < c; j++) {
             for (int i = 0; i < J; i++) {
                 int index = indicesList.get(j * J + i);

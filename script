@@ -1,0 +1,10 @@
+for M in 10 40 100; do
+    for test in 858 1 293 261 480 698; do
+        dirname = "gentests/Gallager/Gallager36M$MRm${test}"
+        mkdir $dirname
+        cd spectrumSources
+        java RandomMarking 20 "$M" "../$dirname" "../gentests/Gallager/Gallager36/$test.mtx"
+        cd ..
+        echo $arg;
+    done
+done

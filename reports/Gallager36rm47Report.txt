@@ -1,0 +1,22 @@
+Results to get FER=0.001
+Filename Time(ms) SNR
+../gentests/Gallager36rm47/47_00.mtx 16146.3 3.67188 
+../gentests/Gallager36rm47/47_01.mtx 16862.1 3.59766 
+../gentests/Gallager36rm47/47_02.mtx 14679.8 3.74219 
+../gentests/Gallager36rm47/47_03.mtx 17219.1 3.59766 
+../gentests/Gallager36rm47/47_04.mtx 15541.5 3.70312 
+../gentests/Gallager36rm47/47_05.mtx 14616.3 3.85547 
+../gentests/Gallager36rm47/47_06.mtx 16404.3 3.78516 
+../gentests/Gallager36rm47/47_07.mtx 16193.6 3.67188 
+../gentests/Gallager36rm47/47_08.mtx 13660 3.83984 
+../gentests/Gallager36rm47/47_09.mtx 13857.6 3.94922 
+../gentests/Gallager36rm47/47_10.mtx 17781.8 4.00781 
+../gentests/Gallager36rm47/47_11.mtx 14882 3.8125 
+../gentests/Gallager36rm47/47_12.mtx 14052 4.09375 
+../gentests/Gallager36rm47/47_13.mtx 17166 3.59375 
+../gentests/Gallager36rm47/47_14.mtx 15705.7 3.71094 
+../gentests/Gallager36rm47/47_15.mtx 15270.9 3.84375 
+../gentests/Gallager36rm47/47_16.mtx 16238.2 3.64453 
+../gentests/Gallager36rm47/47_17.mtx 16454.6 3.75391 
+../gentests/Gallager36rm47/47_18.mtx 15675.7 3.8125 
+../gentests/Gallager36rm47/47_19.mtx 13218.5 3.96484 

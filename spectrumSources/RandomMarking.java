@@ -66,7 +66,7 @@ public class RandomMarking {
                 String name = String.format("%s/%s_%0" + numZeros + "d.mtx", outFolder, baseName, sample);
                 int[][] hMarked = markMatrix(hd, M);
                 if (USE_FILTER) {
-                    TannerSpectrumFinderTable.SolveReport report = new TannerSpectrumFinderTable().solve(r, c, M, hMarked);
+                    Spectrum.SolveReport report = new Spectrum(20).solve(r, c, M, hMarked);
                     if (!filter(report.spectrum)) {
                         continue;
                     }

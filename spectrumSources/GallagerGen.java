@@ -3,9 +3,11 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Random;
 
 public class GallagerGen {
 
+    Random rng = new Random(19);
     int J, K;
     int M;
     int r, c;
@@ -14,7 +16,7 @@ public class GallagerGen {
         ArrayList<Integer> range = new ArrayList<>();
         for (int i = 0; i < size; i++)
             range.add(i);
-        Collections.shuffle(range);
+        Collections.shuffle(range, rng);
         int[] result = new int[size];
         int p = 0;
         for (int x : range)
