@@ -1,0 +1,12 @@
+Results to get FER=0.01
+Filename Time(ms) SNR
+../gentests/Richardson/Richardson36M40Rm606/606_0.mtx 17295.3 2.3125 
+../gentests/Richardson/Richardson36M40Rm606/606_1.mtx 19274 2.125 
+../gentests/Richardson/Richardson36M40Rm606/606_2.mtx 16509.2 2.25 
+../gentests/Richardson/Richardson36M40Rm606/606_3.mtx 18505.5 2.25 
+../gentests/Richardson/Richardson36M40Rm606/606_4.mtx 19801.6 2.1875 
+../gentests/Richardson/Richardson36M40Rm606/606_5.mtx 17566.7 2.3125 
+../gentests/Richardson/Richardson36M40Rm606/606_6.mtx 18290.9 2.125 
+../gentests/Richardson/Richardson36M40Rm606/606_7.mtx 18109.8 2.1875 
+../gentests/Richardson/Richardson36M40Rm606/606_8.mtx 18005.7 2.1875 
+../gentests/Richardson/Richardson36M40Rm606/606_9.mtx 18453.2 2.1875 

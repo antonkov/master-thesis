@@ -1,4 +1,12 @@
 Results to get FER=0.01
 Filename Time(ms) SNR
-../gentests/Gallager/Gallager36M40Rm354/354_00.mtx 30078.1 2.23047 
-../gentests/Gallager/Gallager36M40Rm354/354_01.mtx 28766.6 2.24609 
+../gentests/Gallager/Gallager36M40Rm354/354_0.mtx 17618 2.25 
+../gentests/Gallager/Gallager36M40Rm354/354_1.mtx 16724 2.25 
+../gentests/Gallager/Gallager36M40Rm354/354_2.mtx 18925.4 2.1875 
+../gentests/Gallager/Gallager36M40Rm354/354_3.mtx 18226.5 2.125 
+../gentests/Gallager/Gallager36M40Rm354/354_4.mtx 19145.2 2.1875 
+../gentests/Gallager/Gallager36M40Rm354/354_5.mtx 19447.7 2.1875 
+../gentests/Gallager/Gallager36M40Rm354/354_6.mtx 19171.9 2.1875 
+../gentests/Gallager/Gallager36M40Rm354/354_7.mtx 18909.5 2.1875 
+../gentests/Gallager/Gallager36M40Rm354/354_8.mtx 18228.8 2.125 
+../gentests/Gallager/Gallager36M40Rm354/354_9.mtx 18651.8 2.125 

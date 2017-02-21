@@ -1,0 +1,12 @@
+Results to get FER=0.01
+Filename Time(ms) SNR
+../gentests/Richardson/Richardson48M6Rm042/042_0.mtx 2380.02 3.1875 
+../gentests/Richardson/Richardson48M6Rm042/042_1.mtx 2042.04 3.4375 
+../gentests/Richardson/Richardson48M6Rm042/042_2.mtx 2252.18 3.1875 
+../gentests/Richardson/Richardson48M6Rm042/042_3.mtx 2364.51 3.3125 
+../gentests/Richardson/Richardson48M6Rm042/042_4.mtx 2358.09 3.1875 
+../gentests/Richardson/Richardson48M6Rm042/042_5.mtx 2319.82 3.1875 
+../gentests/Richardson/Richardson48M6Rm042/042_6.mtx 2067.28 3.375 
+../gentests/Richardson/Richardson48M6Rm042/042_7.mtx 2211.62 3.25 
+../gentests/Richardson/Richardson48M6Rm042/042_8.mtx 2103.05 3.25 
+../gentests/Richardson/Richardson48M6Rm042/042_9.mtx 2377.75 3.1875 
