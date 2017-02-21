@@ -1,10 +1,60 @@
+type="Gallager"
+size="36"
 for M in 10 40 100; do
-    for test in 858 1 293 261 480 698; do
-        dirname = "gentests/Gallager/Gallager36M$MRm${test}"
-        mkdir $dirname
+    for test in 354 259 200 371 113 287; do
+        curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
+        echo "$curdir"
+        mkdir -p "$curdir"
         cd spectrumSources
-        java RandomMarking 20 "$M" "../$dirname" "../gentests/Gallager/Gallager36/$test.mtx"
+        java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
         cd ..
-        echo $arg;
+        cd CUDA-LDPC-BER-Simulator
+        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        cd ..
+    done
+done
+type="Richardson36"
+size="36"
+for M in 10 40 100; do
+    for test in 326 899 508 586 255 606; do
+        curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
+        echo "$curdir"
+        mkdir -p "$curdir"
+        cd spectrumSources
+        java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
+        cd ..
+        cd CUDA-LDPC-BER-Simulator
+        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        cd ..
+    done
+done
+type="Gallager"
+size="48"
+for M in 10 40 100; do
+    for test in 677 982 502 469 638 344; do
+        curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
+        echo "$curdir"
+        mkdir -p "$curdir"
+        cd spectrumSources
+        java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
+        cd ..
+        cd CUDA-LDPC-BER-Simulator
+        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        cd ..
+    done
+done
+type="Richardson"
+size="48"
+for M in 10 40 100; do
+    for test in 42 469 206 78 785 193; do
+        curdir="gentests/${type}/${type}${size}M${M}Rm${test}"
+        echo "$curdir"
+        mkdir -p "$curdir"
+        cd spectrumSources
+        java RandomMarking 20 "$M" "../${curdir}" "../gentests/${type}/${type}${size}/${test}.mtx"
+        cd ..
+        cd CUDA-LDPC-BER-Simulator
+        ./codeSnr -f 0.001 "../${curdir}" | tee "../reports/${type}${size}M${M}Rm${test}Report.txt"
+        cd ..
     done
 done
