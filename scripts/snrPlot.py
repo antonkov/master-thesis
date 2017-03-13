@@ -11,8 +11,8 @@ def read_ssv(filename):
     return pd.read_csv(filename, delim_whitespace=True, header=1, index_col=False)
 
 
-df = read_ssv('../reports/wimax_576Report.txt')
-df = pd.concat([df['Filename'].str.extract('wimax_(?P<test>\d{3})', expand=True),
+df = read_ssv('snrtest')
+df = pd.concat([df['Filename'].str.extract('_(?P<test>\d{3})', expand=True),
            df['SNR'], df['FER']], axis=1)
 df = df.rename(columns={'FER': 'fer'})
 df.drop_duplicates(subset=['test', 'fer'], inplace=True)
