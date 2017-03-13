@@ -143,7 +143,7 @@ public class BaseMatrixGen {
     }
 
     void run(String[] args) {
-        if (args.length != 3) {
+        if (args.length != 4) {
             System.err.println("usage: BaseMatrixGen [Gallager/Richardson/Quasicyclic] [size] [numberToGen:printTop:printBottom] [directoryName]");
             return;
         }
