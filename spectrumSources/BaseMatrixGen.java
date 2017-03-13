@@ -190,6 +190,8 @@ public class BaseMatrixGen {
         TreeSet<BaseMatrix> bottom = new TreeSet<>();
 
         for (int t = 0; t < numberToGen; t++) {
+            if (t % 1000 == 0)
+                System.err.println(t / 1000);
             BaseMatrix m = matrixGenerator.genMatrix();
             top.add(m);
             bottom.add(m);
