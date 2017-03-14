@@ -11,7 +11,7 @@ def read_ssv(filename):
     return pd.read_csv(filename, delim_whitespace=True, header=1, index_col=False)
 
 
-df = read_ssv('../reports/q3_576.rpt')
+df = read_ssv('../reports/q3_2304.rpt')
 df = pd.concat([df['Filename'].str.extract('(?P<type>(?:bot|top)\d{1,2})_(?P<test>\d).mtx', expand=True),
            df['SNR'], df['FER']], axis=1)
 df = df.rename(columns={'FER': 'fer'})
