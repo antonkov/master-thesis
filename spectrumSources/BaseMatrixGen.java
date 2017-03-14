@@ -167,7 +167,7 @@ public class BaseMatrixGen {
         int size = Integer.parseInt(sizeArg);
         J = size;
         K = 2 * size;
-        M = 4;
+        M = 3;
         r = M * J;
         c = M * K;
 
