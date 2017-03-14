@@ -1,0 +1,22 @@
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot1.mtx 4:324 6:2088 8:34686 10:494856 12:8281176 14:141026832 16:2517133302 18:45954402048 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot10.mtx 4:384 6:2700 8:44820 10:649548 12:10631086 14:177130152 16:3072333936 18:54515841168 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot2.mtx 4:324 6:2160 8:34695 10:503208 12:8341116 14:142183512 16:2530975221 18:46157762928 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot3.mtx 4:324 6:2196 8:34767 10:506844 12:8383830 14:142746948 16:2539333377 18:46269225252 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot4.mtx 4:327 6:2124 8:35118 10:501408 12:8368652 14:142232112 16:2533739190 18:46182492060 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot5.mtx 4:333 6:2178 8:35973 10:513180 12:8533533 14:144536724 16:2566013319 18:46634100522 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot6.mtx 4:339 6:2232 8:36864 10:525600 12:8711770 14:147080448 16:2602408854 18:47154363288 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot7.mtx 4:339 6:2232 8:36864 10:525600 12:8711770 14:147080448 16:2602408854 18:47154363288 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot8.mtx 4:339 6:2232 8:36864 10:525600 12:8711770 14:147080448 16:2602408854 18:47154363288 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/bot9.mtx 4:351 6:2304 8:38682 10:547776 12:9060198 14:152103744 16:2676650274 18:48244446720 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top1.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top10.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top2.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top3.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top4.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top5.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top6.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top7.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top8.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+/Users/antonkov/masterWork/spectrumSources/../tests/quasicyclic4/top9.mtx 4:126 6:1440 8:25884 10:401544 12:7173900 14:128486088 16:2365117614 18:44119609056 
+Filename spectrum1 spectrum2 spectrum3 spectrum4 spectrum5 spectrum6 spectrum7 spectrum8 
+Results

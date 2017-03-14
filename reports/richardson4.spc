@@ -1,0 +1,22 @@
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot1.mtx 4:134 6:1476 8:22399 10:367418 12:6308959 14:111223776 16:2001579003 18:36593179852 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot10.mtx 4:147 6:1080 8:16208 10:232201 12:3630299 14:58177609 16:953983681 18:15892564533 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot2.mtx 4:135 6:1161 8:17154 10:267514 12:4299199 14:71063012 16:1199612155 18:20571682266 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot3.mtx 4:135 6:1234 8:19672 10:310130 12:5136977 14:87447371 16:1520977948 18:26866978877 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot4.mtx 4:136 6:1121 8:17165 10:263777 12:4240426 14:69885293 16:1177001287 18:20135755019 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot5.mtx 4:136 6:1220 8:17176 10:261681 12:4184842 14:68854275 16:1157256469 18:19755962974 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot6.mtx 4:138 6:1292 8:19745 10:312330 12:5198614 14:88672800 16:1545377176 18:27351519085 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot7.mtx 4:138 6:1440 8:22354 10:368650 12:6317896 14:111402454 16:2005067903 18:36666358423 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot8.mtx 4:138 6:1483 8:24715 10:407788 12:7150520 14:128645953 16:2363946902 18:44126381044 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/bot9.mtx 4:140 6:1225 8:17964 10:268936 12:4350969 14:71941223 16:1217009770 18:20903953158 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top1.mtx 4:30 6:219 8:1911 10:15557 12:142386 14:1331237 16:12758084 18:123921159 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top10.mtx 4:33 6:265 8:2322 10:20186 12:195318 14:1922637 16:19425663 18:198771685 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top2.mtx 4:30 6:235 8:1935 10:15952 12:148728 14:1394013 16:13450183 18:131519569 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top3.mtx 4:30 6:317 8:2465 10:22890 12:225392 14:2280185 16:23559857 18:247131660 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top4.mtx 4:31 6:291 8:2384 10:21402 12:208866 14:2084373 16:21258302 18:220186290 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top5.mtx 4:32 6:192 8:1537 10:12759 12:110454 14:991985 16:9089438 18:84699415 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top6.mtx 4:32 6:306 8:2349 10:22053 12:215400 14:2155617 16:22103319 18:230053580 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top7.mtx 4:32 6:316 8:2307 10:22048 12:216353 14:2158108 16:22145265 18:230582775 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top8.mtx 4:32 6:321 8:2694 10:24748 12:249371 14:2564895 16:26940855 18:287421258 
+/Users/antonkov/masterWork/spectrumSources/../tests/richardson4/richardson4/top9.mtx 4:32 6:367 8:2899 10:28549 12:292990 14:3095974 16:33413847 18:366197626 
+Filename spectrum1 spectrum2 spectrum3 spectrum4 spectrum5 spectrum6 spectrum7 spectrum8 
+Results
