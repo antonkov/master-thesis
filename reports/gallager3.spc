@@ -1,0 +1,22 @@
+Filename spectrum1 spectrum2 spectrum3 spectrum4 spectrum5 spectrum6 spectrum7 spectrum8 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot10.mtx 4:79 6:146 8:1709 10:10310 12:92688 14:738682 16:6511705 18:56507258 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot1.mtx 4:71 6:161 8:1616 10:10419 12:91911 14:734908 16:6480355 18:56342060 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot2.mtx 4:71 6:162 8:1665 10:10030 12:89048 14:715578 16:6365929 18:55640242 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot3.mtx 4:72 6:159 8:1697 10:10406 12:93598 14:742908 16:6528951 18:56693079 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot4.mtx 4:72 6:169 8:1565 10:10158 12:91203 14:726018 16:6438445 18:56054597 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot5.mtx 4:72 6:177 8:1813 10:10958 12:95967 14:762930 16:6670497 18:57670845 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot6.mtx 4:72 6:188 8:2166 10:12864 12:114198 14:888372 16:7703724 18:65365248 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot7.mtx 4:73 6:154 8:1622 10:10034 12:89168 14:719318 16:6372940 18:55728782 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot8.mtx 4:74 6:153 8:1616 10:10064 12:90855 14:726016 16:6430009 18:56016321 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/bot9.mtx 4:78 6:194 8:2149 10:12780 12:113891 14:884978 16:7688929 18:65232912 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top10.mtx 4:24 6:142 8:1554 10:9224 12:85753 14:703110 16:6301784 18:55337984 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top1.mtx 4:24 6:140 8:1568 10:9216 12:85506 14:703924 16:6303007 18:55326752 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top2.mtx 4:24 6:142 8:1550 10:9244 12:85815 14:702534 16:6301880 18:55345584 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top3.mtx 4:24 6:142 8:1550 10:9244 12:85815 14:702534 16:6301880 18:55345584 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top4.mtx 4:24 6:142 8:1550 10:9244 12:85815 14:702534 16:6301880 18:55345584 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top5.mtx 4:24 6:142 8:1550 10:9244 12:85815 14:702534 16:6301880 18:55345584 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top6.mtx 4:24 6:142 8:1550 10:9244 12:85815 14:702534 16:6301880 18:55345584 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top7.mtx 4:24 6:142 8:1552 10:9236 12:85769 14:702810 16:6302289 18:55340688 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top8.mtx 4:24 6:142 8:1552 10:9236 12:85769 14:702810 16:6302289 18:55340688 
+/home/antonkov/masterWork/spectrumSources/../tests/gallager3/top9.mtx 4:24 6:142 8:1552 10:9236 12:85769 14:702810 16:6302289 18:55340688 
+Results
