@@ -5,7 +5,7 @@ import java.util.*;
 public class BaseMatrixGen {
 
     Random rng = new Random(19);
-    final int SPECTRUM_SIZE = 20;
+    final int SPECTRUM_SIZE = 10;
     int J, K;
     int M;
     int r, c;
@@ -52,8 +52,7 @@ public class BaseMatrixGen {
 
     class RichardsonGenerator implements MatrixGenerator {
 
-        @Override
-        public BaseMatrix genMatrix() {
+        protected int[][] genArray() {
             int[][] a = new int[r][c];
             for (int[] aa : a)
                 Arrays.fill(aa, -1);
@@ -70,7 +69,36 @@ public class BaseMatrixGen {
                     a[index][j] = 0;
                 }
             }
-            return new BaseMatrix(a);
+            return a;
+        }
+
+        @Override
+        public BaseMatrix genMatrix() {
+            return new BaseMatrix(genArray());
+        }
+    }
+
+    class RichardsonRestrictedGenerator extends RichardsonGenerator {
+
+        @Override
+        public BaseMatrix genMatrix() {
+            nextMatrix:
+            while (true) {
+                int[][] a = genArray();
+                int[] sum = new int[c];
+                for (int i = 0; i < r; i++) {
+                    for (int j = 0; j < c; j++) {
+                        if (a[i][j] != -1)
+                            sum[j] += 1;
+                    }
+                }
+                for (int j = 0; j < c; j++)
+                    if (sum[j] != J)
+                        continue nextMatrix;
+
+                // There is J not zeros in every column - good matrix
+                return new BaseMatrix(a);
+            }
         }
     }
 
@@ -143,20 +171,23 @@ public class BaseMatrixGen {
     }
 
     void run(String[] args) {
-        if (args.length != 4) {
-            System.err.println("usage: BaseMatrixGen [Gallager/Richardson/Quasicyclic] [size] [numberToGen:printTop:printBottom] [directoryName]");
+        if (args.length != 5) {
+            System.err.println("usage: BaseMatrixGen [Gallager/Richardson/RichardsonRestricted/Quasicyclic] [size] [M] [numberToGen:printTop:printBottom] [directoryName]");
             return;
         }
         String genTypeArg = args[0];
         String sizeArg = args[1];
-        String printArg = args[2];
-        String dirArg = args[3];
+        String mArg = args[2];
+        String printArg = args[3];
+        String dirArg = args[4];
 
         MatrixGenerator matrixGenerator;
         if (genTypeArg.equals("Gallager")) {
             matrixGenerator = new GallagerGenerator();
         } else if (genTypeArg.equals("Richardson")) {
             matrixGenerator = new RichardsonGenerator();
+        } else if (genTypeArg.equals("RichardsonRestricted")) {
+            matrixGenerator = new RichardsonRestrictedGenerator();
         } else if (genTypeArg.equals("Quasicyclic")) {
             matrixGenerator = new QuasicyclicGenerator();
         } else {
@@ -167,7 +198,7 @@ public class BaseMatrixGen {
         int size = Integer.parseInt(sizeArg);
         J = size;
         K = 2 * size;
-        M = 3;
+        M = Integer.parseInt(mArg);
         r = M * J;
         c = M * K;
 
@@ -189,9 +220,14 @@ public class BaseMatrixGen {
         TreeSet<BaseMatrix> top = new TreeSet<>();
         TreeSet<BaseMatrix> bottom = new TreeSet<>();
 
+        long time = System.currentTimeMillis();
         for (int t = 0; t < numberToGen; t++) {
-            if (t % 1000 == 0)
-                System.err.println(t / 1000);
+            if (t != 0 && t % 1000 == 0) {
+                System.err.print(t / 1000 + " ");
+                long cur = System.currentTimeMillis();
+                System.err.println((cur - time) + " ms");
+                time = cur;
+            }
             BaseMatrix m = matrixGenerator.genMatrix();
             top.add(m);
             bottom.add(m);
