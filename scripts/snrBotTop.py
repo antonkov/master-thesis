@@ -10,7 +10,7 @@ sns.set(style="darkgrid", palette="Set2")
 def read_ssv(filename):
     return pd.read_csv(filename, delim_whitespace=True, header=1, index_col=False)
 
-filenames = ['g4_576', 'r4_576', 'q4_576', 'g4_2304', 'r4_2304', 'q4_2304']
+filenames = ['rr3_576']
 for filename in filenames:
     df = read_ssv('../reports/' + filename + '.rpt')
     df = pd.concat([df['Filename'].str.extract('(?P<type>(?:bot|top)\d{1,2})_(?P<test>\d).mtx', expand=True),
@@ -34,4 +34,5 @@ for filename in filenames:
     #sns.tsplot(data, time=x, err_style='unit_traces')
     #sns.tsplot(data, time=x, err_style="boot_traces", n_boot=500)
 
-    plt.savefig('../images/' + filename + '.png')
+    plt.show()
+    #plt.savefig('../images/' + filename + '.png')

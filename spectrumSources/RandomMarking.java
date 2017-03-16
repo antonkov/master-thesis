@@ -57,7 +57,7 @@ public class RandomMarking {
             }
             int tried = 0;
             int sample = 0;
-            int numZeros = 0;
+            int numZeros = 1;
             while (Math.pow(10, numZeros) < numberSamples)
                 numZeros++;
             while (sample < numberSamples) {
