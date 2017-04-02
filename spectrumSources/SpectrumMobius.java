@@ -68,32 +68,14 @@ public class SpectrumMobius {
             }
         }
 
-        int[] mu = new int[SPECTRUM_SIZE + 1];
-        mu[1] = 1;
-        nextX:
-        for (int i = 2; i < mu.length; i++) {
-            int x = i;
-            int r = 0;
-            for (int y = 2; y <= x; y++) {
-                if (x % (y * y) == 0) {
-                    continue nextX;
-                } else if (x % y == 0) {
-                    x /= y;
-                    r++;
-                }
-            }
-            mu[i] = (r % 2 == 0) ? 1 : -1;
-        }
-        long[] spectrum = new long[SPECTRUM_SIZE + 1];
+        long[][] cntCyclesThroughEdge = new long[M][SPECTRUM_SIZE + 1];
         for (int root = 0; root < n; root++) {
             for (Edge eStart : g[root]) {
                 clearDp();
 
-                eStart.dp[1][eStart.c] = 1;
+                eStart.dp[0][0] = 1;
 
-                long[][] cntCyclesThroughEdge = new long[M][SPECTRUM_SIZE + 1];
-
-                for (int len = 2; len <= SPECTRUM_SIZE; len++) {
+                for (int len = 1; len <= SPECTRUM_SIZE; len++) {
                     for (Edge eIncoming : edges) {
                         for (int w = 0; w < M; w++) {
                             long cntPaths = eIncoming.dp[len - 1][w];
@@ -111,41 +93,62 @@ public class SpectrumMobius {
                         }
                     }
 
-                    for (Edge e : g[root]) {
-                        if (e.edgeNum != eStart.edgeNum) {
-                            Edge incoming = e.backEdge;
-                            for (int w = 0; w < M; w++)
-                                cntCyclesThroughEdge[w][len] += incoming.dp[len][w];
-                        }
+                    for (int w = 0; w < M; w++)
+                        cntCyclesThroughEdge[w][len] += eStart.dp[len][w];
+                }
+            }
+        }
+        // Mobius inversion
+        int[] mu = new int[SPECTRUM_SIZE + 1];
+        mu[1] = 1;
+        nextX:
+        for (int i = 2; i < mu.length; i++) {
+            int x = i;
+            int r = 0;
+            for (int y = 2; y <= x; y++) {
+                if (x % (y * y) == 0) {
+                    continue nextX;
+                } else if (x % y == 0) {
+                    x /= y;
+                    r++;
+                }
+            }
+            mu[i] = (r % 2 == 0) ? 1 : -1;
+        }
+        long[] spectrum = new long[SPECTRUM_SIZE + 1];
+        long[][] f = new long[SPECTRUM_SIZE + 1][M]; // f[i][j] - count cycles with period i and weight j
+        for (int period = 1; period <= SPECTRUM_SIZE; period++) {
+            for (int d = 1; d <= period; d++) {
+                if (period % d == 0) {
+                    for (int subW = 0; subW < M; subW++) {
+                        f[period][(subW * d) % M] += mu[d] * cntCyclesThroughEdge[subW][period / d];
                     }
                 }
+            }
+            for (int w = 0; w < M; w++) {
+                if (f[period][w] % period != 0) {
+                    throw new AssertionError();
+                }
+                f[period][w] /= period;
+            }
+        }
+        // end Mobius inversion
 
-                for (int periodLen = 1; periodLen <= SPECTRUM_SIZE; periodLen++) {
-                    for (int d = 1; d <= periodLen; d++) {
-                        if (periodLen % d == 0) {
-                            for (int subW = 0; subW < M; subW++) {
-                                for (int numPeriods = 1; numPeriods * periodLen <= SPECTRUM_SIZE; numPeriods++) {
-                                    if ((subW * d * numPeriods) % M == 0) {
-                                        long cur = mu[d] * cntCyclesThroughEdge[subW][periodLen / d];
-                                        // multiply by mul, because cntOrder[len]
-                                        // can be not divisible currently by len
-                                        // but will be after summarizing over all possible edges
-                                        spectrum[numPeriods * periodLen] += numPeriods * cur;
-                                    }
-                                }
-                            }
-                        }
+        for (int period = 1; period <= SPECTRUM_SIZE; period++) {
+            for (int num = 1; num * period <= SPECTRUM_SIZE; num++) {
+                for (int w = 0; w < M; w++) {
+                    if (w * num % M == 0) {
+                        spectrum[num * period] += f[period][w];
                     }
                 }
-
             }
         }
         for (int i = 2; i < spectrum.length; i++) {
-            if (spectrum[i] % (2 * i) != 0) {
+            if (spectrum[i] % 2 != 0) {
                 System.out.println(i);
                 throw new AssertionError("Division by 2 error");
             }
-            spectrum[i] /= (2 * i);
+            spectrum[i] /= 2;
         }
 
         // Report
@@ -173,6 +176,7 @@ public class SpectrumMobius {
 
         Queue<String> q = new ArrayDeque<>();
         q.addAll(Arrays.asList(filesAndFolders));
+        long resultTime = 0;
         while (!q.isEmpty()) {
             String filename = q.poll();
             {
@@ -208,6 +212,7 @@ public class SpectrumMobius {
                 SolveReport report = solve(J, K, M, ws);
 
                 long time = System.currentTimeMillis() - startTime;
+                resultTime += time;
                 out.print(filename + " ");
                 int shown = 0;
                 for (int i = 1; i < report.spectrum.length; i++) {
@@ -221,7 +226,7 @@ public class SpectrumMobius {
                 System.err.println("File " + filename + " not found. Ignoring...");
             }
         }
-
+        System.out.println("took time " + resultTime);
         out.close();
     }
 

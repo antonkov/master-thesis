@@ -1,0 +1,435 @@
+\documentclass{beamer} % "Beamer" is a word used in Germany to mean video projector. 
+
+\usetheme{Montpellier} % Search online for beamer themes to find your favorite or use the Berkeley theme as in this file.
+
+\usecolortheme{rose}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{color} % It may be necessary to set PCTeX or whatever program you are using to output a .pdf instead of a .dvi file in order to see color on your screen.
+\usepackage{graphicx} % This package is needed if you wish to include external image files.
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{ulem}
+\usepackage{enumitem}
+\setlist[itemize]{label=\textbullet}
+\theoremstyle{definition} % See Lesson Three of the LaTeX Manual for more on this kind of "proclamation."
+\newtheorem*{dfn}{A Reasonable Definition}               
+
+\newcommand\smallerFont{\fontsize{9pt}{10.8}\selectfont}
+\beamertemplatenavigationsymbolsempty
+\setbeamerfont{page number in head/foot}{size=\large}
+\setbeamertemplate{footline}[frame number]
+
+\def\putImg<#1>#2{ \includegraphics<#1>[width=\textwidth]{../img/#2} }
+%\newcommand<>{\putImg}[1] { \includegraphics#2[width=\textwidth]{pics/#1} }
+\newcommand{\twopartdef}[4]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 & \mbox{если } #2 \\
+			#3 & \mbox{если } #4
+		\end{array}
+	\right.
+}
+\title{Оптимизация параметров стратегий поиска объектов на море}
+\author{Антон Ковшаров\\{\small Научный руководитель: Ковалев А.С.}} 
+\institute{Санкт-Петербургский национальный исследовательский университет \\ информационных технологий, механики и оптики}
+\date{16 июня 2015} 
+
+\AtBeginSection[]  % The commands within the following {} will be executed at the start of each section.
+{
+\begin{frame} % Within each "frame" there will be one or more "slides."  
+\frametitle{Содержание} % This is the title of the outline.
+\tableofcontents[currentsection]  % This will display the table of contents and highlight the current section.
+\end{frame}
+} %  Do not include the preceding set of commands if you prefer not to have a recurring outline displayed during your presentation.
+
+\begin{document}
+
+\beamertemplatetransparentcoveredmedium
+\begin{frame} 
+\titlepage
+\end{frame}
+
+\section{Постановка задачи}
+\begin{frame}
+  \frametitle{Цель работы}
+   Построить маршрут поиска объекта максимизирующий вероятность его обнаружения. Фиксированы: \\
+\begin{itemize}
+  \item распределениe вероятности (зависимость от времени)
+  \item параметры средства поиска
+  \item стратегия поиска --- ``параллельное галсирование''
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Стратегия поиска}
+\putImg<+>{pic05-parallel_tacks.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Распределение вероятности}
+\begin{columns}
+\column{.6\textwidth}
+\putImg<+>{pic03-1.png}
+\putImg<+>{pic03-2.png}
+\putImg<+>{pic03-3.png}
+\putImg<+->{pic03-4.png}
+\column{.4\textwidth}
+\setbeamercovered{dynamic}
+\begin{itemize}
+\item<.(-3)>{Начальное распределение}
+  \begin{itemize}
+     \item Нормальное распределение
+     \item Равномерное распределиние
+  \end{itemize}
+\item<.(-2)-.(0)>{Эволюция распределения (диффузия)}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{comment}
+\begin{frame}[t]
+\only<1>{Распределение вероятности}
+\only<2->{\sout{Распределение вероятности}\\}
+\only<2->
+{
+Распределение частиц\\
+\pause
+\begin{itemize}
+  \pause
+\item частица --- гипотеза изначального положения объекта поиска и его поведения
+  \pause
+\item вес частицы --- вероятность гипотезы
+  \pause
+\item перемещение частиц с течением времени
+  \pause
+\item сбор частиц средством поиска
+  \pause
+\item больше вес собранных частиц --- больше вероятность обнаружить объект
+\end{itemize}
+}
+\end{frame}
+\end{comment}
+
+\begin{comment}
+\begin{frame}
+  \frametitle{Параметры распределения}
+\begin{itemize}
+\item $A_{t_0} : R^2 \to R $ --- начальное распределения (аппроксимируется матрицей)
+\item $f(A_t, \Delta t) = A_{t+\Delta t}$ --- функция изменения распределения
+\end{itemize}
+\end{frame}
+\end{comment}
+
+\begin{comment}
+\begin{frame}
+  \frametitle{Параметры средства поиска}
+\begin{itemize}
+\item $p_0$ --- начальное положение средства поиска
+\item $v$ --- cкорость средства поиска
+\item $r$ --- радиус обнаружения средства поиска (все частицы попавшие в круг радиуса обнаружения считаются ``собранными'')
+\end{itemize}
+\end{frame}
+\end{comment}
+
+\begin{comment}
+\begin{frame}
+  \frametitle{Параметры стратегии поиска}
+  Параллельное галсирование
+\begin{itemize}
+  \item $l$ --- прямая параллельная направлению галсов
+\end{itemize}
+\end{frame}
+\end{comment}
+
+\begin{frame}
+\begin{columns}
+\column{.6\textwidth}
+\putImg<+>{pic04-1.png}
+\putImg<+>{pic04-2.png}
+\putImg<+>{pic04-3.png}
+\column{.4\textwidth}
+\begin{itemize}
+    \item<.(-2)-.(-1)>{Построение маршрута поиска объекта, основываясь на поле вероятности}
+    \item<.(0)>{Симуляция прохождения маршрута}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Входные данные}
+\begin{itemize}
+\item параметры распределения
+\item параметры средства поиска
+\item параметры стратегии поиска
+\item время поиска
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Задача}
+\begin{itemize}
+  \item {$\pi : \Pi$ --- частица}
+  \item {$w_{\pi}$ --- вес частицы (сумма весов 1)}
+  %\item {$pos(w, t)$ --- позиция частицы $w$ в момент времени $t$}
+  %\item {$posFinder(t)$ --- позиция средства поиска}
+  \item {$\chi(\pi) = 
+	\left\{
+		\begin{array}{ll}
+			1 & \mbox{если } {\exists t\ {dist(posFinder(t), pos(\pi, t)) <= r}}\\
+			0 & \mbox{иначе }
+		\end{array}
+	\right.$
+        }
+  \item {$S_{res}=\sum\limits_{\pi \in \Pi}{\chi(\pi)w_{\pi}}$}
+\end{itemize}
+  Построить маршрут максимизирующий $S_{res}$
+\end{frame}
+
+\begin{frame}
+  \frametitle{Результат алгоритма}
+\putImg<+->{pic06-lh.png}
+\begin{itemize}
+  \item $l_i$ --- проекция $i$-го галса на прямую $l$
+  \item $h_i$ --- разница между галсом $i$ и $i+1$
+  \item $S_{res}$ --- доля собранных частиц от начального распределения
+\end{itemize}
+
+\end{frame}
+
+\section{Симуляция эволюции распределения} % Since this is the start of a new section, our recurring outline will appear here.
+\begin{frame}
+  \frametitle{Сервисы симулятора}
+\begin{columns}
+\column{.6\textwidth}
+\putImg<+>{pic08-1.png}
+\putImg<+>{pic08-2.png}
+\column{.4\textwidth}
+\begin{itemize}
+\item<.(-1)->{демонстрация распределения в каждый момент прохождения маршрута}
+\item<.>{Статистика
+\begin{itemize}
+  \item{\color{red} прогресс поиска}
+  \item{\color{blue} поисковая производительность}
+\end{itemize}
+}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame} 
+\frametitle{Примеры моделей изменения распределения}
+\begin{itemize}
+\item{случайное блуждание с произвольным $\Delta t$ в качестве шага, $v \in [0, vMax]$}
+\item{направленное движение в одном из фиксированных направлений}
+\item{притяжение-отталкивание от фиксированных точек плоскости}
+\end{itemize}
+\end{frame}
+
+\begin{comment}
+\begin{frame}
+\frametitle{Проблемa}
+\begin{itemize}
+  \item{ядро нужно применять раз в $\Delta t$ из физических соображений}
+  \item{$\frac{1}{\Delta t} \ll 60FPS$} 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Решение проблемы}
+\putImg<+->{keyframe.png}
+\begin{itemize}
+  \item{приближенные версии частично примененных ядер $K_{\frac{1}{3}}, K_{\frac{2}{3}}$}
+  \item{погрешность не накапливается, так как минимум предыдущий кадр ключевой}
+\end{itemize}
+\end{frame}
+\end{comment}
+
+\begin{comment}
+\begin{frame}
+  \frametitle{Проблема}
+\begin{columns}
+\column{.6\textwidth}
+\putImg<+>{pic07-1.png}
+\putImg<+>{pic07-2.png}
+\column{.4\textwidth}
+\only<.>{изначально выделенной текстуры недостаточно}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Решение проблемы}
+\begin{columns}
+\column{.6\textwidth}
+\putImg<+>{pic07-3.png}
+\putImg<+>{pic07-4.png}
+\putImg<+>{pic07-5.png}
+\column{.4\textwidth}
+\only<.(-2)->{Начинает выходить?}
+\begin{itemize}
+  \item<.(-1)->{перецентрировать}
+  \item<.(0)->{увеличить x2 (совместить четыре ячейки в одну)}
+\end{itemize}
+\end{columns}
+\end{frame}
+\end{comment}
+
+\section{Алгоритм построения маршрута}
+\begin{frame}
+\frametitle{Статический алгоритм}
+\begin{itemize}
+\item{$dp[cntHor][row][col][move][last]$ --- максимальное суммарный вес частиц, который можно собрать}
+\item{$row, col$ --- текущий строка и столбец в которой находится средство поиска}
+\item{$cntHor$ --- количество горизонтальных ходов}
+\item{$last$ --- количество строк без галсирования}
+\item{$move$ --- тип последнего хода из $\{L, LU, R, RU\}$} 
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Статический алгоритм: переходы}
+\begin{itemize}
+\item{$(cntHor, row, col) \to (cntHor, row+1, col)/(cntHor+1,row, col \pm 1)$}
+\\
+\item{$((cntHor_i, row_i, col_i, curMove, last_i), nextMove) \to 
+(cntHor_{i+1}, row_{i+1}, col_{i+1}, nextMove, last_{i+1})$}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Статический алгоритм: переходы}
+\begin{columns}
+\column{.4\textwidth}
+\begin{itemize}
+\item{$L \to L, LU$}
+\item{$R \to R, RU$}
+\item{$LU \to LU, L, R$}
+\item{$RU \to RU, L, R$}
+\end{itemize}
+\column{.4\textwidth}
+\putImg<+>{dpzones}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Статический алгоритм: порядки величин}
+\begin{itemize}
+\item{$row \approx 200$}
+\item{$col \approx 50$}
+\item{$cntHor \approx 10^3$}
+\item{$last \approx 16$ --- более дальние мало влияют}
+\item{$row \cdot col \cdot cntHor \cdot last \cdot 4 \approx 6.4 \cdot 10^8$}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Результаты работы статического алгоритма}
+\begin{columns}
+\column{.6\textwidth}
+\putImg<+>{pic01-clear.png}
+\putImg<+>{pic01-1h.png}
+\putImg<+>{pic01-2h.png}
+\putImg<+>{pic01-3h.png}
+\putImg<+>{pic01-4h.png}
+\putImg<+>{pic01-8h.png}
+\putImg<+->{pic01-16h.png}
+
+\column{.4\textwidth}
+\begin{itemize}
+\setbeamercovered{dynamic}
+\item<.(-6)>{исходное распределение}
+\item<.(-5)>{1 час}
+\item<.(-4)>{2 часa}
+\item<.(-3)>{3 часa}
+\item<.(-2)>{4 часa}
+\item<.(-1)>{8 часов}
+\item<.(0)>{16 часов}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Корректировка построенного пути}
+\begin{columns}
+\column{.6\textwidth}
+\putImg<+>{pic02-init.png}
+\putImg<+>{pic02-before.png}
+\putImg<+>{pic02-after.png}
+
+\column{.4\textwidth}
+\begin{itemize}
+\setbeamercovered{dynamic}
+\item<.(-2)>{изначально построенный путь}
+\item<.(-1)>{со временем путь устарел}
+\item<.(0)>{перестроим путь}
+\end{itemize}
+\end{columns}
+
+\end{frame}
+\begin{frame}
+\frametitle{Корректировка построенного пути}
+\begin{itemize}
+\item{$rest$ --- непройденная часть построенного пути}
+\item{$S'_{rest}$ --- планировалось собрать на симуляторе, когда строили путь (без учета диффузии)}
+\item{$S''_{rest}$ --- планируется на симуляторе к текущему моменту (без учета диффузии)}
+\item{$S''_{rest} \le k \cdot S'_{rest}$ --- перестроить маршрут с текущей точки на оставшееся время}
+\item{$k \approx 0.98$}
+\end{itemize}
+\end{frame}
+
+\begin{comment}
+\begin{frame}
+\frametitle{Локальная оптимизация пути}
+\begin{itemize}
+\item{$k$ --- дискретных значений $h_i$}
+\item{необходимо осуществить более точную подстройку $h_i$}
+\item{$l_i$ --- фиксированы}
+\item{$h_j, (j \neq i) \land (j \neq i+1)$ --- фиксированы, локально изменяем $\frac{h_i}{h_{i+1}}$ пока можно улучшить $S_{res}$}
+\end{itemize}
+\end{frame}
+\end{comment}
+
+\section{Полученные результаты}
+\begin{frame}
+  \frametitle{Сравнение}
+\begin{table}[ht]
+  \centering
+  \begin{tabular}{|l|l|l|l|l|}
+\hline
+    № & $T_{old}$ & $R_{old}$ & Сравнение по & Сравнение по \\
+         & & & результату $R$ & времени $T$ \\
+\hline
+    1 & 3.6 & 87.5\% & 94.7\% & 2.9 \\ 
+    2 & 3.6 & 83.3\% & 92.6\% & 1.9 \\
+    3 & 3.6 & 83.3\% & 86.1\% (4.5) & 3.6 \\
+    4 & 3.6 & 100.0\%& 100.0\%& 3.3 (99.7\%) \\
+\hline
+
+  \end{tabular}
+\end{table}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Полученные результаты}
+\begin{itemize}
+\item{Реализован инструмент, рассчитывающий изменение распределения частиц с учетом поискового средства в реальном времени. Инструмент используется для визуализации и оценки эффективности алгоритмов поиска}
+\item{Разработан и реализован алгоритм построения пути поиска методом ``Параллельное галсирование'', обеспечивающий нахождение объекта с вероятностью $\ge 90\%$ в большинстве случаев, за приемлемое время поиска}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    \Huge
+    {\color{blue} Вопросы?}
+  \end{center}
+\end{frame}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

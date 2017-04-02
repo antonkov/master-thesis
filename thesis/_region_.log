@@ -1,0 +1,2509 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=prv_VoltageAnal 2017.3.30)  2 APR 2017 06:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv_VoltageAnal _region_.tex
+(./_region_.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+ article.cls    2014/09/29 v1.4h Standard LaTeX document class
+  size10.clo    2014/09/29 v1.4h Standard LaTeX file (size option)
+ fontenc.sty
+  t2aenc.def    2005/09/27 v1.0i Cyrillic encoding definition file
+  t2acmr.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+inputenc.sty    2015/03/17 v1.2c Input encoding file
+  cp1251.def    2014/10/28 v1.0d Input encoding file
+   babel.sty    2016/04/23 3.9r The Babel package
+russianb.ldf    2016/02/18 1.3h Russian support for the Babel system
+etoolbox.sty    2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+  epsfig.sty    1999/02/16 v1.7a (e)psfig emulation (SPQR)
+graphicx.sty    2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+graphics.sty    2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/01/02 v1.10 sample graphics configuration
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+ amsmath.sty    2016/03/10 v2.15b AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+   array.sty    2014/10/28 v2.4c Tabular extension package (FMi)
+    tikz.sty    2015/08/07 v3.0.1a (rcs-revision 1.151)
+     pgf.sty    2015/08/07 v3.0.1a (rcs-revision 1.15)
+  pgfrcs.sty    2015/08/07 v3.0.1a (rcs-revision 1.31)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+ pgfcore.sty    2010/04/11 v3.0.1a (rcs-revision 1.7)
+  pgfsys.sty    2014/07/09 v3.0.1a (rcs-revision 1.48)
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2013/09/09  (rcs-revision 1.9)
+pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+ pgfcore.code.tex
+pgfcomp-version-0-65.sty    2007/07/03 v3.0.1a (rcs-revision 1.7)
+pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
+  pgffor.sty    2013/12/13 v3.0.1a (rcs-revision 1.25)
+ pgfkeys.sty    
+ pgfkeys.code.tex
+ pgfmath.sty    
+ pgfmath.code.tex
+  pgffor.code.tex
+    tikz.code.tex
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+ t2acmtt.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+ t2acmss.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+(/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/preview.sty
+Package: preview 2010/02/14 11.90 (AUCTeX/preview-latex)
+
+(/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prtightpage.def
+\PreviewBorder=\dimen165
+)
+(/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count125
+\hfuzz=\dimen166
+(/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prauctex.cfg))
+(/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prfootnotes.def)
+\pr@snippet=\count126
+\pr@box=\box39
+\pr@output=\toks36
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count127
+\scratchdimen=\dimen167
+\scratchbox=\box40
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen168
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks38
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros  !name(VoltageAnal.tex) !offset(-3) 
+
+LaTeX Warning: No \author given.
+
+! Preview: Snippet 1 started.
+<-><->
+      
+l.34 \section
+             {Ведение}
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(647338+152880x22609920).
+<-><->
+      
+l.34 \section{Ведение}
+                      
+Not a real error.
+
+[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.50 \section
+             {Алгоритм подсчета спектров}
+Not a real error.
+
+! Preview: Snippet 2 ended.(647338+183455x22609920).
+<-><->
+      
+l.50 \section{Алгоритм подсчета спектров}
+                                         
+Not a real error.
+
+[2
+
+]
+! Preview: Snippet 3 started.
+<-><->
+      
+l.52 Пусть $
+            B$  -- (двоичная) базовая матрица кода.
+Not a real error.
+
+! Preview: Snippet 3 ended.(447828+0x529977).
+<-><->
+      
+l.52 Пусть $B$
+                -- (двоичная) базовая матрица кода.
+Not a real error.
+
+[3]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.53 Для нее определен двудольный граф Таннера $
+                                                T=\{V, E \}$ с множеством ве...
+
+Not a real error.
+
+! Preview: Snippet 4 ended.(491520+163840x3234694).
+<-><->
+      
+l.53 ...елен двудольный граф Таннера $T=\{V, E \}$
+                                                   с множеством вершин
+Not a real error.
+
+[4]
+! Preview: Snippet 5 started.
+<-><->
+      
+l.54 $
+      V= V_s \cup V_c$, где  $V_s$ и  $V_c$ -- множества символьных и провер...
+
+Not a real error.
+
+! Preview: Snippet 5 ended.(447828+98303x3441592).
+<-><->
+      
+l.54 $V= V_s \cup V_c$
+                      , где  $V_s$ и  $V_c$ -- множества символьных и провер...
+
+Not a real error.
+
+[5]
+! Preview: Snippet 6 started.
+<-><->
+      
+l.54 $V= V_s \cup V_c$, где  $
+                              V_s$ и  $V_c$ -- множества символьных и провер...
+
+Not a real error.
+
+! Preview: Snippet 6 ended.(447828+98303x662415).
+<-><->
+      
+l.54 $V= V_s \cup V_c$, где  $V_s$
+                                   и  $V_c$ -- множества символьных и провер...
+
+Not a real error.
+
+[6]
+! Preview: Snippet 7 started.
+<-><->
+      
+l.54 $V= V_s \cup V_c$, где  $V_s$ и  $
+                                       V_c$ -- множества символьных и провер...
+
+Not a real error.
+
+! Preview: Snippet 7 ended.(447828+98303x649270).
+<-><->
+      
+l.54 $V= V_s \cup V_c$, где  $V_s$ и  $V_c$
+                                            -- множества символьных и провер...
+
+Not a real error.
+
+[7]
+! Preview: Snippet 8 started.
+<-><->
+      
+l.55 соответственно. Единицам  матрицы $
+                                        B$ соответствуют ребра графа $T$.
+Not a real error.
+
+! Preview: Snippet 8 ended.(447828+0x529977).
+<-><->
+      
+l.55 соответственно. Единицам  матрицы $B$
+                                           соответствуют ребра графа $T$.
+Not a real error.
+
+[8]
+! Preview: Snippet 9 started.
+<-><->
+      
+l.55 ...м  матрицы $B$ соответствуют ребра графа $
+                                                  T$.
+Not a real error.
+
+! Preview: Snippet 9 ended.(447828+0x473999).
+<-><->
+      
+l.55 ... матрицы $B$ соответствуют ребра графа $T$
+                                                  .
+Not a real error.
+
+[9]
+! Preview: Snippet 10 started.
+<-><->
+      
+l.59 Рассмотрим  базовую матрицу $
+                                  B$
+Not a real error.
+
+! Preview: Snippet 10 ended.(447828+0x529977).
+<-><->
+      
+l.59 Рассмотрим  базовую матрицу $B$
+                                    
+Not a real error.
+
+[10]
+! Preview: Snippet 11 started.
+<-><->
+      
+l.60 \begin{eqnarray}
+                     %{C} %\label{H0}
+Not a real error.
+
+! Preview: Snippet 11 ended.(2359318+0x22609920).
+<-><->
+      
+l.67 \end{eqnarray}
+                   
+Not a real error.
+
+[11]
+! Preview: Snippet 12 started.
+<-><->
+      
+l.69 \begin{eqnarray}
+                     %{C} %\label{H0}
+Not a real error.
+
+! Preview: Snippet 12 ended.(2359318+0x22609920).
+<-><->
+      
+l.76 \end{eqnarray}
+                   
+Not a real error.
+
+[12
+
+]
+! Preview: Snippet 13 started.
+<-><->
+      
+l.78 \begin{equation}
+                      \label{H}
+Not a real error.
+
+! Preview: Snippet 13 ended.(2359318+0x22609920).
+<-><->
+      
+l.85 \end{equation}
+                   
+Not a real error.
+
+[13
+
+]
+! Preview: Snippet 14 started.
+<-><->
+      
+l.87 \[
+       
+Not a real error.
+
+! Preview: Snippet 14 ended.(5505078+0x19402067).
+<-><->
+      
+l.99 \]
+       
+Not a real error.
+
+[14]
+
+LaTeX Warning: Reference `fig1' on page 2 undefined on input line 100.
+
+! Preview: Snippet 15 started.
+<-><->
+      
+l.102 \begin{figure}
+                    [!h]
+Not a real error.
+
+(./ex_graph.tikz
+
+! Package tikz Error: Sorry, some package has redefined the meaning of the math
+-mode dollar sign. This is incompatible with tikz and its calc library and migh
+t cause unrecoverable errors.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \node (s6) at (0
+                     ,0) [state] {6};
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+)
+
+LaTeX Warning: Reference `ex1' on page 2 undefined on input line 105.
+
+! Preview: Snippet 15 ended.(10315623+0x22609920).
+<-><->
+      
+l.107 \end{figure}
+                  
+Not a real error.
+
+[15
+
+
+]
+! Preview: Snippet 16 started.
+<-><->
+      
+l.112 графе с заданной степенью расширения $
+                                            M$. Длина цикла равна числу пере...
+
+Not a real error.
+
+! Preview: Snippet 16 ended.(447828+0x707242).
+<-><->
+      
+l.112 графе с заданной степенью расширения $M$
+                                              . Длина цикла равна числу пере...
+
+Not a real error.
+
+[16]
+! Preview: Snippet 17 started.
+<-><->
+      
+l.114 сумма весов переходов по модулю $
+                                       M$ равна нулю.
+Not a real error.
+
+! Preview: Snippet 17 ended.(447828+0x707242).
+<-><->
+      
+l.114 сумма весов переходов по модулю $M$
+                                          равна нулю.
+Not a real error.
+
+[17]
+
+LaTeX Warning: Reference `fig1' on page 2 undefined on input line 116.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
+
+! Preview: Snippet 18 started.
+<-><->
+      
+l.123 путь  6$
+              \to$1$\to$6 веса 0 запрещен.
+Not a real error.
+
+! Preview: Snippet 18 ended.(240435+0x655361).
+<-><->
+      
+l.123 путь  6$\to$
+                  1$\to$6 веса 0 запрещен.
+Not a real error.
+
+[18]
+! Preview: Snippet 19 started.
+<-><->
+      
+l.123 путь  6$\to$1$
+                    \to$6 веса 0 запрещен.
+Not a real error.
+
+! Preview: Snippet 19 ended.(240435+0x655361).
+<-><->
+      
+l.123 путь  6$\to$1$\to$
+                        6 веса 0 запрещен.
+Not a real error.
+
+[19]
+! Preview: Snippet 20 started.
+<-><->
+      
+l.126 $
+       p=6\to 1 \to 7\to 3 \to 6$  образует цикл при условии $w_2-w_6+w_7-w_...
+
+Not a real error.
+
+! Preview: Snippet 20 ended.(422343+127431x6919703).
+<-><->
+      
+l.126 $p=6\to 1 \to 7\to 3 \to 6$
+                                   образует цикл при условии $w_2-w_6+w_7-w_...
+
+Not a real error.
+
+[20]
+! Preview: Snippet 21 started.
+<-><->
+      
+l.126 ...\to 3 \to 6$  образует цикл при условии $
+                                                  w_2-w_6+w_7-w_3=0$. При эт...
+
+Not a real error.
+
+! Preview: Snippet 21 ended.(422343+98303x6657201).
+<-><->
+      
+l.126 ...зует цикл при условии $w_2-w_6+w_7-w_3=0$
+                                                  . При этом пути
+Not a real error.
+
+[21]
+! Preview: Snippet 22 started.
+<-><->
+      
+l.127 $
+       6 \to 3 \to 7\to 1 \to 6$ и  $1\to 7 \to 3\to 6 \to 1$ тоже циклы, но...
+
+Not a real error.
+
+! Preview: Snippet 22 ended.(422343+0x5716169).
+<-><->
+      
+l.127 $6 \to 3 \to 7\to 1 \to 6$
+                                 и  $1\to 7 \to 3\to 6 \to 1$ тоже циклы, но...
+
+Not a real error.
+
+[22]
+! Preview: Snippet 23 started.
+<-><->
+      
+l.127 $6 \to 3 \to 7\to 1 \to 6$ и  $
+                                     1\to 7 \to 3\to 6 \to 1$ тоже циклы, но...
+
+Not a real error.
+
+! Preview: Snippet 23 ended.(422343+0x5716169).
+<-><->
+      
+l.127 ...\to 1 \to 6$ и  $1\to 7 \to 3\to 6 \to 1$
+                                                   тоже циклы, но они уже не...
+
+Not a real error.
+
+[23]
+! Preview: Snippet 24 started.
+<-><->
+      
+l.129 если цикл $
+                 p$ учтен.
+Not a real error.
+
+! Preview: Snippet 24 ended.(282168+127431x329728).
+<-><->
+      
+l.129 если цикл $p$
+                    учтен.
+Not a real error.
+
+[24]
+
+LaTeX Warning: Reference `fig1' on page 2 undefined on input line 134.
+
+! Preview: Snippet 25 started.
+<-><->
+      
+l.139 $
+       U=\{e,\xi\}$, где  $e$ задает ребро исходного графа, а $\xi$ -- напра...
+
+Not a real error.
+
+! Preview: Snippet 25 ended.(491520+163840x2961378).
+<-><->
+      
+l.139 $U=\{e,\xi\}$
+                   , где  $e$ задает ребро исходного графа, а $\xi$ -- напра...
+
+Not a real error.
+
+[25]
+! Preview: Snippet 26 started.
+<-><->
+      
+l.139 $U=\{e,\xi\}$, где  $
+                           e$ задает ребро исходного графа, а $\xi$ -- напра...
+
+Not a real error.
+
+! Preview: Snippet 26 ended.(282168+0x305153).
+<-><->
+      
+l.139 $U=\{e,\xi\}$, где  $e$
+                              задает ребро исходного графа, а $\xi$ -- напра...
+
+Not a real error.
+
+[26]
+! Preview: Snippet 27 started.
+<-><->
+      
+l.139 ...де  $e$ задает ребро исходного графа, а $
+                                                  \xi$ -- направление перехода.
+
+Not a real error.
+
+! Preview: Snippet 27 ended.(455111+127431x316872).
+<-><->
+      
+l.139 ...$e$ задает ребро исходного графа, а $\xi$
+                                                   -- направление перехода.
+Not a real error.
+
+[27]
+! Preview: Snippet 28 started.
+<-><->
+      
+l.140 Сокращенно будем записывать пары в виде $
+                                               +e$  и $-e$.
+Not a real error.
+
+! Preview: Snippet 28 ended.(382293+54613x814879).
+<-><->
+      
+l.140 Сокращенно будем записывать пары в виде $+e$
+                                                    и $-e$.
+Not a real error.
+
+[28]
+! Preview: Snippet 29 started.
+<-><->
+      
+l.140 ...но будем записывать пары в виде $+e$  и $
+                                                  -e$.
+Not a real error.
+
+! Preview: Snippet 29 ended.(382293+54613x814879).
+<-><->
+      
+l.140 ...будем записывать пары в виде $+e$  и $-e$
+                                                  .
+Not a real error.
+
+[29]
+
+LaTeX Warning: Reference `fig1' on page 3 undefined on input line 142.
+
+! Preview: Snippet 30 started.
+<-><->
+      
+l.142 ...{fig1} получится  граф с 18 состояниями $
+                                                  \{ \pm 1, \pm 2,..., \pm 9...
+
+Not a real error.
+
+! Preview: Snippet 30 ended.(491520+163840x4587525).
+<-><->
+      
+l.142 ...остояниями $\{ \pm 1, \pm 2,..., \pm 9\}$
+                                                  .
+Not a real error.
+
+[30]
+! Preview: Snippet 31 started.
+<-><->
+      
+l.147 $
+       +1$  возможны отрицательные $-4, -8$. После отрицательного перехода
+Not a real error.
+
+! Preview: Snippet 31 ended.(422343+54613x837407).
+<-><->
+      
+l.147 $+1$
+            возможны отрицательные $-4, -8$. После отрицательного перехода
+Not a real error.
+
+[31]
+! Preview: Snippet 32 started.
+<-><->
+      
+l.147 $+1$  возможны отрицательные $
+                                    -4, -8$. После отрицательного перехода
+Not a real error.
+
+! Preview: Snippet 32 ended.(422343+127431x1966083).
+<-><->
+      
+l.147 $+1$  возможны отрицательные $-4, -8$
+                                           . После отрицательного перехода
+Not a real error.
+
+[32]
+! Preview: Snippet 33 started.
+<-><->
+      
+l.148 $
+       -1$  возможны положительные $2,3$.
+Not a real error.
+
+! Preview: Snippet 33 ended.(422343+54613x837407).
+<-><->
+      
+l.148 $-1$
+            возможны положительные $2,3$.
+Not a real error.
+
+[33]
+! Preview: Snippet 34 started.
+<-><->
+      
+l.148 $-1$  возможны положительные $
+                                    2,3$.
+Not a real error.
+
+! Preview: Snippet 34 ended.(422343+127431x946631).
+<-><->
+      
+l.148 $-1$  возможны положительные $2,3$
+                                        .
+Not a real error.
+
+[34]
+! Preview: Snippet 35 started.
+<-><->
+      
+l.151  \[
+         
+Not a real error.
+
+! Preview: Snippet 35 ended.(7077958+0x21202104).
+<-><->
+      
+l.165 \]
+        
+Not a real error.
+
+[35]
+! Preview: Snippet 36 started.
+<-><->
+      
+l.166 \[
+        
+Not a real error.
+
+! Preview: Snippet 36 ended.(7077958+0x20931764).
+<-><->
+      
+l.179 \]
+        
+Not a real error.
+
+[36]
+! Preview: Snippet 37 started.
+<-><->
+      
+l.183 два шага, как произведение матриц $
+                                         A_+, A_-$
+Not a real error.
+
+! Preview: Snippet 37 ended.(447828+152917x2151768).
+<-><->
+      
+l.183 два шага, как произведение матриц $A_+, A_-$
+                                                  
+Not a real error.
+
+[37]
+! Preview: Snippet 38 started.
+<-><->
+      
+l.184 \[
+        
+Not a real error.
+
+! Preview: Snippet 38 ended.(7077958+0x20883918).
+<-><->
+      
+l.196 \]
+        
+Not a real error.
+
+[38]
+! Preview: Snippet 39 started.
+<-><->
+      
+l.198 $
+       \omega_{ij}=D^{-w_i+w_j}$.
+Not a real error.
+
+! Preview: Snippet 39 ended.(521815+187504x4359473).
+<-><->
+      
+l.198 $\omega_{ij}=D^{-w_i+w_j}$
+                                .
+Not a real error.
+
+[39]
+! Preview: Snippet 40 started.
+<-><->
+      
+l.211 базовой матрице $
+                       B$.
+Not a real error.
+
+! Preview: Snippet 40 ended.(447828+0x529977).
+<-><->
+      
+l.211 базовой матрице $B$
+                         .
+Not a real error.
+
+[40]
+! Preview: Snippet 41 started.
+<-><->
+      
+l.213 ... производящей функции числа путей длины $
+                                                  2L$, начинающихся с ребра ...
+
+Not a real error.
+
+! Preview: Snippet 41 ended.(447828+0x773691).
+<-><->
+      
+l.213 ...оизводящей функции числа путей длины $2L$
+                                                  , начинающихся с ребра 1 в...
+
+Not a real error.
+
+[41]
+! Preview: Snippet 42 started.
+<-><->
+      
+l.214 нужно начальный вектор $
+                              a_0=(1,0,...,0)$ умножить на $A^L$. Для нашего...
+
+Not a real error.
+
+! Preview: Snippet 42 ended.(491520+163840x4426936).
+<-><->
+      
+l.214 нужно начальный вектор $a_0=(1,0,...,0)$
+                                               умножить на $A^L$. Для нашего...
+
+Not a real error.
+
+[42]
+! Preview: Snippet 43 started.
+<-><->
+      
+l.214 ...ый вектор $a_0=(1,0,...,0)$ умножить на $
+                                                  A^L$. Для нашего примера при
+Not a real error.
+
+! Preview: Snippet 43 ended.(551306+0x883829).
+<-><->
+      
+l.214 ...ектор $a_0=(1,0,...,0)$ умножить на $A^L$
+                                                  . Для нашего примера при
+Not a real error.
+
+[43]
+! Preview: Snippet 44 started.
+<-><->
+      
+l.215  \begin{equation}
+                       
+Not a real error.
+
+! Preview: Snippet 44 ended.(786439+0x22609920).
+<-><->
+      
+l.220 \end{equation}
+                    
+Not a real error.
+
+[44]
+! Preview: Snippet 45 started.
+<-><->
+      
+l.221 \begin{equation}
+                      \label{eq4}
+Not a real error.
+
+! Preview: Snippet 45 ended.(786439+0x22609920).
+<-><->
+      
+l.226 \end{equation}
+                    
+Not a real error.
+
+[45
+
+]
+! Preview: Snippet 46 started.
+<-><->
+      
+l.228 \[
+        
+Not a real error.
+
+! Preview: Snippet 46 ended.(742087+0x18242490).
+<-><->
+      
+l.230 \]
+        
+Not a real error.
+
+[46]
+! Preview: Snippet 47 started.
+<-><->
+      
+l.236 Хотя мы пишем $
+                     +, -$  в выражениях типа $D^{-w_4+w_5-w_2+w_1}$,
+Not a real error.
+
+! Preview: Snippet 47 ended.(382293+127431x1310721).
+<-><->
+      
+l.236 Хотя мы пишем $+, -$
+                            в выражениях типа $D^{-w_4+w_5-w_2+w_1}$,
+Not a real error.
+
+[47]
+! Preview: Snippet 48 started.
+<-><->
+      
+l.236 Хотя мы пишем $+, -$  в выражениях типа $
+                                               D^{-w_4+w_5-w_2+w_1}$,
+Not a real error.
+
+! Preview: Snippet 48 ended.(521815+0x4757018).
+<-><->
+      
+l.236 ... в выражениях типа $D^{-w_4+w_5-w_2+w_1}$
+                                                  ,
+Not a real error.
+
+[48]
+! Preview: Snippet 49 started.
+<-><->
+      
+l.237 $
+       w_i$ не коммутируют между собой так как неупорядоченный набор ребер н...
+
+Not a real error.
+
+! Preview: Snippet 49 ended.(282168+98303x687371).
+<-><->
+      
+l.237 $w_i$
+            не коммутируют между собой так как неупорядоченный набор ребер н...
+
+Not a real error.
+
+[49]
+
+LaTeX Warning: Reference `ex2' on page 3 undefined on input line 237.
+
+! Preview: Snippet 50 started.
+<-><->
+      
+l.238 ...азом до подстановки конкретных значений $
+                                                  w_i$ не могут быть сложены.
+Not a real error.
+
+! Preview: Snippet 50 ended.(282168+98303x687371).
+<-><->
+      
+l.238 ... до подстановки конкретных значений $w_i$
+                                                   не могут быть сложены.
+Not a real error.
+
+[50]
+! Preview: Snippet 51 started.
+<-><->
+      
+l.241 \begin{figure}
+                    [!h]
+Not a real error.
+
+(./ex_graph2.tikz)
+
+LaTeX Warning: Reference `ex2' on page 3 undefined on input line 244.
+
+
+LaTeX Warning: Reference `ex3' on page 3 undefined on input line 244.
+
+! Preview: Snippet 51 ended.(10130160+0x22609920).
+<-><->
+      
+l.246 \end{figure}
+                  
+Not a real error.
+
+[51
+
+
+]
+! Preview: Snippet 52 started.
+<-><->
+      
+l.249   Обозначим пути $
+                        c_1=1 \to -4 \to 5 \to -2$, $c_2=1 \to -4 \to 6 \to ...
+
+Not a real error.
+
+! Preview: Snippet 52 ended.(422343+98303x6839919).
+<-><->
+      
+l.249   Обозначим пути $c_1=1 \to -4 \to 5 \to -2$
+                                                  , $c_2=1 \to -4 \to 6 \to ...
+
+Not a real error.
+
+[52]
+! Preview: Snippet 53 started.
+<-><->
+      
+l.249 ...начим пути $c_1=1 \to -4 \to 5 \to -2$, $
+                                                  c_2=1 \to -4 \to 6 \to -3$...
+
+Not a real error.
+
+! Preview: Snippet 53 ended.(422343+98303x6839919).
+<-><->
+      
+l.249 ...to 5 \to -2$, $c_2=1 \to -4 \to 6 \to -3$
+                                                  , $c_3=2 \to -5 \to 6 \to ...
+
+Not a real error.
+
+[53]
+! Preview: Snippet 54 started.
+<-><->
+      
+l.249 ...5 \to -2$, $c_2=1 \to -4 \to 6 \to -3$, $
+                                                  c_3=2 \to -5 \to 6 \to -3$.
+Not a real error.
+
+! Preview: Snippet 54 ended.(422343+98303x6839919).
+<-><->
+      
+l.249 ...to 6 \to -3$, $c_3=2 \to -5 \to 6 \to -3$
+                                                  .
+Not a real error.
+
+[54]
+! Preview: Snippet 55 started.
+<-><->
+      
+l.250 ...тим путям по направлению соответственно $
+                                                  c_{-1}, c_{-2}, c_{-3}$.
+Not a real error.
+
+! Preview: Snippet 55 ended.(282168+152917x3544183).
+<-><->
+      
+l.250 ...ю соответственно $c_{-1}, c_{-2}, c_{-3}$
+                                                  .
+Not a real error.
+
+[55]
+! Preview: Snippet 56 started.
+<-><->
+      
+l.251  Тогда набор ребер как объеденением $
+                                           \{c_1,c_{-2},c_{-3}\}$ может обоз...
+
+Not a real error.
+
+! Preview: Snippet 56 ended.(491520+163840x3789944).
+<-><->
+      
+l.251 ... как объеденением $\{c_1,c_{-2},c_{-3}\}$
+                                                   может обозначать два пути...
+
+Not a real error.
+
+[56]
+! Preview: Snippet 57 started.
+<-><->
+      
+l.251 ...,c_{-3}\}$ может обозначать два пути -- $
+                                                  c_1c_{-3}c_{-2}$ и
+Not a real error.
+
+! Preview: Snippet 57 ended.(282168+152917x2552044).
+<-><->
+      
+l.251 ... обозначать два пути -- $c_1c_{-3}c_{-2}$
+                                                   и
+Not a real error.
+
+[57]
+! Preview: Snippet 58 started.
+<-><->
+      
+l.252 $
+       c_1c_{-2}c_{-3}$, которые не могут быть получены друг из друга с помо...
+
+Not a real error.
+
+! Preview: Snippet 58 ended.(282168+152917x2552044).
+<-><->
+      
+l.252 $c_1c_{-2}c_{-3}$
+                       , которые не могут быть получены друг из друга с помо...
+
+Not a real error.
+
+[58]
+
+LaTeX Warning: Reference `eq4' on page 3 undefined on input line 255.
+
+! Preview: Snippet 59 started.
+<-><->
+      
+l.257 Например, если $
+                      -w_4+w_5-w_2+w_1=0$, а  $-w_8+w_9-w_3+w_1\neq 0$  то
+Not a real error.
+
+! Preview: Snippet 59 ended.(422343+98303x7166927).
+<-><->
+      
+l.257 Например, если $-w_4+w_5-w_2+w_1=0$
+                                         , а  $-w_8+w_9-w_3+w_1\neq 0$  то
+Not a real error.
+
+[59]
+! Preview: Snippet 60 started.
+<-><->
+      
+l.257 Например, если $-w_4+w_5-w_2+w_1=0$, а  $
+                                               -w_8+w_9-w_3+w_1\neq 0$  то
+Not a real error.
+
+! Preview: Snippet 60 ended.(455111+127430x7166927).
+<-><->
+      
+l.257 ...5-w_2+w_1=0$, а  $-w_8+w_9-w_3+w_1\neq 0$
+                                                    то
+Not a real error.
+
+[60]
+! Preview: Snippet 61 started.
+<-><->
+      
+l.258 \[
+        
+Not a real error.
+
+! Preview: Snippet 61 ended.(718423+0x15761814).
+<-><->
+      
+l.260 \]
+        
+Not a real error.
+
+[61]
+! Preview: Snippet 62 started.
+<-><->
+      
+l.261 и $
+         a_{41}(0)=1$.
+Not a real error.
+
+! Preview: Snippet 62 ended.(491520+163840x2940548).
+<-><->
+      
+l.261 и $a_{41}(0)=1$
+                     .
+Not a real error.
+
+[62]
+! Preview: Snippet 63 started.
+<-><->
+      
+l.262 Пусть $
+             a_{2L,i}^{j}$ -- обозначет коэффициент при $D^j$ в $i$-ой компо...
+
+Not a real error.
+
+! Preview: Snippet 63 ended.(618493+281800x1341027).
+<-><->
+      
+l.262 Пусть $a_{2L,i}^{j}$
+                           -- обозначет коэффициент при $D^j$ в $i$-ой компо...
+
+Not a real error.
+
+[63]
+! Preview: Snippet 64 started.
+<-><->
+      
+l.262 ...2L,i}^{j}$ -- обозначет коэффициент при $
+                                                  D^j$ в $i$-ой компоненете ...
+
+Not a real error.
+
+! Preview: Snippet 64 ended.(541383+0x836928).
+<-><->
+      
+l.262 ...}^{j}$ -- обозначет коэффициент при $D^j$
+                                                   в $i$-ой компоненете $a_{...
+
+Not a real error.
+
+[64]
+! Preview: Snippet 65 started.
+<-><->
+      
+l.262 ...}$ -- обозначет коэффициент при $D^j$ в $
+                                                  i$-ой компоненете $a_{2L}$.
+Not a real error.
+
+! Preview: Snippet 65 ended.(432226+0x225780).
+<-><->
+      
+l.262 ... -- обозначет коэффициент при $D^j$ в $i$
+                                                  -ой компоненете $a_{2L}$.
+Not a real error.
+
+[65]
+! Preview: Snippet 66 started.
+<-><->
+      
+l.262 ...ффициент при $D^j$ в $i$-ой компоненете $
+                                                  a_{2L}$.
+Not a real error.
+
+! Preview: Snippet 66 ended.(282168+98303x999959).
+<-><->
+      
+l.262 ...т при $D^j$ в $i$-ой компоненете $a_{2L}$
+                                                  .
+Not a real error.
+
+[66]
+! Preview: Snippet 67 started.
+<-><->
+      
+l.264 (здесь и далее считаем, что $
+                                   D^0=1$, несмотря на то что $D$ может быть...
+
+Not a real error.
+
+! Preview: Snippet 67 ended.(533465+0x2056278).
+<-><->
+      
+l.264 (здесь и далее считаем, что $D^0=1$
+                                         , несмотря на то что $D$ может быть...
+
+Not a real error.
+
+[67]
+! Preview: Snippet 68 started.
+<-><->
+      
+l.264 ...читаем, что $D^0=1$, несмотря на то что $
+                                                  D$ может быть $0$. Таким о...
+
+Not a real error.
+
+! Preview: Snippet 68 ended.(447828+0x560788).
+<-><->
+      
+l.264 ...таем, что $D^0=1$, несмотря на то что $D$
+                                                   может быть $0$. Таким обр...
+
+Not a real error.
+
+[68]
+! Preview: Snippet 69 started.
+<-><->
+      
+l.264 ...0=1$, несмотря на то что $D$ может быть $
+                                                  0$. Таким образом
+Not a real error.
+
+! Preview: Snippet 69 ended.(422343+0x327681).
+<-><->
+      
+l.264 ...1$, несмотря на то что $D$ может быть $0$
+                                                  . Таким образом
+Not a real error.
+
+[69]
+! Preview: Snippet 70 started.
+<-><->
+      
+l.265 ...н полинома равен количеству циклов веса $
+                                                  0$ без учета эквивалентных...
+
+Not a real error.
+
+! Preview: Snippet 70 ended.(422343+0x327681).
+<-><->
+      
+l.265 ...полинома равен количеству циклов веса $0$
+                                                   без учета эквивалентных ц...
+
+Not a real error.
+
+[70]
+! Preview: Snippet 71 started.
+<-><->
+      
+l.266 В общем случае все циклы длины $
+                                      2L$, проходящие через ребро +1 учтены ...
+
+Not a real error.
+
+! Preview: Snippet 71 ended.(447828+0x773691).
+<-><->
+      
+l.266 В общем случае все циклы длины $2L$
+                                         , проходящие через ребро +1 учтены ...
+
+Not a real error.
+
+[71]
+! Preview: Snippet 72 started.
+<-><->
+      
+l.266 ...2L$, проходящие через ребро +1 учтены в $
+                                                  a_{2L,1}(0)$, однако
+Not a real error.
+
+! Preview: Snippet 72 ended.(491520+187504x2254249).
+<-><->
+      
+l.266 ...щие через ребро +1 учтены в $a_{2L,1}(0)$
+                                                  , однако
+Not a real error.
+
+[72]
+
+LaTeX Warning: Reference `ex3' on page 3 undefined on input line 267.
+
+! Preview: Snippet 73 started.
+<-><->
+      
+l.273  Пути $
+             1 \to -4 \to 5 \to -2 \to 1 \to -4 \to 6 \to -3$ и $1 \to -4 \t...
+
+Not a real error.
+
+! Preview: Snippet 73 ended.(422343+54613x11796439).
+<-><->
+      
+l.273 ...4 \to 5 \to -2 \to 1 \to -4 \to 6 \to -3$
+                                                   и $1 \to -4 \to 6 \to -3 ...
+
+Not a real error.
+
+[73]
+! Preview: Snippet 74 started.
+<-><->
+      
+l.273 ...o 5 \to -2 \to 1 \to -4 \to 6 \to -3$ и $
+                                                  1 \to -4 \to 6 \to -3 \to ...
+
+Not a real error.
+
+! Preview: Snippet 74 ended.(422343+54613x11796439).
+<-><->
+      
+l.273 ...4 \to 6 \to -3 \to 1 \to -4 \to 5 \to -2$
+                                                  ,
+Not a real error.
+
+[74]
+! Preview: Snippet 75 started.
+<-><->
+      
+l.274 начинающийеся с $
+                       1$ эквивалентны, так как являются циклическим сдвигом...
+
+Not a real error.
+
+! Preview: Snippet 75 ended.(422343+0x327681).
+<-><->
+      
+l.274 начинающийеся с $1$
+                          эквивалентны, так как являются циклическим сдвигом...
+
+Not a real error.
+
+[75]
+! Preview: Snippet 76 started.
+<-><->
+      
+l.280   Рассматривать $
+                       w_i$ в качестве символьных переменных.
+Not a real error.
+
+! Preview: Snippet 76 ended.(282168+98303x687371).
+<-><->
+      
+l.280   Рассматривать $w_i$
+                            в качестве символьных переменных.
+Not a real error.
+
+[76]
+! Preview: Snippet 77 started.
+<-><->
+      
+l.282 циклам длины $
+                    2L$ и затем вычислять спектры циклов, подставляя разные
+Not a real error.
+
+! Preview: Snippet 77 ended.(447828+0x773691).
+<-><->
+      
+l.282 циклам длины $2L$
+                        и затем вычислять спектры циклов, подставляя разные
+Not a real error.
+
+[77]
+! Preview: Snippet 78 started.
+<-><->
+      
+l.288 \subsection
+                 {Веса как символьные переменные}
+Not a real error.
+
+! Preview: Snippet 78 ended.(539448+152880x22609920).
+<-><->
+      
+l.288 \subsection{Веса как символьные переменные}
+                                                 
+Not a real error.
+
+[78
+
+]
+! Preview: Snippet 79 started.
+<-><->
+      
+l.289 В случае рассмотрения $
+                             w_i$ как символьных переменных необходимо избав...
+
+Not a real error.
+
+! Preview: Snippet 79 ended.(282168+98303x687371).
+<-><->
+      
+l.289 В случае рассмотрения $w_i$
+                                  как символьных переменных необходимо избав...
+
+Not a real error.
+
+[79]
+! Preview: Snippet 80 started.
+<-><->
+      
+l.295 Обозначим $
+                 \bar{p}$ путь в обратном направлении к пути $p=e_1,e_2,...,...
+
+Not a real error.
+
+! Preview: Snippet 80 ended.(372098+127431x329728).
+<-><->
+      
+l.295 Обозначим $\bar{p}$
+                          путь в обратном направлении к пути $p=e_1,e_2,...,...
+
+Not a real error.
+
+[80]
+! Preview: Snippet 81 started.
+<-><->
+      
+l.295 ...{p}$ путь в обратном направлении к пути $
+                                                  p=e_1,e_2,...,e_n$.
+Not a real error.
+
+! Preview: Snippet 81 ended.(282168+127431x4483675).
+<-><->
+      
+l.295 ...ом направлении к пути $p=e_1,e_2,...,e_n$
+                                                  .
+Not a real error.
+
+[81]
+! Preview: Snippet 82 started.
+<-><->
+      
+l.296 Предположим $
+                   p$ и $\bar{p}$ эквивалентны относительно сдвига -- тогда ...
+
+Not a real error.
+
+! Preview: Snippet 82 ended.(282168+127431x329728).
+<-><->
+      
+l.296 Предположим $p$
+                      и $\bar{p}$ эквивалентны относительно сдвига -- тогда ...
+
+Not a real error.
+
+[82]
+! Preview: Snippet 83 started.
+<-><->
+      
+l.296 Предположим $p$ и $
+                         \bar{p}$ эквивалентны относительно сдвига -- тогда ...
+
+Not a real error.
+
+! Preview: Snippet 83 ended.(372098+127431x329728).
+<-><->
+      
+l.296 Предположим $p$ и $\bar{p}$
+                                  эквивалентны относительно сдвига -- тогда ...
+
+Not a real error.
+
+[83]
+! Preview: Snippet 84 started.
+<-><->
+      
+l.296 ...ительно сдвига -- тогда найдется индекс $
+                                                  i$, такой что
+Not a real error.
+
+! Preview: Snippet 84 ended.(432226+0x225780).
+<-><->
+      
+l.296 ...ельно сдвига -- тогда найдется индекс $i$
+                                                  , такой что
+Not a real error.
+
+[84]
+! Preview: Snippet 85 started.
+<-><->
+      
+l.297 $
+       \bar{e}_i, \bar{e}_{i-1}, ..., \bar{e}_1 = e_1, e_2, ..., e_i$.  Если...
+
+Not a real error.
+
+! Preview: Snippet 85 ended.(372098+152917x7752017).
+<-><->
+      
+l.297 ...-1}, ..., \bar{e}_1 = e_1, e_2, ..., e_i$
+                                                  .  Если $i$ нечетно, тогда...
+
+Not a real error.
+
+[85]
+! Preview: Snippet 86 started.
+<-><->
+      
+l.297 ... \bar{e}_1 = e_1, e_2, ..., e_i$.  Если $
+                                                  i$ нечетно, тогда $\bar{e}...
+
+Not a real error.
+
+! Preview: Snippet 86 ended.(432226+0x225780).
+<-><->
+      
+l.297 ...bar{e}_1 = e_1, e_2, ..., e_i$.  Если $i$
+                                                   нечетно, тогда $\bar{e}_{...
+
+Not a real error.
+
+[86]
+! Preview: Snippet 87 started.
+<-><->
+      
+l.297 ..._2, ..., e_i$.  Если $i$ нечетно, тогда $
+                                                  \bar{e}_{(i + 1)/2} = e_{(...
+
+Not a real error.
+
+! Preview: Snippet 87 ended.(372098+233018x5126304).
+<-><->
+      
+l.297 ...тогда $\bar{e}_{(i + 1)/2} = e_{(i+1)/2}$
+                                                   -- противоречие.
+Not a real error.
+
+[87]
+! Preview: Snippet 88 started.
+<-><->
+      
+l.298  Если $
+             i$ четно, то $e_{i/2 + 1}=\bar{e}_{i/2}$, что противоречит огра...
+
+Not a real error.
+
+! Preview: Snippet 88 ended.(432226+0x225780).
+<-><->
+      
+l.298  Если $i$
+                четно, то $e_{i/2 + 1}=\bar{e}_{i/2}$, что противоречит огра...
+
+Not a real error.
+
+[88]
+! Preview: Snippet 89 started.
+<-><->
+      
+l.298  Если $i$ четно, то $
+                           e_{i/2 + 1}=\bar{e}_{i/2}$, что противоречит огра...
+
+Not a real error.
+
+! Preview: Snippet 89 ended.(372098+233018x3643545).
+<-><->
+      
+l.298 ...$i$ четно, то $e_{i/2 + 1}=\bar{e}_{i/2}$
+                                                  , что противоречит огранич...
+
+Not a real error.
+
+[89]
+! Preview: Snippet 90 started.
+<-><->
+      
+l.306 ... нахождения всех возможных циклов длины $
+                                                  2L$ рассматривать
+Not a real error.
+
+! Preview: Snippet 90 ended.(447828+0x773691).
+<-><->
+      
+l.306 ...хождения всех возможных циклов длины $2L$
+                                                   рассматривать
+Not a real error.
+
+[90]
+! Preview: Snippet 91 started.
+<-><->
+      
+l.307 только пути длины $
+                         L$, в то время как описанный алгоритм рассмотривает...
+
+Not a real error.
+
+! Preview: Snippet 91 ended.(447828+0x446010).
+<-><->
+      
+l.307 только пути длины $L$
+                           , в то время как описанный алгоритм рассмотривает...
+
+Not a real error.
+
+[91]
+! Preview: Snippet 92 started.
+<-><->
+      
+l.307 ...анный алгоритм рассмотривает пути длины $
+                                                  2L$.
+Not a real error.
+
+! Preview: Snippet 92 ended.(447828+0x773691).
+<-><->
+      
+l.307 ...ый алгоритм рассмотривает пути длины $2L$
+                                                  .
+Not a real error.
+
+[92]
+! Preview: Snippet 93 started.
+<-><->
+      
+l.309 \subsection
+                 {Фиксированные веса}
+Not a real error.
+
+! Preview: Snippet 93 ended.(539448+152880x22609920).
+<-><->
+      
+l.309 \subsection{Фиксированные веса}
+                                     
+Not a real error.
+
+[93
+
+]
+! Preview: Snippet 94 started.
+<-><->
+      
+l.311 считать не более $
+                        M$ членов в каждом полиноме при умножении на матрицу...
+
+Not a real error.
+
+! Preview: Snippet 94 ended.(447828+0x707242).
+<-><->
+      
+l.311 считать не более $M$
+                           членов в каждом полиноме при умножении на матрицу...
+
+Not a real error.
+
+[94]
+! Preview: Snippet 95 started.
+<-><->
+      
+l.311 ...аждом полиноме при умножении на матрицу $
+                                                  A$,
+Not a real error.
+
+! Preview: Snippet 95 ended.(447828+0x491521).
+<-><->
+      
+l.311 ...дом полиноме при умножении на матрицу $A$
+                                                  ,
+Not a real error.
+
+[95]
+! Preview: Snippet 96 started.
+<-><->
+      
+l.315 Рассмотрим для цикла $
+                            p$ сколько раз он был учтен. Порядком цикла назо...
+
+Not a real error.
+
+! Preview: Snippet 96 ended.(282168+127431x329728).
+<-><->
+      
+l.315 Рассмотрим для цикла $p$
+                               сколько раз он был учтен. Порядком цикла назо...
+
+Not a real error.
+
+[96]
+! Preview: Snippet 97 started.
+<-><->
+      
+l.315 ...ен. Порядком цикла назовем максимальное $
+                                                  r$, такое что
+Not a real error.
+
+! Preview: Snippet 97 ended.(282168+0x313876).
+<-><->
+      
+l.315 .... Порядком цикла назовем максимальное $r$
+                                                  , такое что
+Not a real error.
+
+[97]
+! Preview: Snippet 98 started.
+<-><->
+      
+l.316 $
+       p$ можно представить как
+Not a real error.
+
+! Preview: Snippet 98 ended.(282168+127431x329728).
+<-><->
+      
+l.316 $p$
+          можно представить как
+Not a real error.
+
+[98]
+! Preview: Snippet 99 started.
+<-><->
+      
+l.317 \[
+        
+Not a real error.
+
+! Preview: Snippet 99 ended.(1301957+0x12859043).
+<-><->
+      
+l.319 \]
+        
+Not a real error.
+
+[99]
+! Preview: Snippet 100 started.
+<-><->
+      
+l.320 Периодом цикла $
+                      p$ назовем длину $|s|=\frac{|p|}{r}$. Таким образом ци...
+
+Not a real error.
+
+! Preview: Snippet 100 ended.(282168+127431x329728).
+<-><->
+      
+l.320 Периодом цикла $p$
+                         назовем длину $|s|=\frac{|p|}{r}$. Таким образом ци...
+
+Not a real error.
+
+[100]
+! Preview: Snippet 101 started.
+<-><->
+      
+l.320 Периодом цикла $p$ назовем длину $
+                                        |s|=\frac{|p|}{r}$. Таким образом ци...
+
+Not a real error.
+
+! Preview: Snippet 101 ended.(661912+225995x2283840).
+<-><->
+      
+l.320 ...кла $p$ назовем длину $|s|=\frac{|p|}{r}$
+                                                  . Таким образом цикл $p$
+Not a real error.
+
+[101]
+! Preview: Snippet 102 started.
+<-><->
+      
+l.320 ...$|s|=\frac{|p|}{r}$. Таким образом цикл $
+                                                  p$
+Not a real error.
+
+! Preview: Snippet 102 ended.(282168+127431x329728).
+<-><->
+      
+l.320 ...s|=\frac{|p|}{r}$. Таким образом цикл $p$
+                                                  
+Not a real error.
+
+[102]
+! Preview: Snippet 103 started.
+<-><->
+      
+l.321 периода $
+               l$ имеет $l$ различных циклических сдвигов -- следовательно б...
+
+Not a real error.
+
+! Preview: Snippet 103 ended.(455111+0x208442).
+<-><->
+      
+l.321 периода $l$
+                  имеет $l$ различных циклических сдвигов -- следовательно б...
+
+Not a real error.
+
+[103]
+! Preview: Snippet 104 started.
+<-><->
+      
+l.321 периода $l$ имеет $
+                         l$ различных циклических сдвигов -- следовательно б...
+
+Not a real error.
+
+! Preview: Snippet 104 ended.(455111+0x208442).
+<-><->
+      
+l.321 периода $l$ имеет $l$
+                            различных циклических сдвигов -- следовательно б...
+
+Not a real error.
+
+[104]
+! Preview: Snippet 105 started.
+<-><->
+      
+l.321 ...их сдвигов -- следовательно будет учтен $
+                                                  2l$ раз, с учетом
+Not a real error.
+
+! Preview: Snippet 105 ended.(455111+0x536123).
+<-><->
+      
+l.321 ...сдвигов -- следовательно будет учтен $2l$
+                                                   раз, с учетом
+Not a real error.
+
+[105]
+! Preview: Snippet 106 started.
+<-><->
+      
+l.324 Последовательно для каждого $
+                                   i$ зафиксируем
+Not a real error.
+
+! Preview: Snippet 106 ended.(432226+0x225780).
+<-><->
+      
+l.324 Последовательно для каждого $i$
+                                      зафиксируем
+Not a real error.
+
+[106]
+! Preview: Snippet 107 started.
+<-><->
+      
+l.325 \[
+        
+Not a real error.
+
+! Preview: Snippet 107 ended.(1658308+0x14865555).
+<-><->
+      
+l.327 \]
+        
+Not a real error.
+
+[107]
+! Preview: Snippet 108 started.
+<-><->
+      
+l.329 \[
+        
+Not a real error.
+
+! Preview: Snippet 108 ended.(682377+0x13003967).
+<-><->
+      
+l.331 \]
+        
+Not a real error.
+
+[108]
+! Preview: Snippet 109 started.
+<-><->
+      
+l.334 компоненте $
+                  a_{2L,i}$ как $b_{2L,i}$.
+Not a real error.
+
+! Preview: Snippet 109 ended.(282168+187504x1341027).
+<-><->
+      
+l.334 компоненте $a_{2L,i}$
+                            как $b_{2L,i}$.
+Not a real error.
+
+[109]
+! Preview: Snippet 110 started.
+<-><->
+      
+l.334 компоненте $a_{2L,i}$ как $
+                                 b_{2L,i}$.
+Not a real error.
+
+! Preview: Snippet 110 ended.(455111+187504x1275869).
+<-><->
+      
+l.334 компоненте $a_{2L,i}$ как $b_{2L,i}$
+                                          .
+Not a real error.
+
+[110]
+! Preview: Snippet 111 started.
+<-><->
+      
+l.336 Суммируя по всем возможным $
+                                  a_0$ получаем
+Not a real error.
+
+! Preview: Snippet 111 ended.(282168+98303x640419).
+<-><->
+      
+l.336 Суммируя по всем возможным $a_0$
+                                       получаем
+Not a real error.
+
+[111]
+! Preview: Snippet 112 started.
+<-><->
+      
+l.337 \[
+        
+Not a real error.
+
+! Preview: Snippet 112 ended.(1544427+0x13375127).
+<-><->
+      
+l.339 \]
+        
+Not a real error.
+
+[112]
+! Preview: Snippet 113 started.
+<-><->
+      
+l.340  - количество циклов длины $
+                                  2L$, где каждый цикл учтен дважды столько,...
+
+Not a real error.
+
+! Preview: Snippet 113 ended.(447828+0x773691).
+<-><->
+      
+l.340  - количество циклов длины $2L$
+                                     , где каждый цикл учтен дважды столько,...
+
+Not a real error.
+
+[113]
+! Preview: Snippet 114 started.
+<-><->
+      
+l.343 Обозначим за $
+                    g_{w}(l)$ -- число циклов длины и периода $l$ веса $w$.
+Not a real error.
+
+! Preview: Snippet 114 ended.(491520+163840x1454995).
+<-><->
+      
+l.343 Обозначим за $g_{w}(l)$
+                              -- число циклов длины и периода $l$ веса $w$.
+Not a real error.
+
+[114]
+! Preview: Snippet 115 started.
+<-><->
+      
+l.343 ...{w}(l)$ -- число циклов длины и периода $
+                                                  l$ веса $w$.
+Not a real error.
+
+! Preview: Snippet 115 ended.(455111+0x208442).
+<-><->
+      
+l.343 ...}(l)$ -- число циклов длины и периода $l$
+                                                   веса $w$.
+Not a real error.
+
+[115]
+! Preview: Snippet 116 started.
+<-><->
+      
+l.343 ...- число циклов длины и периода $l$ веса $
+                                                  w$.
+Not a real error.
+
+! Preview: Snippet 116 ended.(282168+0x486818).
+<-><->
+      
+l.343 ...число циклов длины и периода $l$ веса $w$
+                                                  .
+Not a real error.
+
+[116]
+! Preview: Snippet 117 started.
+<-><->
+      
+l.345 При фиксированном $
+                         W$ и длине $L$ имеем равенство:
+Not a real error.
+
+! Preview: Snippet 117 ended.(447828+0x709974).
+<-><->
+      
+l.345 При фиксированном $W$
+                            и длине $L$ имеем равенство:
+Not a real error.
+
+[117]
+! Preview: Snippet 118 started.
+<-><->
+      
+l.345 При фиксированном $W$ и длине $
+                                     L$ имеем равенство:
+Not a real error.
+
+! Preview: Snippet 118 ended.(447828+0x446010).
+<-><->
+      
+l.345 При фиксированном $W$ и длине $L$
+                                        имеем равенство:
+Not a real error.
+
+[118]
+! Preview: Snippet 119 started.
+<-><->
+      
+l.346 \[
+        
+Not a real error.
+
+! Preview: Snippet 119 ended.(1946459+0x16119163).
+<-><->
+      
+l.348 \]
+        
+Not a real error.
+
+[119]
+! Preview: Snippet 120 started.
+<-><->
+      
+l.350 ... справедливо, так как каждый цикл длины $
+                                                  L$ периода $d$ веса $W$ со...
+
+Not a real error.
+
+! Preview: Snippet 120 ended.(447828+0x446010).
+<-><->
+      
+l.350 ...праведливо, так как каждый цикл длины $L$
+                                                   периода $d$ веса $W$ сост...
+
+Not a real error.
+
+[120]
+! Preview: Snippet 121 started.
+<-><->
+      
+l.350 ..., так как каждый цикл длины $L$ периода $
+                                                  d$ веса $W$ состоит из пов...
+
+Not a real error.
+
+! Preview: Snippet 121 ended.(455111+0x341106).
+<-><->
+      
+l.350 ...так как каждый цикл длины $L$ периода $d$
+                                                   веса $W$ состоит из повто...
+
+Not a real error.
+
+[121]
+! Preview: Snippet 122 started.
+<-><->
+      
+l.350 ... каждый цикл длины $L$ периода $d$ веса $
+                                                  W$ состоит из повторенного...
+
+Not a real error.
+
+! Preview: Snippet 122 ended.(447828+0x709974).
+<-><->
+      
+l.350 ...аждый цикл длины $L$ периода $d$ веса $W$
+                                                   состоит из повторенного $...
+
+Not a real error.
+
+[122]
+! Preview: Snippet 123 started.
+<-><->
+      
+l.350 ...да $d$ веса $W$ состоит из повторенного $
+                                                  \frac{L}{d}$ раз
+Not a real error.
+
+! Preview: Snippet 123 ended.(571517+225995x516826).
+<-><->
+      
+l.350 ...$W$ состоит из повторенного $\frac{L}{d}$
+                                                   раз
+Not a real error.
+
+[123]
+! Preview: Snippet 124 started.
+<-><->
+      
+l.351 цикла длины и периода $
+                             d$ веса $w$, такого что $w\cdot d = W \pmod M$ ...
+
+Not a real error.
+
+! Preview: Snippet 124 ended.(455111+0x341106).
+<-><->
+      
+l.351 цикла длины и периода $d$
+                                веса $w$, такого что $w\cdot d = W \pmod M$ ...
+
+Not a real error.
+
+[124]
+! Preview: Snippet 125 started.
+<-><->
+      
+l.351 цикла длины и периода $d$ веса $
+                                      w$, такого что $w\cdot d = W \pmod M$ ...
+
+Not a real error.
+
+! Preview: Snippet 125 ended.(282168+0x486818).
+<-><->
+      
+l.351 цикла длины и периода $d$ веса $w$
+                                        , такого что $w\cdot d = W \pmod M$ ...
+
+Not a real error.
+
+[125]
+! Preview: Snippet 126 started.
+<-><->
+      
+l.351 ...лины и периода $d$ веса $w$, такого что $
+                                                  w\cdot d = W \pmod M$ и од...
+
+Not a real error.
+
+! Preview: Snippet 126 ended.(491520+163840x5867804).
+<-><->
+      
+l.351 ...са $w$, такого что $w\cdot d = W \pmod M$
+                                                   и однозначно им задается.
+Not a real error.
+
+[126]
+! Preview: Snippet 127 started.
+<-><->
+      
+l.352 Каждый такой цикл имеет $
+                               d$ различных циклических сдвигов, поэтому учт...
+
+Not a real error.
+
+! Preview: Snippet 127 ended.(455111+0x341106).
+<-><->
+      
+l.352 Каждый такой цикл имеет $d$
+                                  различных циклических сдвигов, поэтому учт...
+
+Not a real error.
+
+[127]
+! Preview: Snippet 128 started.
+<-><->
+      
+l.352 ...ых циклических сдвигов, поэтому учтен в $
+                                                  b_L^W$ $2d$ раз, для обоих
+Not a real error.
+
+! Preview: Snippet 128 ended.(551306+180508x877455).
+<-><->
+      
+l.352 ...лических сдвигов, поэтому учтен в $b_L^W$
+                                                   $2d$ раз, для обоих
+Not a real error.
+
+[128]
+! Preview: Snippet 129 started.
+<-><->
+      
+l.352 ...ческих сдвигов, поэтому учтен в $b_L^W$ $
+                                                  2d$ раз, для обоих
+Not a real error.
+
+! Preview: Snippet 129 ended.(455111+0x668787).
+<-><->
+      
+l.352 ...ких сдвигов, поэтому учтен в $b_L^W$ $2d$
+                                                   раз, для обоих
+Not a real error.
+
+[129]
+! Preview: Snippet 130 started.
+<-><->
+      
+l.356 \[
+        
+Not a real error.
+
+! Preview: Snippet 130 ended.(1682098+0x13510504).
+<-><->
+      
+l.358 \]
+        
+Not a real error.
+
+[130]
+! Preview: Snippet 131 started.
+<-><->
+      
+l.360 $
+       g(d)$ может быть выражено с помощью формулы обращения Мебиуса:
+Not a real error.
+
+! Preview: Snippet 131 ended.(491520+163840x1186931).
+<-><->
+      
+l.360 $g(d)$
+             может быть выражено с помощью формулы обращения Мебиуса:
+Not a real error.
+
+[131]
+! Preview: Snippet 132 started.
+<-><->
+      
+l.361 \[
+        
+Not a real error.
+
+! Preview: Snippet 132 ended.(1682098+0x14493889).
+<-><->
+      
+l.363 \]
+        
+Not a real error.
+
+[132]
+! Preview: Snippet 133 started.
+<-><->
+      
+l.366 \[
+        
+Not a real error.
+
+! Preview: Snippet 133 ended.(2359320+0x15848331).
+<-><->
+      
+l.375 \]
+        
+Not a real error.
+
+[133]
+! Preview: Snippet 134 started.
+<-><->
+      
+l.377 Зафиксируем $
+                   W$. Пусть
+Not a real error.
+
+! Preview: Snippet 134 ended.(447828+0x709974).
+<-><->
+      
+l.377 Зафиксируем $W$
+                     . Пусть
+Not a real error.
+
+[134]
+! Preview: Snippet 135 started.
+<-><->
+      
+l.378 \[
+        
+Not a real error.
+
+! Preview: Snippet 135 ended.(1946459+0x15745973).
+<-><->
+      
+l.380 \]
+        
+Not a real error.
+
+[135]
+! Preview: Snippet 136 started.
+<-><->
+      
+l.381 \[
+        
+Not a real error.
+
+! Preview: Snippet 136 ended.(747914+0x12854158).
+<-><->
+      
+l.383 \]
+        
+Not a real error.
+
+[136]
+! Preview: Snippet 137 started.
+<-><->
+      
+l.386 \[
+        
+Not a real error.
+
+! Preview: Snippet 137 ended.(1946459+0x17059010).
+<-><->
+      
+l.388 \]
+        
+Not a real error.
+
+[137]
+! Preview: Snippet 138 started.
+<-><->
+      
+l.391 ... исходная базовая  матрица имела размер $
+                                                  b \times c$.
+Not a real error.
+
+! Preview: Snippet 138 ended.(455111+54613x1365859).
+<-><->
+      
+l.391 ...азовая  матрица имела размер $b \times c$
+                                                  .
+Not a real error.
+
+[138]
+! Preview: Snippet 139 started.
+<-><->
+      
+l.392 Для простоты будем рассматривать $
+                                        (J,K)$-регулярный МППЧ код с
+Not a real error.
+
+! Preview: Snippet 139 ended.(491520+163840x1758092).
+<-><->
+      
+l.392 Для простоты будем рассматривать $(J,K)$
+                                              -регулярный МППЧ код с
+Not a real error.
+
+[139]
+! Preview: Snippet 140 started.
+<-><->
+      
+l.393 весом столбцов и строк $
+                              J$ и $K$ соответственно.
+Not a real error.
+
+! Preview: Snippet 140 ended.(447828+0x426439).
+<-><->
+      
+l.393 весом столбцов и строк $J$
+                                 и $K$ соответственно.
+Not a real error.
+
+[140]
+! Preview: Snippet 141 started.
+<-><->
+      
+l.393 весом столбцов и строк $J$ и $
+                                    K$ соответственно.
+Not a real error.
+
+! Preview: Snippet 141 ended.(447828+0x603477).
+<-><->
+      
+l.393 весом столбцов и строк $J$ и $K$
+                                       соответственно.
+Not a real error.
+
+[141]
+! Preview: Snippet 142 started.
+<-><->
+      
+l.398 \section
+              {Численный анализ влияния спектров циклов на вероятность ошибки
+Not a real error.
+
+! Preview: Snippet 142 ended.(1826986+183455x22609920).
+<-><->
+      
+l.399 БП-декодирования}
+                       
+Not a real error.
+
+[142
+
+]
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1064 strings out of 480063
+ 16901 string characters out of 5883954
+ 307573 words of memory out of 5000000
+ 17218 multiletter control sequences out of 15000+600000
+ 26053 words of font info for 70 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,15n,60p,251b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on _region_.pdf (142 pages, 222368 bytes).
+PDF statistics:
+ 538 PDF objects out of 1000 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,91 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{app07}
+\selectlanguageifdefined{english}
+The Traveling Salesman Problem~/ D.~L.~Applegate, R.~E.~Bixby, V.~Chvátal
+  et~al.
+\newblock Princeton University Press, 2007.
+
+\bibitem{ben03}
+\selectlanguageifdefined{english}
+Transformations of Generalized ATSP into ATSP~/ ~D.Ben-Arieh, ~G.Gutin, ~M.Penn
+  et~al.~// Elsevier Science. Operations Research Letters.
+\newblock 2003.
+\newblock Vol.~31.
+\newblock P.~357--365.
+
+\bibitem{dew13}
+\selectlanguageifdefined{english}
+Heuristics for the traveling repairman problem with profit~/ ~T.Dewilde,
+  ~D.Cattrysse, ~S.Coene et~al.~// Computers \& Operations Research.
+\newblock 2013.
+\newblock Vol.~40.
+\newblock P.~1700--1707.
+
+\bibitem{li06}
+\selectlanguageifdefined{english}
+Li~C., Yang~M., Kang~L. A New Approach to Solving Dynamic Traveling Salesman
+  Problems~// Springer Science. Lecture Notes in Computer Science.
+\newblock 2006.
+\newblock Vol. 4247.
+\newblock P.~236--243.
+
+\bibitem{lop13}
+\selectlanguageifdefined{english}
+The Travelling Salesman Problem with Time Windows: Adapting Algorithms from
+  Travel-time to Makespan Optimization: Tech. Rep.: TR/IRIDIA/2013-011~/
+  M.~Lopez-Ib´a´nez˜, C.~Blumb, J.~W.~Ohlmannc et~al.: IRIDIA, Institut de
+  Recherches Interdisciplinaires et de D´eveloppements en Intelligence
+  Artificielle. Universite Libre de Bruxelles, 2013.
+
+\bibitem{ham99}
+\selectlanguageifdefined{english}
+Hammar~M., Nilsson~B.~J. Approximation Results for Kinetic Variants of TSP~//
+  Springer Science. Lecture Notes in Computer Science.
+\newblock 1999.
+\newblock Vol. 1644.
+\newblock P.~392--401.
+
+\bibitem{hel03}
+\selectlanguageifdefined{english}
+Helvig~C., Robins~G., Zelikovsky~A. The moving-target traveling salesman
+  problem~// Elsevier Science. Journal of Algorithms.
+\newblock 2003.
+\newblock Vol.~49.
+\newblock P.~153--174.
+
+\bibitem{napss90}
+\selectlanguageifdefined{russian}
+(Выписка из НАПСС-90) Основные принципы
+  организации поисково-спасательного
+  обеспечения полетов авиации.
+\newblock http://aviaclub.ru/uploads/media/PSO\_poljotov.pdf.
+\newblock 1990.
+
+\bibitem{nov12}
+\selectlanguageifdefined{russian}
+Novak~Jan, Kaplanyan~Anton, Liktor~Gabor {[и~др.]}. GPU Computing: Image
+  Convolution.
+\newblock 2012.
+
+\bibitem{gon02}
+\selectlanguageifdefined{english}
+R.C.Gonzalez, R.E.Woods. Digital Image Processing.
+\newblock Pearson Education Inc., 2002.
+
+\bibitem{ryo08}
+\selectlanguageifdefined{english}
+Optimization Principles and Application Performance Evaluation of a
+  Multithreaded GPU Using CUDA~/ S.~Ryoo, C.~Rodrigues, S.~Baghsorkhi et~al.~//
+  PPoPP’08.
+\newblock 2008.  February.
+\newblock P.~73--82.
+
+\end{thebibliography}

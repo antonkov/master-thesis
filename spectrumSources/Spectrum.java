@@ -167,6 +167,7 @@ public class Spectrum {
 
         Queue<String> q = new ArrayDeque<>();
         q.addAll(Arrays.asList(filesAndFolders));
+        long resultTime = 0;
         while (!q.isEmpty()) {
             String filename = q.poll();
             {
@@ -202,6 +203,7 @@ public class Spectrum {
                 SolveReport report = solve(J, K, M, ws);
 
                 long time = System.currentTimeMillis() - startTime;
+                resultTime += time;
                 out.print(filename + " ");
                 int shown = 0;
                 for (int i = 1; i < report.spectrum.length; i++) {
@@ -216,6 +218,7 @@ public class Spectrum {
             }
         }
 
+        System.out.println("took time " + resultTime);
         out.close();
     }
 
