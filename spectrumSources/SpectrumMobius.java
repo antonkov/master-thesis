@@ -116,20 +116,21 @@ public class SpectrumMobius {
             mu[i] = (r % 2 == 0) ? 1 : -1;
         }
         long[] spectrum = new long[SPECTRUM_SIZE + 1];
-        long[][] f = new long[SPECTRUM_SIZE + 1][M]; // f[i][j] - count cycles with period i and weight j
-        for (int period = 1; period <= SPECTRUM_SIZE; period++) {
-            for (int d = 1; d <= period; d++) {
-                if (period % d == 0) {
-                    for (int subW = 0; subW < M; subW++) {
-                        f[period][(subW * d) % M] += mu[d] * cntCyclesThroughEdge[subW][period / d];
+        long[][] g = new long[SPECTRUM_SIZE + 1][M]; // f[i][j] - count cycles with period and length i and weight j
+        for (int w = 0; w < M; w++) {
+            for (int period = 1; period <= SPECTRUM_SIZE; period++) {
+                for (int d = 1; d <= period; d++) {
+                    if (period % d == 0) {
+                        for (int subW = 0; subW < M; subW++) {
+                            if (subW * d % M == w)
+                                g[period][w] += mu[d] * cntCyclesThroughEdge[subW][period / d];
+                        }
                     }
                 }
-            }
-            for (int w = 0; w < M; w++) {
-                if (f[period][w] % period != 0) {
+                if (g[period][w] % period != 0) {
                     throw new AssertionError();
                 }
-                f[period][w] /= period;
+                g[period][w] /= period;
             }
         }
         // end Mobius inversion
@@ -138,7 +139,7 @@ public class SpectrumMobius {
             for (int num = 1; num * period <= SPECTRUM_SIZE; num++) {
                 for (int w = 0; w < M; w++) {
                     if (w * num % M == 0) {
-                        spectrum[num * period] += f[period][w];
+                        spectrum[num * period] += g[period][w];
                     }
                 }
             }
