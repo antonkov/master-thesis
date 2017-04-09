@@ -11,6 +11,7 @@
 \usepackage{tikz}
 \newcommand{\inputTikZ}[1]{\input{#1.tikz}}
 
+\usepackage{amsthm}
 
 \newtheorem{theorem}{Теорема}[section]
 \newtheorem{lemma}[theorem]{Лемма}
@@ -25,10 +26,18 @@
 
 \begin{document}
 
-\message{ !name(VoltageAnal.tex) !offset(426) }
-\[
-  T_{\frac{n}{n}}(g(n))  = T_1(g(n)) = g(n)
-\]
-\message{ !name(VoltageAnal.tex) !offset(469) }
+\message{ !name(VoltageAnal.tex) !offset(389) }
+
+\end{lemma}
+
+\begin{proof}
+
+\begin{proof}
+  \[
+  n = p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots p_r^{e_r}
+  \]
+
+
+\message{ !name(VoltageAnal.tex) !offset(474) }
 
 \end{document}
