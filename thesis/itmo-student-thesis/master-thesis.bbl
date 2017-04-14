@@ -1,0 +1,168 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{example-english}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f96d9251f05e1270fbdc2ec90bbd7018}{%
+           family={Buzdalov},
+           familyi={B\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+        {{hash=221c25e7aa38145b0c897ca630e62869}{%
+           family={Shalyto},
+           familyi={S\bibinitperiod},
+           given={Anatoly},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \strng{fullhash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \strng{authornamehash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \strng{authorfullhash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of IEEE Congress on Evolutionary Computation}
+      \field{langid}{english}
+      \field{title}{Hard Test Generation for Augmenting Path Maximum Flow Algorithms using Genetic Algorithms: Revisited}
+      \field{year}{2015}
+      \field{pages}{2121\bibrangedash 2128}
+      \range{pages}{8}
+    \endentry
+    \entry{example-russian}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d57e8ae2b0c996ecc34ca90245a15be3}{%
+           family={Буздалов},
+           familyi={Б\bibinitperiod},
+           given={Максим\bibnamedelima Викторович},
+           giveni={М\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \strng{fullhash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \strng{authornamehash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \strng{authorfullhash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Научно-технический вестник {СПбГУ} {ИТМО}}
+      \field{langid}{russian}
+      \field{title}{Генерация тестов для олимпиадных задач по программированию с использованием генетических алгоритмов}
+      \field{year}{2011}
+      \field{number}{2(72)}
+      \range{number}{-1}
+      \field{pages}{72\bibrangedash 77}
+      \range{pages}{6}
+    \endentry
+    \entry{unrestricted-jump-evco}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f96d9251f05e1270fbdc2ec90bbd7018}{%
+           family={Buzdalov},
+           familyi={B\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31e296f14b85dca631fe682b68c6c371}{%
+           family={Doerr},
+           familyi={D\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3ee5fa32626ef1db8f193a744ab81482}{%
+           family={Kever},
+           familyi={K\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b254c428f3d82aff033f08f9b5dc66a}
+      \strng{fullhash}{5b254c428f3d82aff033f08f9b5dc66a}
+      \strng{authornamehash}{5b254c428f3d82aff033f08f9b5dc66a}
+      \strng{authorfullhash}{5b254c428f3d82aff033f08f9b5dc66a}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolutionary Computation}
+      \field{langid}{english}
+      \field{note}{Accepted for publication}
+      \field{title}{The Unrestricted Black-Box Complexity of Jump Functions}
+      \field{year}{2016}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{1}
+  \sortlist[entry]{none/global/}
+    \entry{example-english}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f96d9251f05e1270fbdc2ec90bbd7018}{%
+           family={Buzdalov},
+           familyi={B\bibinitperiod},
+           given={Maxim},
+           giveni={M\bibinitperiod}}}%
+        {{hash=221c25e7aa38145b0c897ca630e62869}{%
+           family={Shalyto},
+           familyi={S\bibinitperiod},
+           given={Anatoly},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \strng{fullhash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \strng{authornamehash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \strng{authorfullhash}{888d87a2b2c516f90fd0f7d2b53dad74}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of IEEE Congress on Evolutionary Computation}
+      \field{langid}{english}
+      \field{title}{Hard Test Generation for Augmenting Path Maximum Flow Algorithms using Genetic Algorithms: Revisited}
+      \field{year}{2015}
+      \field{pages}{2121\bibrangedash 2128}
+      \range{pages}{8}
+    \endentry
+    \entry{example-russian}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d57e8ae2b0c996ecc34ca90245a15be3}{%
+           family={Буздалов},
+           familyi={Б\bibinitperiod},
+           given={Максим\bibnamedelima Викторович},
+           giveni={М\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
+      }
+      \strng{namehash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \strng{fullhash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \strng{authornamehash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \strng{authorfullhash}{d57e8ae2b0c996ecc34ca90245a15be3}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Научно-технический вестник {СПбГУ} {ИТМО}}
+      \field{langid}{russian}
+      \field{title}{Генерация тестов для олимпиадных задач по программированию с использованием генетических алгоритмов}
+      \field{year}{2011}
+      \field{number}{2(72)}
+      \range{number}{-1}
+      \field{pages}{72\bibrangedash 77}
+      \range{pages}{6}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

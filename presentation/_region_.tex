@@ -1,4 +1,4 @@
-\documentclass[t,13pt,graphics=pdflatex,xcolor=table,aspectratio=43]{beamer}
+\message{ !name(presentation.tex)}\documentclass[t,13pt,graphics=pdflatex,xcolor=table,aspectratio=43]{beamer}
 
 %% Misc packaging
 \usepackage[utf8]{inputenc}
@@ -7,9 +7,7 @@
 \usepackage{amssymb,amsmath}
 \usepackage{graphicx}
 \usepackage{multirow}
-\usepackage{blkarray}
 \usepackage{tikz}
-\usepackage[table]{xcolor}
 \newcommand{\inputTikZ}[1]{\input{#1.tikz}}
 
 %% Theorems
@@ -21,6 +19,7 @@
 \newtheorem{definitionRus}{Определение}[section]
 
 \setbeamertemplate{blocks}[rounded][shadow=false]
+
 %% Добавляйте новые пути с картинками в эту команду.
 %% Будет примерно так:
 %% \graphicspath{{itmo-logo/}{pic/}}
@@ -53,6 +52,9 @@
 \newcommand{\alertAt}[2]{\alt<#1>{\alert{#2}}{#2}}
 
 \begin{document}
+
+\message{ !name(presentation.tex) !offset(-3) }
+
 
 %% Идиотский способ сделать титульную страницу
 \begingroup
@@ -102,12 +104,12 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Общие понятия \\ Линейный код}
+\begin{frame}{Общие понятия}
   Линейный $(n, k)$ код \\
   $G$ -- порождающая матрица \\
   $H$ -- проверочная матрица \\
-  $G \cdot H^T = 0$ -- проверка на четность \\ МППЧ-код -- код с малой плотностью проверок на четность (мало единиц в $H$) \\ 
-
+  $G \cdot H^T = 0$ -- проверка на четность \\
+  МППЧ-код -- код с малой плотностью проверок на четность (мало единиц в $H$) \\
 \begin{exampleblock}{Пример}
 \begin{align*}
     G&=
@@ -123,32 +125,18 @@
 \end{align*}
 \end{exampleblock}
 \end{frame}
-\newcommand\colorBox[2]{\setlength{\fboxsep}{2pt}\colorbox{#1!10}{#2}}
+
 \begin{frame}{Общие понятия \\ Графическое представление}
 \begin{itemize}
-  \item Символьный узел -- кодовый символ \tikz{\filldraw[thick,draw=black!50,fill=red!10] circle(1ex);}
-  \item Проверочный узел -- проверка на четность \tikz{\filldraw[thick,draw=black!50,fill=green!10] rectangle(2ex,2ex);}
+  \item Символьный узел -- кодовый символ \tikz{rectangle,draw=black!50,fill=green!,thick}
+  \item Проверочный узел -- проверка на четность \tikz{circle,draw=black!50,fill=white!,thick}
   \item Линия между если символ состоит в проверке
 \end{itemize}
-\begin{minipage}[c]{.3\textwidth}
-  \[
-    \begin{blockarray}{ccccc}
-        \colorBox{red}{1} & \colorBox{red}{2} & \colorBox{red}{3} & \colorBox{red}{4} \\
-        \begin{block}{(cccc)c}
-            1&1&0&1&\colorBox{green}{5}\\
-            1&1&1&0&\colorBox{green}{6}\\
-            1&0&1&1&\colorBox{green}{7} \\
-        \end{block}
-    \end{blockarray}
-  \]
-\end{minipage}
-\begin{minipage}[c]{.68\textwidth}
 \begin{figure}[!h]
   \centering
   \inputTikZ{../tikz/ex_graph1}
   \label{fig1}
 \end{figure}
-\end{minipage}
 \end{frame}
 
 \end{document}
@@ -157,3 +145,5 @@
 %%% mode: latex
 %%% TeX-master: t
 %%% End:
+
+\message{ !name(presentation.tex) !offset(-149) }

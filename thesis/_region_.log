@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=prv_VoltageAnal 2017.4.3)  3 APR 2017 02:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=prv_VoltageAnal 2017.4.10)  10 APR 2017 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -35,6 +35,9 @@ amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
   amsbsy.sty    1999/11/29 v1.2d Bold Symbols
   amsopn.sty    2016/03/08 v2.02 operator names
    array.sty    2014/10/28 v2.4c Tabular extension package (FMi)
+mathtools.sty    2015/11/12 v1.18 mathematical typesetting tools
+    calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+ mhsetup.sty    2010/01/21 v1.2a programming setup (MH)
     tikz.sty    2015/08/07 v3.0.1a (rcs-revision 1.151)
      pgf.sty    2015/08/07 v3.0.1a (rcs-revision 1.15)
   pgfrcs.sty    2015/08/07 v3.0.1a (rcs-revision 1.31)
@@ -64,35 +67,35 @@ pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
  t2acmss.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
         .
 No file _region_.aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 (/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/preview.sty
 Package: preview 2010/02/14 11.90 (AUCTeX/preview-latex)
 
 (/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prtightpage.def
-\PreviewBorder=\dimen165
+\PreviewBorder=\dimen174
 )
 (/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prauctex.def
 No auxiliary output files.
 
 
-\hbadness=\count125
-\hfuzz=\dimen166
+\hbadness=\count129
+\hfuzz=\dimen175
 (/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prauctex.cfg))
 (/Users/antonkov/.emacs.d/elpa/auctex-11.90.0/latex/prfootnotes.def)
-\pr@snippet=\count126
+\pr@snippet=\count130
 \pr@box=\box39
 \pr@output=\toks42
 
@@ -100,16 +103,16 @@ Preview: Fontsize 10pt
 Preview: PDFoutput 1
 ) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen167
+\scratchcounter=\count131
+\scratchdimen=\dimen176
 \scratchbox=\box40
-\nofMPsegments=\count128
-\nofMParguments=\count129
+\nofMPsegments=\count132
+\nofMParguments=\count133
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen168
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen177
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
@@ -158,83 +161,74 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-ABD: EveryShipout initializing macros  !name(VoltageAnal.tex) !offset(389) 
-
-! LaTeX Error: \begin{document} ended by \end{lemma}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \end{lemma}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.31 \end{lemma}
-                
-Things are pretty mixed up, but I think the worst is over.
-
+ABD: EveryShipout initializing macros  !name(VoltageAnal.tex) !offset(520) 
 ! Preview: Snippet 1 started.
 <-><->
       
-l.36   \[
-         
+l.32 ...но для всех разумных входных данных член $
+                                                  E^3$ мажорирует $\ln S$ та...
+
 Not a real error.
 
 Preview: Tightpage -32891 -32891 32891 32891
-! Preview: Snippet 1 ended.(663546+0x14153317).
+! Preview: Snippet 1 ended.(533465+0x815559).
 <-><->
       
-l.38   \]
-         
+l.32 ...ля всех разумных входных данных член $E^3$
+                                                   мажорирует $\ln S$ таким ...
+
 Not a real error.
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
- !name(VoltageAnal.tex) !offset(474) 
+! Preview: Snippet 2 started.
+<-><->
+      
+l.32 ...ных входных данных член $E^3$ мажорирует $
+                                                  \ln S$ таким образом итого...
 
-! LaTeX Error: \begin{proof} on input line 35 ended by \end{document}.
+Not a real error.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+! Preview: Snippet 2 ended.(455111+0x1094995).
+<-><->
+      
+l.32 ...одных данных член $E^3$ мажорирует $\ln S$
+                                                   таким образом итоговая сл...
 
- )
-(\end occurred inside a group at level 2)
+Not a real error.
 
-### semi simple group (level 2) entered at line 35 (\begingroup)
-### semi simple group (level 1) entered at line 33 (\begingroup)
-### bottom level 
+[2]
+! Preview: Snippet 3 started.
+<-><->
+      
+l.33 \[
+       
+Not a real error.
+
+! Preview: Snippet 3 ended.(730073+0x13273400).
+<-><->
+      
+l.35 \]
+       
+Not a real error.
+
+[3]  !name(VoltageAnal.tex) !offset(528)  ) 
 Here is how much of TeX's memory you used:
- 846 strings out of 479995
- 13356 string characters out of 5883109
- 301786 words of memory out of 5000000
- 17103 multiletter control sequences out of 15000+600000
+ 846 strings out of 479456
+ 13356 string characters out of 5873566
+ 313842 words of memory out of 5000000
+ 17632 multiletter control sequences out of 15000+600000
  11444 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,24p,251b,256s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b>
-Output written on _region_.pdf (1 page, 52160 bytes).
+ 38i,5n,24p,251b,142s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on _region_.pdf (3 pages, 33691 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

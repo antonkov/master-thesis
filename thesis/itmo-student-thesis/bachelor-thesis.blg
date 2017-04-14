@@ -1,0 +1,21 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'bachelor-thesis.blg'
+[46] biber-darwin:290> INFO - === Wed Apr 12, 2017, 14:32:24
+[70] Biber.pm:351> INFO - Reading 'bachelor-thesis.bcf'
+[219] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
+[219] Biber.pm:776> INFO - Found 2 citekeys in bib section 1
+[219] Biber.pm:776> INFO - Found 3 citekeys in bib section 0
+[244] Biber.pm:3493> INFO - Processing section 0
+[259] Biber.pm:3657> INFO - Looking for bibtex format file 'bachelor-thesis.bib' for section 0
+[262] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[262] bibtex.pm:1048> INFO - Found BibTeX data source 'bachelor-thesis.bib'
+[279] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[279] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[279] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'ru-RU'
+[282] Biber.pm:3493> INFO - Processing section 1
+[282] Biber.pm:3657> INFO - Looking for bibtex format file 'bachelor-thesis.bib' for section 1
+[295] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[295] UCollate.pm:66> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[295] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'ru-RU'
+[297] bbl.pm:526> INFO - Writing 'bachelor-thesis.bbl' with encoding 'UTF-8'
+[299] bbl.pm:619> INFO - Output to bachelor-thesis.bbl
