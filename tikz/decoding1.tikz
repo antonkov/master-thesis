@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+[
+scale=2,transform shape,
+state/.style={rectangle,draw=black!50,fill=green!10,thick,minimum size=5mm},
+oper/.style={circle,draw=black!50,fill=red!10,thick,minimum size=5mm, font=\small},
+arr/.style={-,auto,>=stealth}
+]
+\small
+
+\node (s1) at (-1,0) [oper] {1};
+\node (s2) at (2,1) [oper] {2};
+\node (s3) at (2,-1) [oper] {3};
+
+\node (s4) at (1,0) [state] {4};
+\node (s5) at (-2,1) [state] {5};
+\node (s6) at (-2,-1) [state] {6};
+
+\draw [arr](s1)[] to node [right]{} node{}(s4);
+\draw [arr](s1)[] to node [right]{} node{}(s5);
+\draw [arr](s1)[] to node [right]{} node{}(s6);
+\draw [arr](s2)[] to node [right]{} node{}(s4);
+\draw [arr](s3)[] to node [right]{} node{}(s4);
+
+\end{tikzpicture}
+
