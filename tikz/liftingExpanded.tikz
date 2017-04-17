@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+[
+scale=1,transform shape,
+state/.style={rectangle,draw=black!50,fill=green!10,thick,minimum size=5mm},
+stateBr/.style={rectangle,draw=black,fill=green!20,thick,minimum size=5mm},
+oper/.style={circle,draw=black!50,fill=red!10,thick,minimum size=5mm, font=\small},
+operBr/.style={circle,draw=black,fill=red!20,thick,minimum size=5mm, font=\small},
+arr/.style={-,auto,>=stealth},
+arrAct/.style={->,auto,>=stealth,thick,draw=red}
+]
+\small
+
+\foreach \x in {0,1,2,3,4,5,6} {
+   \node (s\x) at (\x,2) [oper] {$a_{\x}$};
+   \node (t\x) at (\x,-2) [state] {$b_{\x}$};
+}
+\foreach \x in {0,1,2,3,4,5,6} {
+   \draw [arr](s\x)[] to node [above]{} node{}(t\x);
+   \pgfmathparse{int(mod(\x+1, 7))}
+   \draw[red] (s\x)[] to node [above]{} node{}(t\pgfmathresult);
+   \pgfmathparse{int(mod(\x+3, 7))}
+   \draw[green] [arr](s\x)[] to node [above]{} node{}(t\pgfmathresult);
+}
+
+\end{tikzpicture}
+

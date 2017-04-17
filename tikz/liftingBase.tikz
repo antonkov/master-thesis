@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+[
+scale=1,transform shape,
+state/.style={rectangle,draw=black!50,fill=green!10,thick,minimum size=5mm},
+stateBr/.style={rectangle,draw=black,fill=green!20,thick,minimum size=5mm},
+oper/.style={circle,draw=black!50,fill=red!10,thick,minimum size=5mm, font=\small},
+operBr/.style={circle,draw=black,fill=red!20,thick,minimum size=5mm, font=\small},
+arr/.style={-,auto,>=stealth},
+arrAct/.style={->,auto,>=stealth,thick,draw=red}
+]
+\small
+
+\node (sA) at (0,2) [oper] {a};
+\node (sB) at (0,-2) [state] {b};
+
+\draw[green] [arr](sA)[] to[out=-50,in=50] node [right]{3} node{}(sB);
+\draw[red] [arr](sA)[] to node [left]{1} node{}(sB);
+\draw [arr](sA)[] to[out=230,in=130] node [left]{0} node{}(sB);
+
+\end{tikzpicture}
+

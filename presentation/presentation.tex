@@ -169,20 +169,65 @@
 \end{figure}
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра}
-  1!
+\begin{frame}{Алгоритм подсчета спектра \\ Циклы}
+  \begin{minipage}{0.8\textwidth}
+    \centering
+    \only<1>{\input{../tikz/cycleLen1.tikz}}
+    \only<2>{\input{../tikz/cycleLen2.tikz}}
+    \only<3>{\input{../tikz/cycleLen3.tikz}}
+    \only<4>{\input{../tikz/cycleLen4.tikz}}
+    \only<5>{\input{../tikz/cycleLen5.tikz}}
+    \only<6>{\input{../tikz/cycleLen6.tikz}}
+    \only<7>{\input{../tikz/cycleLen7.tikz}}
+    \only<8>{\input{../tikz/cycleLen8.tikz}}
+    \only<9>{\input{../tikz/cycleLen1.tikz}}
+  \end{minipage}\hfill
+  \begin{minipage}{0.15\textwidth}
+    \only<1>{4: 0}
+    \only<2>{4: 1}
+    \only<3>{4: 2}
+    \only<4->{4: 3}
+    \\
+    \only<1-4>{6: 0}
+    \only<5>{6: 1}
+    \only<6>{6: 2}
+    \only<7>{6: 3}
+    \only<8->{6: 4}
+    \\
+    \only<1-8>{
+        8: 0 \\
+        10: 0 \\
+        12: 0 \\
+        14: 0 
+    }
+    \only<9->{
+    8: 6 \\
+    10: 12 \\
+    12: 29 \\
+    14: 48 
+    }
+    \\
+    ....
+  \end{minipage}
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра}
+\begin{frame}{Алгоритм подсчета спектра \\ Состояние, переходы}
   2!
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра}
+\begin{frame}{Алгоритм подсчета спектра \\ Симметрии, обращение Мебиуса}
   3!
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра}
-  4!
+\begin{frame}{Алгоритм подсчета спектра \\ Лифтинг, веса}
+    \begin{minipage}{0.2\textwidth}
+        \centering
+        \input{../tikz/liftingBase.tikz}
+    \end{minipage}\hfill
+    \begin{minipage}{0.75\textwidth}
+        \centering
+        \input{../tikz/liftingExpanded.tikz}
+    \end{minipage}
 \end{frame}
 
 \newcommand{\plotstandard}[1]{\centerline{\includegraphics[height=3in]{#1}}}
