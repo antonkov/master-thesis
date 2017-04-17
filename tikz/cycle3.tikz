@@ -18,11 +18,12 @@ arrAct/.style={->,auto,>=stealth,thick,draw=red}
 \node (s5) at (-2,1) [state] {5};
 \node (s6) at (-2,-1) [state] {6};
 
-\draw [arr](s5)[] to node [right]{} node{}(s2);
+\node[draw] at (0,-1) {4 и 5 зависимы};
+\draw [arrAct](s5)[] to node [right]{} node{}(s2);
 \draw [arrAct](s1)[] to node [right]{} node{}(s4);
-\draw [arr](s5)[] to node [right]{} node{}(s1);
+\draw [arrAct](s1)[] to node [right]{} node{}(s5);
 \draw [arr](s6)[] to node [right]{} node{}(s1);
-\draw [arr](s2)[] to node [right]{} node{}(s4);
+\draw [arrAct](s4)[] to node [right]{} node{}(s2);
 \draw [arr](s3)[] to node [right]{} node{}(s4);
 
 \end{tikzpicture}
