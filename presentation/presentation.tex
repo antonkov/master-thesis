@@ -11,6 +11,7 @@
 \usepackage{tikz}
 \usepackage[table]{xcolor}
 \newcommand{\inputTikZ}[1]{\input{#1.tikz}}
+\usepackage{subcaption}
 
 %% Theorems
 \newtheorem{theoremRus}{Теорема}[section]
@@ -166,6 +167,55 @@
   \only<2>{\inputTikZ{../tikz/cycle2}}
   \only<3>{\inputTikZ{../tikz/cycle3}}
 \end{figure}
+\end{frame}
+
+\begin{frame}{Алгоритм подсчета спектра}
+  1!
+\end{frame}
+
+\begin{frame}{Алгоритм подсчета спектра}
+  2!
+\end{frame}
+
+\begin{frame}{Алгоритм подсчета спектра}
+  3!
+\end{frame}
+
+\begin{frame}{Алгоритм подсчета спектра}
+  4!
+\end{frame}
+
+\newcommand{\plotstandard}[1]{\centerline{\includegraphics[height=3in]{#1}}}
+\newcommand{\plotsmall}[1]{\includegraphics[height=1.3in]{#1}}
+
+\begin{frame}{Экспериментальные исследования \\ Ричардсон-Урбанке 4x8 576}
+  \plotstandard{../images/r4_576.pdf}
+\end{frame}
+
+\begin{frame}{Экспериментальные исследования \\ Ричардсон-Урбанке 4x8 2304}
+  \plotstandard{../images/r4_2304.pdf}
+\end{frame}
+
+\begin{frame}{Экспериментальные исследования}
+\begin{table}[!t]
+  \begin{tabular}{ccc}
+    \plotsmall{../images/g3_576.pdf}&
+    \plotsmall{../images/g3_2304.pdf}&
+    \plotsmall{../images/q3_576.pdf}\\
+    \plotsmall{../images/q3_2304.pdf}&
+    \plotsmall{../images/q4_576.pdf}&
+    \plotsmall{../images/g4_576.pdf}\\
+  \end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}{Выводы}
+  \begin{itemize}
+    \item Получены экспериментальные доказательства обратной зависимости между количеством коротких циклов 
+      и вероятностью ошибки на блок для различных ансамблей кодов
+    \item Разработан вычислительно эффективный алгоритм подсчета спектра графа Таннера, который может
+      быть использован для ускорения отбора кодов
+  \end{itemize}
 \end{frame}
 
 \end{document}
