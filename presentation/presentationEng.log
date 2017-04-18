@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  18 APR 2017 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  18 APR 2017 12:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**\input presentation.tex
-(./presentation.tex
+**\input presentationEng.tex
+(./presentationEng.tex
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -1345,8 +1345,8 @@ Package caption Info: Hyperref support is turned off
 \c@propRus=\count174
 \c@definitionRus=\count175
 
-(./presentation.aux)
-\openout1 = `presentation.aux'.
+(./presentationEng.aux)
+\openout1 = `presentationEng.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
@@ -1450,9 +1450,9 @@ LaTeX Info: Redefining \ref on input line 56.
 LaTeX Info: Redefining \pageref on input line 56.
 LaTeX Info: Redefining \nameref on input line 56.
 
-(./presentation.out) (./presentation.out)
+(./presentationEng.out) (./presentationEng.out)
 \@outlinefile=\write5
-\openout5 = `presentation.out'.
+\openout5 = `presentationEng.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 56.
@@ -1540,13 +1540,13 @@ LaTeX Info: Redefining \includegraphics on input line 56.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(./presentation.nav)
+(./presentationEng.nav)
 <itmo-logo/itmo_small_blue_rus.png, id=13, 845.0772pt x 597.432pt>
 File: itmo-logo/itmo_small_blue_rus.png Graphic file (type png)
 
 <use itmo-logo/itmo_small_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_small_blue_rus.png used on input line 8
-4.
+3.
 (pdftex.def)             Requested size: 107.55333pt x 76.02798pt.
  [1
 
@@ -1557,28 +1557,28 @@ File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
 
 <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 9
-7.
+6.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 97.
+(Font)              size <5> substituted on input line 96.
 
 [2
 
  <./itmo-logo/itmo_horiz_blue_rus.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 104.
+LaTeX Font Info:    Try loading font information for U+msa on input line 103.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 104.
+LaTeX Font Info:    Try loading font information for U+msb on input line 103.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 104.
+line 103.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1587,7 +1587,7 @@ thkerncmss.
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-04.
+03.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
  [3
 
@@ -1632,7 +1632,7 @@ Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
  [7
 
 ]
-(../tikz/decoding3.tikz)
+(../tikz/decodingEng3.tikz)
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
@@ -1641,7 +1641,7 @@ Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
  [8
 
 ]
-(../tikz/decoding4.tikz)
+(../tikz/decodingEng4.tikz)
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
@@ -1668,7 +1668,7 @@ Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
  [11
 
 ]
-(../tikz/cycle3.tikz)
+(../tikz/cycleEng3.tikz)
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
@@ -1900,20 +1900,20 @@ Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 3
 
 ]
 \tf@nav=\write6
-\openout6 = `presentation.nav'.
+\openout6 = `presentationEng.nav'.
 
 \tf@toc=\write7
-\openout7 = `presentation.toc'.
+\openout7 = `presentationEng.toc'.
 
 \tf@snm=\write8
-\openout8 = `presentation.snm'.
+\openout8 = `presentationEng.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
- (./presentation.aux)
+ (./presentationEng.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
-Package rerunfilecheck Info: File `presentation.out' has not changed.
+Package rerunfilecheck Info: File `presentationEng.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
@@ -1923,12 +1923,12 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  23171 strings out of 493013
- 439456 string characters out of 6133343
- 529063 words of memory out of 5000000
+ 439528 string characters out of 6133343
+ 529087 words of memory out of 5000000
  26056 multiletter control sequences out of 15000+600000
  26205 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,18n,68p,785b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,18n,68p,788b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1947,7 +1947,7 @@ texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on presentation.pdf (28 pages, 329480 bytes).
+Output written on presentationEng.pdf (28 pages, 336545 bytes).
 PDF statistics:
  366 PDF objects out of 1000 (max. 8388607)
  235 compressed objects within 3 object streams

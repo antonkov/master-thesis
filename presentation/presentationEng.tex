@@ -64,52 +64,52 @@
 \centering\bfseries
 \includegraphics[width=0.35\textwidth]{itmo_small_blue_rus.png}
 
-{\Large Ковшаров Антон Павлович \par}
+{\Large Kovsharov Anton Pavlovich \par}
 
 \vspace{0pt plus 0.3filll}
 
-{\large {<<}Исследование зависимости вероятности ошибки на блок от спектра 
-            графа Таннера для МППЧ-кодов{>>}}
+{\large {<<}LDPC-codes frame error rate and Tanner's graph spectrum correlation research{>>}}
 
 \vspace{0pt plus 0.3filll}
 
-{\small Научный руководитель:\par
- докт. техн. наук, проф. Кудряшов Борис Давидович}
+{\small Supervisor:\par
+ Anokhnia I.A., senior teacher, Department of Foreign Languages}
 
 \vspace{0pt plus 0.3filll}
 
-{\small Кафедра КТ \hfill } 
+{\small CT Department \hfill } 
 
 \vspace{0pt plus 1filll}
 \end{frame}
 \endgroup
 
-\begin{frame}{Доклад \\ VI Конгресс молодых ученых}
-\begin{block}{Оглавление}
+\begin{frame}{Report \\ VI Конгресс молодых ученых}
+\begin{block}{Content}
 \begin{enumerate}
-    \item Цели работы
-    \item Общие понятия 
-    \item Алгоритм подсчета спектра
-    \item Экспериментальные исследования
-    \item Выводы
+    \item Goals and Objectives
+    \item Preliminaries
+    \item Spectrum calc algorithm
+    \item Experiments
+    \item Conclusion
 \end{enumerate}
 \end{block}
 \end{frame}
 
-\begin{frame}{Цели работы}
+\begin{frame}{Goals and Objectives}
 \begin{itemize}
-  \item Проверить гипотезу зависимости эффективности итеративного декодирования от числа коротких циклов
-  \item Разработать алгоритм подсчета спектра (числа циклов определенной длины) графа Таннера
+  \item Check hypothesis of correlation between number of short cycles and iterative decoding effectiveness
+  \item Develop algorithm for Tanner's graph spectrum (number of fixed length cycles) calculation
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Общие понятия \\ Линейный код}
-  Линейный $(n, k)$ код \\
-  $G$ -- порождающая матрица \\
-  $H$ -- проверочная матрица \\
-  $G \cdot H^T = 0$ -- проверка на четность \\ МППЧ-код -- код с малой плотностью проверок на четность (мало единиц в $H$) \\ 
+\begin{frame}{Preliminaries \\ Linear code}
+  Linear $(n,k)$ code \\
+  $G$ -- generator matrix \\
+  $H$ -- paritiy check matrix \\
+  $G \cdot H^T = 0$ -- paritiy check equation \\
+ LDPC-code -- Low Density Parity Check code (small number of ones in $H$) \\ 
 
-\begin{exampleblock}{Пример}
+\begin{exampleblock}{Example}
 \begin{align*}
     G&=
     \begin{pmatrix}
@@ -125,11 +125,11 @@
 \end{exampleblock}
 \end{frame}
 \newcommand\colorBox[2]{\setlength{\fboxsep}{2pt}\colorbox{#1!10}{#2}}
-\begin{frame}{Общие понятия \\ Графическое представление}
+\begin{frame}{Preliminaries \\ Graphical representation}
 \begin{itemize}
-  \item Символьный узел -- кодовый символ \tikz{\filldraw[thick,draw=black!50,fill=red!10] circle(1ex);}
-  \item Проверочный узел -- проверка на четность \tikz{\filldraw[thick,draw=black!50,fill=green!10] rectangle(2ex,2ex);}
-  \item Линия между если символ состоит в проверке
+  \item Bit node - code symbol \tikz{\filldraw[thick,draw=black!50,fill=red!10] circle(1ex);}
+  \item Parity node - parity equation \tikz{\filldraw[thick,draw=black!50,fill=green!10] rectangle(2ex,2ex);}
+  \item Line between if that bit is involved in that parity equation
 \end{itemize}
 \begin{minipage}[c]{.3\textwidth}
   \[
@@ -152,24 +152,24 @@
 \end{minipage}
 \end{frame}
 
-\begin{frame}{Общие понятия \\ Декодирование}
+\begin{frame}{Preliminaries \\ Decoding}
 \begin{figure}[c]
   \only<1>{\inputTikZ{../tikz/decoding1}}
   \only<2>{\inputTikZ{../tikz/decoding2}}
-  \only<3>{\inputTikZ{../tikz/decoding3}}
-  \only<4>{\inputTikZ{../tikz/decoding4}}
+  \only<3>{\inputTikZ{../tikz/decodingEng3}}
+  \only<4>{\inputTikZ{../tikz/decodingEng4}}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Общие понятия \\ Цикл}
+\begin{frame}{Preliminaries \\ Cycle}
 \begin{figure}[c]
   \only<1>{\inputTikZ{../tikz/cycle1}}
   \only<2>{\inputTikZ{../tikz/cycle2}}
-  \only<3>{\inputTikZ{../tikz/cycle3}}
+  \only<3>{\inputTikZ{../tikz/cycleEng3}}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра \\ Циклы}
+\begin{frame}{Spectrum calc algorithm \\ Cycles}
   \begin{minipage}{0.8\textwidth}
     \centering
     \only<1>{\input{../tikz/cycleLen1.tikz}}
@@ -211,8 +211,8 @@
   \end{minipage}
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра \\ Состояние, переходы}
-  Состояние - направленное ребро $w_i$\\
+\begin{frame}{Spectrum calc algorithm \\ State, transitions}
+  State - directed edge $w_i$\\
   \begin{minipage}{0.35\textwidth}
     \centering
     \scalebox{0.7}{\input{../tikz/ex_graph.tikz}}
@@ -235,25 +235,25 @@
 }
   \end{minipage}
 \[
-a_0^i=(\underbrace{0,0,...,0}_{i \text{ раз}},1,0,...,0)
+a_0^i=(\underbrace{0,0,...,0}_{i \text{ times}},1,0,...,0)
 \]
 \[
 a_{2L}^i=a_0^i \cdot A^L
 \]
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра \\ Симметрии, обращение Мебиуса}
+\begin{frame}{Spectrum calc algorithm \\ Symmetries, Mobius inversion}
   \begin{minipage}{0.45\textwidth}
     \centering
     \input{../tikz/symmetry1.tikz}
   \end{minipage}\hfill
-  \begin{minipage}{0.45\textwidth}
-    $w_1w_4w_5w_2w_1w_4w_5w_2$ - 4 раза \\
-    $w_1w_4w_5w_2w_1w_4w_6w_3$ - 8 раз
+  \begin{minipage}{0.50\textwidth}
+    $w_1w_4w_5w_2w_1w_4w_5w_2$ - 4 times \\
+    $w_1w_4w_5w_2w_1w_4w_6w_3$ - 8 times
   \end{minipage}
 \end{frame}
 
-\begin{frame}{Алгоритм подсчета спектра \\ Лифтинг, веса}
+\begin{frame}{Spectrum calc algorithm \\ Lifting, weights}
     \begin{minipage}{0.2\textwidth}
         \centering
         \input{../tikz/liftingBase.tikz}
@@ -269,15 +269,15 @@ a_{2L}^i=a_0^i \cdot A^L
 \newcommand{\plotstandard}[1]{\centerline{\includegraphics[height=3in]{#1}}}
 \newcommand{\plotsmall}[1]{\includegraphics[height=1.3in]{#1}}
 
-\begin{frame}{Экспериментальные исследования \\ Ричардсон-Урбанке 4x8 576}
+\begin{frame}{Experiments \\ Richardson-Urbanke 4x8 576}
   \plotstandard{../images/r4_576.pdf}
 \end{frame}
 
-\begin{frame}{Экспериментальные исследования \\ Ричардсон-Урбанке 4x8 2304}
+\begin{frame}{Experiments \\ Richardson-Urbanke 4x8 2304}
   \plotstandard{../images/r4_2304.pdf}
 \end{frame}
 
-\begin{frame}{Экспериментальные исследования}
+\begin{frame}{Experiments}
 \begin{table}[!t]
   \begin{tabular}{ccc}
     \plotsmall{../images/g3_576.pdf}&
@@ -290,12 +290,12 @@ a_{2L}^i=a_0^i \cdot A^L
 \end{table}
 \end{frame}
 
-\begin{frame}{Выводы}
+\begin{frame}{Conclusion}
   \begin{itemize}
-    \item Получены экспериментальные доказательства прямой зависимости между количеством коротких циклов 
-      и вероятностью ошибки на блок для различных ансамблей кодов
-    \item Разработан вычислительно эффективный алгоритм подсчета спектра графа Таннера, который может
-      быть использован для ускорения отбора кодов
+    \item Experiments confirmed correlation and showed that codes with lower number of short cycles has
+      lower frame error rate.
+    \item Computationally effective algorithm for Tanner's graph spectrum calculation was developed and
+      can be used for good codes search acceleration
   \end{itemize}
 \end{frame}
 

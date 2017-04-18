@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+[
+scale=2,transform shape,
+state/.style={rectangle,draw=black!50,fill=green!10,thick,minimum size=5mm},
+stateBr/.style={rectangle,draw=black,fill=green!20,thick,minimum size=5mm},
+oper/.style={circle,draw=black!50,fill=red!10,thick,minimum size=5mm, font=\small},
+operBr/.style={circle,draw=black,fill=red!20,thick,minimum size=5mm, font=\small},
+arr/.style={-,auto,>=stealth},
+arrAct/.style={->,auto,>=stealth,thick,draw=red}
+]
+\small
+
+\node (s1) at (-1,0) [operBr] {1};
+\node (s2) at (2,1) [oper] {2};
+\node (s3) at (2,-1) [oper] {3};
+
+\node (s4) at (1,0) [state] {4};
+\node (s5) at (-2,1) [state] {5};
+\node (s6) at (-2,-1) [state] {6};
+
+\node[draw] at (0,-1) {5, 6 independent};
+\draw [arrAct](s1)[] to node [right]{} node{}(s4);
+\draw [arrAct](s5)[] to node [right]{} node{}(s1);
+\draw [arrAct](s6)[] to node [right]{} node{}(s1);
+\draw [arr](s2)[] to node [right]{} node{}(s4);
+\draw [arr](s3)[] to node [right]{} node{}(s4);
+
+\end{tikzpicture}
+
