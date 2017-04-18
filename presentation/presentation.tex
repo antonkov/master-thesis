@@ -212,11 +212,45 @@
 \end{frame}
 
 \begin{frame}{Алгоритм подсчета спектра \\ Состояние, переходы}
-  2!
+  Состояние - направленное ребро $w_i$\\
+  \begin{minipage}{0.35\textwidth}
+    \centering
+    \scalebox{0.7}{\input{../tikz/ex_graph.tikz}}
+  \end{minipage}
+  \begin{minipage}{0.60\textwidth}
+    \resizebox{\linewidth}{!}{
+      $\displaystyle
+    A=A_+A_{-}=\begin{pmatrix}
+        0    & 0 &    0 &    0 &    \omega_{45}   &  0 &    0 &    0 &    \omega_{89}\\
+        0&     0&     0&     \omega_{54} &    0  &   0  &   \omega_{67}  &   0  &   0 \\
+        0&     0&     0&     0&     0&     \omega_{76} &     0&      \omega_{98}   &   0\\
+        0&     \omega_{12}      & \omega_{13}  &    0 &    0  &   0 &    0  &   0      & \omega_{89} \\
+    \omega_{21}     &0     & \omega_{23}     &0   &0   &0     & \omega_{67}     &0 &   0\\
+    \omega_{21}     &0     & \omega_{23}      & \omega_{54}    &0   &0   &0   &0   & 0\\
+    \omega_{31}     & \omega_{32}  &0    &0   &0   &0   &0     & \omega_{98}     & 0\\
+        0     & \omega_{12}      & \omega_{13}     &0    & \omega_{45}     &0   &0   &0   & 0\\
+    \omega_{31}      & \omega_{32}     &0   &0   &0     & \omega_{76}     &0   &0   & 0\\
+    \end{pmatrix}
+    $
+}
+  \end{minipage}
+\[
+a_0^i=(\underbrace{0,0,...,0}_{i \text{ раз}},1,0,...,0)
+\]
+\[
+a_{2L}^i=a_0^i \cdot A^L
+\]
 \end{frame}
 
 \begin{frame}{Алгоритм подсчета спектра \\ Симметрии, обращение Мебиуса}
-  3!
+  \begin{minipage}{0.45\textwidth}
+    \centering
+    \input{../tikz/symmetry1.tikz}
+  \end{minipage}\hfill
+  \begin{minipage}{0.45\textwidth}
+    $w_1w_4w_5w_2w_1w_4w_5w_2$ - 4 раза \\
+    $w_1w_4w_5w_2w_1w_4w_6w_3$ - 8 раз
+  \end{minipage}
 \end{frame}
 
 \begin{frame}{Алгоритм подсчета спектра \\ Лифтинг, веса}
@@ -228,6 +262,8 @@
         \centering
         \input{../tikz/liftingExpanded.tikz}
     \end{minipage}
+    \vfill
+    $O(M \cdot S \cdot E^3)$
 \end{frame}
 
 \newcommand{\plotstandard}[1]{\centerline{\includegraphics[height=3in]{#1}}}

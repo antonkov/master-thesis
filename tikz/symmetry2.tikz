@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+[
+scale=0.7,transform shape,
+state/.style={rectangle,draw=black!50,fill=green!10,thick,minimum size=5mm},
+oper/.style={circle,draw=black!50,fill=red!10,thick, minimum size=5mm, font=\small},
+arr/.style={very thick}
+]
+\small
+
+\coordinate (s1) at (2, 2);
+\coordinate (s1c) at (2, 2.2);
+\coordinate (s2) at (2,-2);
+\coordinate (s2c) at (2,-2.2);
+
+\coordinate (s3) at (0, 0);
+\coordinate (s3c) at (-0.2, 0);
+\coordinate (s4) at (2, 0);
+\coordinate (s4c) at (2.2, 0);
+\coordinate (s5) at (4, 0);
+
+\draw [arr](s1) to (s3);
+\draw [arr](s3) to (s2);
+\draw [arr](s2) to (s4);
+\draw [arr](s4) to[out=70,in=-70] (s1c);
+\draw [arr](s1c) to (s3c);
+\draw [arr](s3c) to (s2c);
+\draw [arr](s2c) to (s4c);
+\draw [arr](s4c) to[out=70,in=-70] (s1);
+
+
+\end{tikzpicture}
+

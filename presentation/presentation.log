@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  18 APR 2017 02:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  18 APR 2017 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1758,24 +1758,25 @@ Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
  [21
 
 ]
+(../tikz/ex_graph.tikz)
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
-
-<use itmo-logo/itmo_horiz_blue_rus.png>
+ <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-16.
+43.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
  [22
 
 ]
+(../tikz/symmetry1.tikz)
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
-
-<use itmo-logo/itmo_horiz_blue_rus.png>
+ <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-20.
+54.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
  [23
 
-] (../tikz/liftingBase.tikz
+]
+(../tikz/liftingBase.tikz
 Overfull \hbox (11.51273pt too wide) in paragraph at lines 20--21
  [][] 
  []
@@ -1784,87 +1785,87 @@ Overfull \hbox (11.51273pt too wide) in paragraph at lines 20--21
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-31.
+67.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
 
 [24
 
-] <../images/r4_576.pdf, id=156, 505.89pt x 505.89pt>
+] <../images/r4_576.pdf, id=159, 505.89pt x 505.89pt>
 File: ../images/r4_576.pdf Graphic file (type pdf)
 
 <use ../images/r4_576.pdf>
-Package pdftex.def Info: ../images/r4_576.pdf used on input line 238.
+Package pdftex.def Info: ../images/r4_576.pdf used on input line 274.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-38.
+74.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
  [25
 
- <../images/r4_576.pdf>] <../images/r4_2304.pdf, id=178, 505.89pt x 505.89pt>
+ <../images/r4_576.pdf>] <../images/r4_2304.pdf, id=181, 505.89pt x 505.89pt>
 File: ../images/r4_2304.pdf Graphic file (type pdf)
 
 <use ../images/r4_2304.pdf>
-Package pdftex.def Info: ../images/r4_2304.pdf used on input line 242.
+Package pdftex.def Info: ../images/r4_2304.pdf used on input line 278.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-42.
+78.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
  [26
 
- <../images/r4_2304.pdf>] <../images/g3_576.pdf, id=198, 505.89pt x 505.89pt>
+ <../images/r4_2304.pdf>] <../images/g3_576.pdf, id=201, 505.89pt x 505.89pt>
 File: ../images/g3_576.pdf Graphic file (type pdf)
 
 <use ../images/g3_576.pdf>
-Package pdftex.def Info: ../images/g3_576.pdf used on input line 255.
+Package pdftex.def Info: ../images/g3_576.pdf used on input line 291.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/g3_2304.pdf, id=199, 505.89pt x 505.89pt>
+<../images/g3_2304.pdf, id=202, 505.89pt x 505.89pt>
 File: ../images/g3_2304.pdf Graphic file (type pdf)
 
 <use ../images/g3_2304.pdf>
-Package pdftex.def Info: ../images/g3_2304.pdf used on input line 255.
+Package pdftex.def Info: ../images/g3_2304.pdf used on input line 291.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/q3_576.pdf, id=200, 505.89pt x 505.89pt>
+<../images/q3_576.pdf, id=203, 505.89pt x 505.89pt>
 File: ../images/q3_576.pdf Graphic file (type pdf)
  <use ../images/q3_576.pdf>
-Package pdftex.def Info: ../images/q3_576.pdf used on input line 255.
+Package pdftex.def Info: ../images/q3_576.pdf used on input line 291.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/q3_2304.pdf, id=201, 505.89pt x 505.89pt>
+<../images/q3_2304.pdf, id=204, 505.89pt x 505.89pt>
 File: ../images/q3_2304.pdf Graphic file (type pdf)
 
 <use ../images/q3_2304.pdf>
-Package pdftex.def Info: ../images/q3_2304.pdf used on input line 255.
+Package pdftex.def Info: ../images/q3_2304.pdf used on input line 291.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/q4_576.pdf, id=202, 505.89pt x 505.89pt>
+<../images/q4_576.pdf, id=205, 505.89pt x 505.89pt>
 File: ../images/q4_576.pdf Graphic file (type pdf)
  <use ../images/q4_576.pdf>
-Package pdftex.def Info: ../images/q4_576.pdf used on input line 255.
+Package pdftex.def Info: ../images/q4_576.pdf used on input line 291.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/g4_576.pdf, id=203, 505.89pt x 505.89pt>
+<../images/g4_576.pdf, id=206, 505.89pt x 505.89pt>
 File: ../images/g4_576.pdf Graphic file (type pdf)
  <use ../images/g4_576.pdf>
-Package pdftex.def Info: ../images/g4_576.pdf used on input line 255.
+Package pdftex.def Info: ../images/g4_576.pdf used on input line 291.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-Overfull \hbox (10.56305pt too wide) in paragraph at lines 255--255
+Overfull \hbox (10.56305pt too wide) in paragraph at lines 291--291
  [] 
  []
 
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
 <use itmo-logo/itmo_horiz_blue_rus.png>
 Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-55.
+91.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
 
-Overfull \vbox (3.29669pt too high) detected at line 255
+Overfull \vbox (3.29669pt too high) detected at line 291
  []
 
 [27
@@ -1892,8 +1893,8 @@ dfs with page group included in a single page
 >]
 File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
  <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-64.
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 3
+00.
 (pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
  [28
 
@@ -1907,11 +1908,11 @@ Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1921,32 +1922,35 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 23165 strings out of 493013
- 439353 string characters out of 6133343
- 527062 words of memory out of 5000000
+ 23171 strings out of 493013
+ 439456 string characters out of 6133343
+ 529063 words of memory out of 5000000
  26056 multiletter control sequences out of 15000+600000
  26205 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,18n,65p,785b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,18n,68p,785b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on presentation.pdf (28 pages, 298864 bytes).
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on presentation.pdf (28 pages, 329481 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
+ 366 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
  58 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,36 @@
+\begin{tikzpicture}
+[
+scale=1,transform shape,
+state/.style={rectangle,draw=black!50,fill=green!10,thick,minimum size=5mm},
+oper/.style={circle,draw=black!50,fill=red!10,thick, minimum size=5mm, font=\small},
+arr/.style={-,auto,>=stealth}
+]
+\small
+
+% Input staff 
+%\node (a0) at (0,0) [oper ] {$+$};
+%\draw [arr](-1,0) to node [left,xshift=-3mm]{$x_i$} node{}(a0);
+%\draw (1,0) circle (0.3mm) [fill=black!];
+%\node (mp0) at (1,1) [oper,label=left:$f_0$ ] {$\times$};
+%\draw [arr] (1,0) -- (mp0);
+%\draw (mp0) -- (1,2.5);
+%\draw [arr] (0,-2.5) -- (a0);
+% Filter section
+
+\node (s1) at (2, 2) [oper] {1};
+\node (s2) at (2,-2) [oper] {2};
+
+\node (s3) at (0, 0) [state] {3};
+\node (s4) at (2, 0) [state] {4};
+\node (s5) at (4, 0) [state] {5};
+
+\draw [arr](s1)[] to node [above]{$w_1$} node{}(s3);
+\draw [arr](s1)[] to node [right]{$w_2$} node{}(s4);
+\draw [arr](s1)[] to node [above]{$w_3$} node{}(s5);
+\draw [arr](s2)[] to node [left]{$w_4$} node{}(s3);
+\draw [arr](s2)[] to node [right]{$w_5$} node{}(s4);
+\draw [arr](s2)[] to node [right]{$w_6$} node{}(s5);
+
+
+\end{tikzpicture}
+
