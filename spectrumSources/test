@@ -1,6 +1,5 @@
-proto_matrix
-3 4
-1
-0 0 -1 0
-0 0 0 -1
-0 -1 0 0
+incidence_matrix
+2 3
+7
+0 0 0
+0 1 3

@@ -27,9 +27,9 @@
 %% \graphicspath{{itmo-logo/}{pic/}}
 \graphicspath{{itmo-logo/}}
 
-%% ИТМОшные цвета
-\definecolor{itmoblue}{RGB}{25,70,186}
-\definecolor{itmored}{RGB}{236,11,67}
+%% ИТМОшные цвет
+\definecolor{itmoblue}{RGB}{33,81,165}
+\definecolor{itmored}{RGB}{236,25,68}
 
 %% Установка основных цветов в тексте
 \setbeamercolor{normal text}{fg=itmoblue}
@@ -42,7 +42,7 @@
 \setbeamertemplate{frametitle}{
 \begin{beamercolorbox}[ht=0.15\textheight,wd=\paperwidth]{frametitle}
     \begin{minipage}[b][0.15\textheight][t]{0.35\paperwidth}
-    \includegraphics[width=\textwidth]{itmo_horiz_blue_rus.png}
+    \includegraphics[width=\textwidth]{itmo_horiz_blue_eng.jpg}
     \end{minipage}~\begin{minipage}[b][0.15\textheight][c]{0.6\paperwidth}
     \begin{flushright}\normalsize\insertframetitle\end{flushright}
     \end{minipage}
@@ -62,13 +62,13 @@
 \begin{frame}[plain]
 \color{white}
 \centering\bfseries
-\includegraphics[width=0.35\textwidth]{itmo_small_blue_rus.png}
+\includegraphics[width=0.35\textwidth]{itmo_small_blue_eng.jpg}
 
 {\Large Kovsharov Anton Pavlovich \par}
 
 \vspace{0pt plus 0.3filll}
 
-{\large {<<}LDPC-codes frame error rate and Tanner's graph spectrum correlation research{>>}}
+{\large LDPC-codes frame error rate and Tanner's graph spectrum correlation research}
 
 \vspace{0pt plus 0.3filll}
 
@@ -83,7 +83,7 @@
 \end{frame}
 \endgroup
 
-\begin{frame}{Report \\ VI Конгресс молодых ученых}
+\begin{frame}{Report \\ VI Congress of young scientists}
 \begin{block}{Content}
 \begin{enumerate}
     \item Goals and Objectives
@@ -97,16 +97,17 @@
 
 \begin{frame}{Goals and Objectives}
 \begin{itemize}
-  \item Check hypothesis of correlation between number of short cycles and iterative decoding effectiveness
-  \item Develop algorithm for Tanner's graph spectrum (number of fixed length cycles) calculation
+  \item Check hypothesis of the correlation between the number of 
+    short cycles and iterative decoding effectiveness
+  \item Develop an algorithm for the Tanner graph spectrum (the number of fixed length cycles) calculation
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Preliminaries \\ Linear code}
   Linear $(n,k)$ code \\
   $G$ -- generator matrix \\
-  $H$ -- paritiy check matrix \\
-  $G \cdot H^T = 0$ -- paritiy check equation \\
+  $H$ -- parity check matrix \\
+  $G \cdot H^T = 0$ -- parity check equation \\
  LDPC-code -- Low Density Parity Check code (small number of ones in $H$) \\ 
 
 \begin{exampleblock}{Example}
@@ -124,12 +125,19 @@
 \end{align*}
 \end{exampleblock}
 \end{frame}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../images/seashore2.jpg}}
+\begin{frame}[plain]
+\end{frame}
+}
+
 \newcommand\colorBox[2]{\setlength{\fboxsep}{2pt}\colorbox{#1!10}{#2}}
 \begin{frame}{Preliminaries \\ Graphical representation}
 \begin{itemize}
   \item Bit node - code symbol \tikz{\filldraw[thick,draw=black!50,fill=red!10] circle(1ex);}
   \item Parity node - parity equation \tikz{\filldraw[thick,draw=black!50,fill=green!10] rectangle(2ex,2ex);}
-  \item Line between if that bit is involved in that parity equation
+  \item Line - if that bit is involved in that parity equation
 \end{itemize}
 \begin{minipage}[c]{.3\textwidth}
   \[
@@ -292,12 +300,34 @@ a_{2L}^i=a_0^i \cdot A^L
 
 \begin{frame}{Conclusion}
   \begin{itemize}
-    \item Experiments confirmed correlation and showed that codes with lower number of short cycles has
-      lower frame error rate.
-    \item Computationally effective algorithm for Tanner's graph spectrum calculation was developed and
+    \item Experiments have confirmed the correlation and proved that the codes with lower number of
+      short cycles have lower frame error rate
+    \item Computationally effective algorithm for the Tanner graph spectrum calculation was developed and
       can be used for good codes search acceleration
   \end{itemize}
 \end{frame}
+
+\begingroup
+\setbeamercolor{background canvas}{bg=itmoblue}
+\setbeamercolor{normal text}{fg=white}
+\begin{frame}[plain]
+\color{white}
+\centering\bfseries
+\includegraphics[width=0.35\textwidth]{itmo_small_blue_eng.jpg}
+
+\vspace{0pt plus 0.3filll}
+
+{\Large Thank you \par}
+
+\vspace{0pt plus 0.3filll}
+
+{\Large Questions?}
+
+\vspace{0pt plus 0.3filll}
+\vspace{0pt plus 1filll}
+\end{frame}
+\endgroup
+
 
 \end{document}
 %%% Local Variables:

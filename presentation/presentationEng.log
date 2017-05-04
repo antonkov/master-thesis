@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  18 APR 2017 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  19 APR 2017 02:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1541,24 +1541,24 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 (./presentationEng.nav)
-<itmo-logo/itmo_small_blue_rus.png, id=13, 845.0772pt x 597.432pt>
-File: itmo-logo/itmo_small_blue_rus.png Graphic file (type png)
+<itmo-logo/itmo_small_blue_eng.jpg, id=13, 301.6068pt x 179.7114pt>
+File: itmo-logo/itmo_small_blue_eng.jpg Graphic file (type jpg)
 
-<use itmo-logo/itmo_small_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_small_blue_rus.png used on input line 8
+<use itmo-logo/itmo_small_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_small_blue_eng.jpg used on input line 8
 3.
-(pdftex.def)             Requested size: 107.55333pt x 76.02798pt.
+(pdftex.def)             Requested size: 107.55333pt x 64.08453pt.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./itmo-
-logo/itmo_small_blue_rus.png>]
-<itmo-logo/itmo_horiz_blue_rus.png, id=25, 845.0772pt x 216.3282pt>
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
+logo/itmo_small_blue_eng.jpg>]
+<itmo-logo/itmo_horiz_blue_eng.jpg, id=25, 556.479pt x 121.4136pt>
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
 
-<use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 9
+<use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 9
 6.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
 
 
 LaTeX Font Warning: Font shape `T2A/cmss/m/n' in size <4> not available
@@ -1566,214 +1566,232 @@ LaTeX Font Warning: Font shape `T2A/cmss/m/n' in size <4> not available
 
 [2
 
- <./itmo-logo/itmo_horiz_blue_rus.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 103.
+ <./itmo-logo/itmo_horiz_blue_eng.jpg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 104.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 103.
+LaTeX Font Info:    Try loading font information for U+msb on input line 104.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 103.
+line 104.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-03.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+04.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [3
 
 ]
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
 
-<use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-26.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+<use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+27.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [4
 
 ]
-Overfull \hbox (15.01212pt too wide) detected at line 153
+<../images/seashore2.jpg, id=50, 2569.6pt x 1716.4125pt>
+File: ../images/seashore2.jpg Graphic file (type jpg)
+
+<use ../images/seashore2.jpg>
+Package pdftex.def Info: ../images/seashore2.jpg used on input line 132.
+(pdftex.def)             Requested size: 364.19536pt x 243.25562pt.
+ [5
+
+ <../images/seashore2.jpg>]
+Overfull \hbox (15.01212pt too wide) detected at line 161
 []
  []
 
 (../tikz/ex_graph1.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-53.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
- [5
-
-]
-(../tikz/decoding1.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-62.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+61.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [6
 
 ]
-(../tikz/decoding2.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-62.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/decoding1.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+70.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [7
 
 ]
-(../tikz/decodingEng3.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-62.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/decoding2.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+70.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [8
 
 ]
-(../tikz/decodingEng4.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-62.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/decodingEng3.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+70.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [9
 
 ]
-(../tikz/cycle1.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
+(../tikz/decodingEng4.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
 70.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [10
 
 ]
-(../tikz/cycle2.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-70.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+<../images/crossword.jpg, id=84, 1184.425pt x 845.1575pt>
+File: ../images/crossword.jpg Graphic file (type jpg)
+
+<use ../images/crossword.jpg>
+Package pdftex.def Info: ../images/crossword.jpg used on input line 175.
+(pdftex.def)             Requested size: 364.19536pt x 259.86827pt.
  [11
 
-]
-(../tikz/cycleEng3.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 1
-70.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+ <../images/crossword.jpg>]
+(../tikz/cycle1.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+84.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [12
 
 ]
-(../tikz/cycleLen1.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycle2.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+84.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [13
 
 ]
-(../tikz/cycleLen2.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleEng3.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 1
+84.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [14
 
 ]
-(../tikz/cycleLen3.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen1.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [15
 
 ]
-(../tikz/cycleLen4.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen2.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [16
 
 ]
-(../tikz/cycleLen5.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen3.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [17
 
 ]
-(../tikz/cycleLen6.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen4.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [18
 
 ]
-(../tikz/cycleLen7.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen5.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [19
 
 ]
-(../tikz/cycleLen8.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen6.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [20
 
 ]
-(../tikz/cycleLen1.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-12.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen7.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [21
 
 ]
-(../tikz/ex_graph.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-43.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen8.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [22
 
 ]
-(../tikz/symmetry1.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-54.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+(../tikz/cycleLen1.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+26.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
  [23
+
+]
+(../tikz/ex_graph.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+57.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
+ [24
+
+]
+(../tikz/symmetry1.tikz)
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+68.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
+ [25
 
 ]
 (../tikz/liftingBase.tikz
@@ -1782,93 +1800,93 @@ Overfull \hbox (11.51273pt too wide) in paragraph at lines 20--21
  []
 
 ) (../tikz/liftingExpanded.tikz)
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-67.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+81.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
 
-[24
+[26
 
-] <../images/r4_576.pdf, id=159, 505.89pt x 505.89pt>
+] <../images/r4_576.pdf, id=173, 505.89pt x 505.89pt>
 File: ../images/r4_576.pdf Graphic file (type pdf)
 
 <use ../images/r4_576.pdf>
-Package pdftex.def Info: ../images/r4_576.pdf used on input line 274.
+Package pdftex.def Info: ../images/r4_576.pdf used on input line 288.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-74.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
- [25
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+88.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
+ [27
 
- <../images/r4_576.pdf>] <../images/r4_2304.pdf, id=181, 505.89pt x 505.89pt>
+ <../images/r4_576.pdf>] <../images/r4_2304.pdf, id=193, 505.89pt x 505.89pt>
 File: ../images/r4_2304.pdf Graphic file (type pdf)
 
 <use ../images/r4_2304.pdf>
-Package pdftex.def Info: ../images/r4_2304.pdf used on input line 278.
+Package pdftex.def Info: ../images/r4_2304.pdf used on input line 292.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-78.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
- [26
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 2
+92.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
+ [28
 
- <../images/r4_2304.pdf>] <../images/g3_576.pdf, id=201, 505.89pt x 505.89pt>
+ <../images/r4_2304.pdf>] <../images/g3_576.pdf, id=213, 505.89pt x 505.89pt>
 File: ../images/g3_576.pdf Graphic file (type pdf)
 
 <use ../images/g3_576.pdf>
-Package pdftex.def Info: ../images/g3_576.pdf used on input line 291.
+Package pdftex.def Info: ../images/g3_576.pdf used on input line 305.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/g3_2304.pdf, id=202, 505.89pt x 505.89pt>
+<../images/g3_2304.pdf, id=214, 505.89pt x 505.89pt>
 File: ../images/g3_2304.pdf Graphic file (type pdf)
 
 <use ../images/g3_2304.pdf>
-Package pdftex.def Info: ../images/g3_2304.pdf used on input line 291.
+Package pdftex.def Info: ../images/g3_2304.pdf used on input line 305.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/q3_576.pdf, id=203, 505.89pt x 505.89pt>
+<../images/q3_576.pdf, id=215, 505.89pt x 505.89pt>
 File: ../images/q3_576.pdf Graphic file (type pdf)
  <use ../images/q3_576.pdf>
-Package pdftex.def Info: ../images/q3_576.pdf used on input line 291.
+Package pdftex.def Info: ../images/q3_576.pdf used on input line 305.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/q3_2304.pdf, id=204, 505.89pt x 505.89pt>
+<../images/q3_2304.pdf, id=216, 505.89pt x 505.89pt>
 File: ../images/q3_2304.pdf Graphic file (type pdf)
 
 <use ../images/q3_2304.pdf>
-Package pdftex.def Info: ../images/q3_2304.pdf used on input line 291.
+Package pdftex.def Info: ../images/q3_2304.pdf used on input line 305.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/q4_576.pdf, id=205, 505.89pt x 505.89pt>
+<../images/q4_576.pdf, id=217, 505.89pt x 505.89pt>
 File: ../images/q4_576.pdf Graphic file (type pdf)
  <use ../images/q4_576.pdf>
-Package pdftex.def Info: ../images/q4_576.pdf used on input line 291.
+Package pdftex.def Info: ../images/q4_576.pdf used on input line 305.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-<../images/g4_576.pdf, id=206, 505.89pt x 505.89pt>
+<../images/g4_576.pdf, id=218, 505.89pt x 505.89pt>
 File: ../images/g4_576.pdf Graphic file (type pdf)
  <use ../images/g4_576.pdf>
-Package pdftex.def Info: ../images/g4_576.pdf used on input line 291.
+Package pdftex.def Info: ../images/g4_576.pdf used on input line 305.
 (pdftex.def)             Requested size: 93.95097pt x 93.95122pt.
 
-Overfull \hbox (10.56305pt too wide) in paragraph at lines 291--291
+Overfull \hbox (10.56305pt too wide) in paragraph at lines 305--305
  [] 
  []
 
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
-<use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 2
-91.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+<use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 3
+05.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
 
-Overfull \vbox (3.29669pt too high) detected at line 291
+Overfull \vbox (3.29669pt too high) detected at line 305
  []
 
-[27
+[29
 
  <../images/g3_576.pdf> <../images/g3_2304.pdf
 
@@ -1891,12 +1909,21 @@ dfs with page group included in a single page
 pdfTeX warning: pdflatex (file ../images/g4_576.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
 >]
-File: itmo-logo/itmo_horiz_blue_rus.png Graphic file (type png)
- <use itmo-logo/itmo_horiz_blue_rus.png>
-Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 3
-00.
-(pdftex.def)             Requested size: 127.4706pt x 32.62936pt.
- [28
+File: itmo-logo/itmo_horiz_blue_eng.jpg Graphic file (type jpg)
+ <use itmo-logo/itmo_horiz_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_horiz_blue_eng.jpg used on input line 3
+14.
+(pdftex.def)             Requested size: 127.4706pt x 27.81152pt.
+ [30
+
+]
+File: itmo-logo/itmo_small_blue_eng.jpg Graphic file (type jpg)
+
+<use itmo-logo/itmo_small_blue_eng.jpg>
+Package pdftex.def Info: itmo-logo/itmo_small_blue_eng.jpg used on input line 3
+34.
+(pdftex.def)             Requested size: 107.55333pt x 64.08453pt.
+ [31
 
 ]
 \tf@nav=\write6
@@ -1908,11 +1935,11 @@ Package pdftex.def Info: itmo-logo/itmo_horiz_blue_rus.png used on input line 3
 \tf@snm=\write8
 \openout8 = `presentationEng.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
  (./presentationEng.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
 Package rerunfilecheck Info: File `presentationEng.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1922,10 +1949,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 23171 strings out of 493013
- 439528 string characters out of 6133343
- 529087 words of memory out of 5000000
- 26056 multiletter control sequences out of 15000+600000
+ 23194 strings out of 493013
+ 439913 string characters out of 6133343
+ 530086 words of memory out of 5000000
+ 26071 multiletter control sequences out of 15000+600000
  26205 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,68p,788b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1947,10 +1974,10 @@ texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on presentationEng.pdf (28 pages, 336545 bytes).
+Output written on presentationEng.pdf (31 pages, 1157265 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
