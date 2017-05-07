@@ -1,0 +1,77 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist[entry]{none/global/}
+    \entry{kmu-russian}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c6e07dce865bfe1aa6b2fbe22630301}{%
+           family={Ковшаров},
+           familyi={К\bibinitperiod},
+           given={А.П.},
+           giveni={А\bibinitperiod}}}%
+        {{hash=f199705ff61067b6d66411a21f524706}{%
+           family={Кудряшов},
+           familyi={К\bibinitperiod},
+           given={Б.Д.},
+           giveni={Б\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2a2e6112917ba9e42cebbce8ada1afb}
+      \strng{fullhash}{a2a2e6112917ba9e42cebbce8ada1afb}
+      \strng{authornamehash}{a2a2e6112917ba9e42cebbce8ada1afb}
+      \strng{authorfullhash}{a2a2e6112917ba9e42cebbce8ada1afb}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Сборник тезисов докладов конгресса молодых ученых. Электронное издание}
+      \field{langid}{russian}
+      \field{title}{Исследование зависимости вероятности ошибки на блок от спектра графа Таннера для МППЧ-кодов}
+      \field{year}{2017}
+    \endentry
+    \entry{kmu-english}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1c6e07dce865bfe1aa6b2fbe22630301}{%
+           family={Ковшаров},
+           familyi={К\bibinitperiod},
+           given={А.П.},
+           giveni={А\bibinitperiod}}}%
+        {{hash=670919444406e46d98fd05f7eb5f6a6d}{%
+           family={Анохина},
+           familyi={А\bibinitperiod},
+           given={И.А.},
+           giveni={И\bibinitperiod}}}%
+      }
+      \strng{namehash}{f64b3262c00d8feffa7232a9549e6562}
+      \strng{fullhash}{f64b3262c00d8feffa7232a9549e6562}
+      \strng{authornamehash}{f64b3262c00d8feffa7232a9549e6562}
+      \strng{authorfullhash}{f64b3262c00d8feffa7232a9549e6562}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Сборник тезисов докладов конгресса молодых ученых. Электронное издание}
+      \field{langid}{russian}
+      \field{title}{LDPC-codes frame error rate and Tanner's graph spectrum correlation research}
+      \field{year}{2017}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
