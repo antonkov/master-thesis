@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  7 MAY 2017 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  8 MAY 2017 18:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1656,9 +1656,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-
-AED: lastpage setting LastPage
 [6
+
+] [7
+
+]
+
+Package biblatex Warning: No driver for entry type 'artice'.
+(biblatex)                Using fallback driver on input line 130.
+
+LaTeX Font Info:    Try loading font information for OT1+PTMono-TLF on input line 130.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/OT1PTMono-TLF.fd
+File: OT1PTMono-TLF.fd 2014/02/02 Font definitions for OT1/PTMono-TLF.
+) 
+AED: lastpage setting LastPage
+[8
 
 ] (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.aux)
 Package logreq Info: Writing requests to 'master-thesis.run.xml'.
@@ -1670,18 +1682,18 @@ Package logreq Info: Writing requests to 'master-thesis.run.xml'.
 ### semi simple group (level 1) entered at line 63 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28355 strings out of 493013
- 518745 string characters out of 6133343
- 1232221 words of memory out of 5000000
- 31347 multiletter control sequences out of 15000+600000
- 46969 words of font info for 51 fonts, out of 8000000 for 9000
+ 28441 strings out of 493013
+ 521808 string characters out of 6133343
+ 1233559 words of memory out of 5000000
+ 31425 multiletter control sequences out of 15000+600000
+ 57152 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 55i,14n,54p,803b,20695s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptserif_t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptserif/PTF55F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptserif/PTF56F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptserif/PTF75F.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.pdf (9 pages, 75451 bytes).
+ 55i,14n,54p,803b,20876s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptmono_ot1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptserif_ot1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptserif_t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptserif/PTF55F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptserif/PTF56F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptserif/PTF75F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/paratype/ptmono/PTM55F.pfb>
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.pdf (11 pages, 91454 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

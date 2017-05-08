@@ -3404,8 +3404,28 @@
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
+    <bcf:citekey order="1">hall-combinatorics</bcf:citekey>
+    <bcf:citekey order="1">kudryashov-codingtheory</bcf:citekey>
+    <bcf:citekey order="1">finding-and-counting-given-length-cycles</bcf:citekey>
+    <bcf:citekey order="1">counting-short-cycles-of-quasi-cyclic-protograph-ldpc-codes</bcf:citekey>
+    <bcf:citekey order="1">message-passing-algorithm-for-counting-short-cycles-in-graph</bcf:citekey>
+    <bcf:citekey order="1">how-to-find-long-paths-efficiently</bcf:citekey>
+    <bcf:citekey order="1">color-coding</bcf:citekey>
+    <bcf:citekey order="1">algorithm-for-counting-for-counting-short-cycles-in-bipartite-graphs</bcf:citekey>
+    <bcf:citekey order="1">opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu</bcf:citekey>
+    <bcf:citekey order="1">stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters</bcf:citekey>
+    <bcf:citekey order="1">on-the-number-of-cycles-in-a-graph</bcf:citekey>
+    <bcf:citekey order="1">understanding-belief-propogation</bcf:citekey>
+    <bcf:citekey order="1">mackay-codes</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="1" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sorting>
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sorting>
+  </bcf:sortlist>
+  <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">citeorder</bcf:sortitem>
