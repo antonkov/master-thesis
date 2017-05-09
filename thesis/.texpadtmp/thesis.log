@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  9 MAY 2017 02:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  9 MAY 2017 02:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**master-thesis.tex
-(./master-thesis.tex
+**thesis.tex
+(./thesis.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./itmo-student-thesis.cls
@@ -1133,22 +1133,22 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count348
 \c@LT@chunks=\count349
 \LT@p@ftn=\toks38
-) (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.tct
+) (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.tct
 \c@figure@totc=\count350
 \c@table@totc=\count351
 \c@algorithm@totc=\count352
 \c@citnum@totc=\count353
 \c@appendix@totc=\count354
 )
-\master-thesis.tct@stream=\write5
-\openout5 = `master-thesis.tct'.
+\thesis.tct@stream=\write5
+\openout5 = `thesis.tct'.
 
- (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.tct) (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.tct)
+ (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.tct) (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.tct)
 \c@citnum=\count355
 
-(/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.tct)
+(/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.tct)
 \c@appendix=\count356
- (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.tct)
+ (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.tct)
 \c@theorem=\count357
  (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count358
@@ -1446,7 +1446,7 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
-) (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux
+) (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux
 
 LaTeX Warning: Label `fig1' multiply defined.
 
@@ -1454,7 +1454,7 @@ LaTeX Warning: Label `fig1' multiply defined.
 LaTeX Warning: Label `eq4' multiply defined.
 
 ) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
-\openout1 = `master-thesis.aux'.
+\openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -1554,11 +1554,11 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
-\openout4 = `master-thesis.bcf'.
+\openout4 = `thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'master-thesis.bbl' found.
- (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.bbl)
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
 Package lastpage Info: Please have a look at the pageslts package at
@@ -1631,9 +1631,9 @@ LaTeX Font Info:    Try loading font information for OT1+ftm on input line 116.
 File: ot1ftm.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/ftm.
 ) [1]
 Package biblatex Info: Reference section=0 on input line 116.
- [2] (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.toc)
+ [2] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.toc)
 \tf@toc=\write7
-\openout7 = `master-thesis.toc'.
+\openout7 = `thesis.toc'.
 
 
 
@@ -1678,7 +1678,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
  (./chapters/algo.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-(./ex_graph.tikz)
+(../tikz/ex_graph.tikz)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1706,7 +1706,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] (./ex_graph2.tikz)
+[9] (../tikz/ex_graph2.tikz)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1831,12 +1831,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [21
 
 
-] (/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
+] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package logreq Info: Writing requests to 'master-thesis.run.xml'.
-\openout1 = `master-thesis.run.xml'.
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
 
  )
 (\end occurred inside a group at level 1)
@@ -1844,15 +1844,15 @@ Package logreq Info: Writing requests to 'master-thesis.run.xml'.
 ### semi simple group (level 1) entered at line 63 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29249 strings out of 493013
- 534523 string characters out of 6133343
- 1276240 words of memory out of 5000000
+ 29250 strings out of 493013
+ 534370 string characters out of 6133343
+ 1276166 words of memory out of 5000000
  32178 multiletter control sequences out of 15000+600000
  32446 words of font info for 84 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 55i,14n,62p,1125b,21523s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,62p,1118b,21523s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.pdf (24 pages, 239012 bytes).
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (24 pages, 239012 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

@@ -1,25 +1,25 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is '/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.blg'
-[50] biber-darwin:303> INFO - === Tue May  9, 2017, 02:05:41
-[80] Biber.pm:359> INFO - Reading '/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.bcf'
-[260] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[260] Biber.pm:835> INFO - Found 2 citekeys in bib section 1
-[261] Biber.pm:835> INFO - Found 13 citekeys in bib section 0
-[285] Biber.pm:3670> INFO - Processing section 0
-[304] Biber.pm:3840> INFO - Looking for bibtex format file '/Users/antonkov/masterWork/thesis/master-thesis.bib' for section 0
-[307] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[313] bibtex.pm:1292> INFO - Found BibTeX data source '/Users/antonkov/masterWork/thesis/master-thesis.bib'
-[342] Utils.pm:164> WARN - month field 'November' in entry 'understanding-belief-propogation' is not an integer - this will probably not sort properly.
-[369] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[370] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[370] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'ru-RU'
-[370] Biber.pm:3505> INFO - No sort tailoring available for locale 'ru-RU'
-[382] Biber.pm:3670> INFO - Processing section 1
-[383] Biber.pm:3840> INFO - Looking for bibtex format file '/Users/antonkov/masterWork/thesis/master-thesis.bib' for section 1
-[400] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[401] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[401] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'ru-RU'
-[401] Biber.pm:3505> INFO - No sort tailoring available for locale 'ru-RU'
-[404] bbl.pm:608> INFO - Writing '/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.bbl' with encoding 'UTF-8'
-[409] bbl.pm:712> INFO - Output to /Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.bbl
-[409] Biber.pm:109> INFO - WARNINGS: 1
+[45] biber-darwin:303> INFO - === Tue May  9, 2017, 02:49:09
+[71] Biber.pm:359> INFO - Reading '/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.bcf'
+[231] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[232] Biber.pm:835> INFO - Found 2 citekeys in bib section 1
+[232] Biber.pm:835> INFO - Found 13 citekeys in bib section 0
+[256] Biber.pm:3670> INFO - Processing section 0
+[271] Biber.pm:3840> INFO - Looking for bibtex format file '/Users/antonkov/masterWork/thesis/master-thesis.bib' for section 0
+[273] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[281] bibtex.pm:1292> INFO - Found BibTeX data source '/Users/antonkov/masterWork/thesis/master-thesis.bib'
+[305] Utils.pm:164> WARN - month field 'November' in entry 'understanding-belief-propogation' is not an integer - this will probably not sort properly.
+[328] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[328] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[329] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'ru-RU'
+[329] Biber.pm:3505> INFO - No sort tailoring available for locale 'ru-RU'
+[340] Biber.pm:3670> INFO - Processing section 1
+[340] Biber.pm:3840> INFO - Looking for bibtex format file '/Users/antonkov/masterWork/thesis/master-thesis.bib' for section 1
+[353] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[353] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[353] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'ru-RU'
+[353] Biber.pm:3505> INFO - No sort tailoring available for locale 'ru-RU'
+[356] bbl.pm:608> INFO - Writing '/Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.bbl' with encoding 'UTF-8'
+[359] bbl.pm:712> INFO - Output to /Users/antonkov/masterWork/thesis/.texpadtmp/master-thesis.bbl
+[359] Biber.pm:109> INFO - WARNINGS: 1
