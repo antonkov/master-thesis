@@ -71,6 +71,19 @@
 
 \section{Описание эксперимента}
 
-- несколько (4-6) графиков из Матлаба или  TikZ
+\newcommand{\plotstandard}[2]{
+\centerline{\includegraphics[height=3in]{#1}}
+\captionof{figure}{#2}
+}
+\newcommand{\plotsmall}[1]{\includegraphics[height=1.3in]{#1}}
+
+\plotstandard{../images/r4_576.pdf}{Ричардсон-Урбанке 4x8 576}
+\plotstandard{../images/r4_2304.pdf}{Ричардсон-Урбанке 4x8 2304}
+\plotstandard{../images/g3_576.pdf}{Галлагер 3x6 576}
+\plotstandard{../images/g3_2304.pdf}{Галлагер 3x6 2304}
+\plotstandard{../images/g4_576.pdf}{Галлагер 4x8 576}
+\plotstandard{../images/q3_576.pdf}{Квазициклические коды 3x6 576}
+\plotstandard{../images/q3_2304.pdf}{Квазициклические коды 3x6 2304}
+\plotstandard{../images/q4_576.pdf}{Квазициклические коды 4x8 576}
 
 - выводы по графикам
