@@ -19,6 +19,29 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
+    \entry{gallager}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f76fbd9faddcec1968c0ac4304f480a2}{%
+           family={Gallager},
+           familyi={G\bibinitperiod},
+           given={R.G},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Massachusetts: MIT Press}%
+      }
+      \strng{namehash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \strng{fullhash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \strng{authornamehash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \strng{authorfullhash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Low-Density Parity-Check Codes}
+      \field{year}{1963}
+    \endentry
     \entry{hall-combinatorics}{book}{}
       \name{author}{1}{}{%
         {{hash=c7b504c94950e245efb53bb89537a012}{%
@@ -34,8 +57,8 @@
       \strng{fullhash}{c7b504c94950e245efb53bb89537a012}
       \strng{authornamehash}{c7b504c94950e245efb53bb89537a012}
       \strng{authorfullhash}{c7b504c94950e245efb53bb89537a012}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{russian}
@@ -57,8 +80,8 @@
       \strng{fullhash}{f199705ff61067b6d66411a21f524706}
       \strng{authornamehash}{f199705ff61067b6d66411a21f524706}
       \strng{authorfullhash}{f199705ff61067b6d66411a21f524706}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{russian}
@@ -90,8 +113,8 @@
       \strng{fullhash}{bd702f5af34e752e7904f0cc4e2b39c6}
       \strng{authornamehash}{bd702f5af34e752e7904f0cc4e2b39c6}
       \strng{authorfullhash}{bd702f5af34e752e7904f0cc4e2b39c6}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Algorithmica}
@@ -118,8 +141,8 @@
       \strng{fullhash}{d1eaf8f344213afe79aa43771dce7daf}
       \strng{authornamehash}{d1eaf8f344213afe79aa43771dce7daf}
       \strng{authorfullhash}{d1eaf8f344213afe79aa43771dce7daf}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Communications Letters}
@@ -151,8 +174,8 @@
       \strng{fullhash}{329eee2ad440eadc9940fa93c3312fb9}
       \strng{authornamehash}{329eee2ad440eadc9940fa93c3312fb9}
       \strng{authorfullhash}{329eee2ad440eadc9940fa93c3312fb9}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -174,8 +197,8 @@
       \strng{fullhash}{ef6532737259def13d5ce9df3b7635a8}
       \strng{authornamehash}{ef6532737259def13d5ce9df3b7635a8}
       \strng{authorfullhash}{ef6532737259def13d5ce9df3b7635a8}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annals of Discrete Mathematics}
@@ -209,8 +232,8 @@
       \strng{fullhash}{bd702f5af34e752e7904f0cc4e2b39c6}
       \strng{authornamehash}{bd702f5af34e752e7904f0cc4e2b39c6}
       \strng{authorfullhash}{bd702f5af34e752e7904f0cc4e2b39c6}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -234,8 +257,8 @@
       \strng{fullhash}{c1ecb61eccd0a3b9ccb5fd2195467e55}
       \strng{authornamehash}{c1ecb61eccd0a3b9ccb5fd2195467e55}
       \strng{authorfullhash}{c1ecb61eccd0a3b9ccb5fd2195467e55}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Information Theory}
@@ -270,8 +293,8 @@
       \strng{fullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
       \strng{authornamehash}{4cc2aa4e32b3ffcd754673835cc929e4}
       \strng{authorfullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of \LaTeX class files}
@@ -314,8 +337,8 @@
       }
       \strng{authornamehash}{1313ffa65b7a775eb97b51ce0096e84e}
       \strng{authorfullhash}{4607ac61b562aea34fffef9e5ee37036}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Tenth International Symposium on Wireless Communication Systems}
       \field{langid}{english}
@@ -339,8 +362,8 @@
       \strng{fullhash}{29bc577b3f7d80944e9c15e5777820a7}
       \strng{authornamehash}{29bc577b3f7d80944e9c15e5777820a7}
       \strng{authorfullhash}{29bc577b3f7d80944e9c15e5777820a7}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Matematicky casopis}
@@ -379,8 +402,8 @@
       \strng{fullhash}{995f1310b24e0ead3cb32f75c35feda9}
       \strng{authornamehash}{995f1310b24e0ead3cb32f75c35feda9}
       \strng{authorfullhash}{995f1310b24e0ead3cb32f75c35feda9}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -399,8 +422,8 @@
       \strng{fullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
       \strng{authornamehash}{42e53545a9df44fe2ee70e04c0bb1c0f}
       \strng{authorfullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
