@@ -271,80 +271,6 @@
       \field{volume}{52}
       \range{volume}{1}
     \endentry
-    \entry{opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu}{article}{}
-      \name{author}{3}{}{%
-        {{hash=b45dcbe794925b65aedd3ad828836772}{%
-           family={Broulim},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=8411546880db73abbd3cfd6ca07d76ef}{%
-           family={Ayriyan},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=df9d8bf59b9c0f00788a12524f47de0f}{%
-           family={Georgiev},
-           familyi={G\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{4cc2aa4e32b3ffcd754673835cc929e4}
-      \strng{fullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
-      \strng{authornamehash}{4cc2aa4e32b3ffcd754673835cc929e4}
-      \strng{authorfullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of \LaTeX class files}
-      \field{langid}{english}
-      \field{month}{8}
-      \field{title}{OpenCL/CUDA algorithms for parallel decoding of any irregular LDPC code using GPU}
-      \field{year}{2015}
-      \field{number}{8}
-      \range{number}{1}
-      \field{volume}{14}
-      \range{volume}{1}
-    \endentry
-    \entry{stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters}{artice}{useauthor=false}
-      \name{author}{5}{}{%
-        {{hash=ca215bec44d0744f9d3086c55d92b9a8}{%
-           family={Falcao},
-           familyi={F\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=4da66215bd837b27aeccbfab5b1912d7}{%
-           family={Andrade},
-           familyi={A\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=438945a4378a7a56f774410a407aa7a0}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-        {{hash=77674594ea624907fc7b7d4492eec1f9}{%
-           family={Yamagiwa},
-           familyi={Y\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=3b07933023075e618f993c7b26ffa31c}{%
-           family={Sousa},
-           familyi={S\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{authornamehash}{1313ffa65b7a775eb97b51ce0096e84e}
-      \strng{authorfullhash}{4607ac61b562aea34fffef9e5ee37036}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Tenth International Symposium on Wireless Communication Systems}
-      \field{langid}{english}
-      \field{title}{Stressing the BER simulation of LDPC codes in the error floor region using GPU clusters}
-      \field{year}{2013}
-    \endentry
     \entry{on-the-number-of-cycles-in-a-graph}{article}{}
       \name{author}{2}{}{%
         {{hash=d410ee57252a3f270a32781656c7ca5b}{%
@@ -435,6 +361,80 @@
       \verb{url}
       \verb http://www.inference.phy.cam.ac.uk/mackay/codes/data.html
       \endverb
+    \endentry
+    \entry{stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters}{artice}{useauthor=false}
+      \name{author}{5}{}{%
+        {{hash=ca215bec44d0744f9d3086c55d92b9a8}{%
+           family={Falcao},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4da66215bd837b27aeccbfab5b1912d7}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=438945a4378a7a56f774410a407aa7a0}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=77674594ea624907fc7b7d4492eec1f9}{%
+           family={Yamagiwa},
+           familyi={Y\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3b07933023075e618f993c7b26ffa31c}{%
+           family={Sousa},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{authornamehash}{1313ffa65b7a775eb97b51ce0096e84e}
+      \strng{authorfullhash}{4607ac61b562aea34fffef9e5ee37036}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Tenth International Symposium on Wireless Communication Systems}
+      \field{langid}{english}
+      \field{title}{Stressing the BER simulation of LDPC codes in the error floor region using GPU clusters}
+      \field{year}{2013}
+    \endentry
+    \entry{opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b45dcbe794925b65aedd3ad828836772}{%
+           family={Broulim},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8411546880db73abbd3cfd6ca07d76ef}{%
+           family={Ayriyan},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df9d8bf59b9c0f00788a12524f47de0f}{%
+           family={Georgiev},
+           familyi={G\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cc2aa4e32b3ffcd754673835cc929e4}
+      \strng{fullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
+      \strng{authornamehash}{4cc2aa4e32b3ffcd754673835cc929e4}
+      \strng{authorfullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of \LaTeX class files}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{OpenCL/CUDA algorithms for parallel decoding of any irregular LDPC code using GPU}
+      \field{year}{2015}
+      \field{number}{8}
+      \range{number}{1}
+      \field{volume}{14}
+      \range{volume}{1}
     \endentry
   \endsortlist
 \endrefsection
