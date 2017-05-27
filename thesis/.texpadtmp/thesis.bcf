@@ -3418,6 +3418,8 @@
     <bcf:citekey order="2">mackay-codes</bcf:citekey>
     <bcf:citekey order="3">stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters</bcf:citekey>
     <bcf:citekey order="4">opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu</bcf:citekey>
+    <bcf:citekey order="5">kudryashov-codingtheory</bcf:citekey>
+    <bcf:citekey order="6">kudryashov-codingtheory</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="1" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
