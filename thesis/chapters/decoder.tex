@@ -341,8 +341,57 @@ $P \ll 1$):
 
 Подставляя полученное выражение в основное тождество:
 \[
-		\alpha'_i \beta'_i= \alpha_i \beta_i + \ln \prod_{j=1}^J 
+		\alpha'_i \beta'_i= \alpha_i \beta_i + \sum_{j=1}^J 
+		\ln \frac{1+\prod_{h=1,col(j,h)!=i}^{K}(1-2p_{jh})}{1-\prod_{h=1,col(j,h)!=i}^{K}(1-2p_{jh})}
 \]
+
+Из предыдущего замечания получаем
+\[
+\prod_{h=1,col(j,h)!=i}^{K}(1-2p_{jh}) = \prod_{h=1,col(j,h)!=i}^{K} \alpha_{jh} \cdot 
+ e^{-\sum_{h=1,col(j,h)!=i}^{K} f(\beta_{jh})}
+\]
+Обозначим $\prod_{h=1,col(j,h)!=i}^{K} \alpha_{jh}$ за $A_{ij}$, а 
+$e^{-\sum_{h=1,col(j,h)!=i}^{K}f(\beta_{jh})}$ за $T_{ij}$. Тогда:
+\[
+		\alpha'_i \beta'_i= \alpha_i \beta_i + \sum_{j=1}^J 
+		\ln \frac{1+A_{ij}T_{ij}}{1-A_{ij}T_{ij}}
+\]
+
+Заметим некоторые полезные свойства функции $f$:
+\[
+	f(\beta)=\ln \frac{e^{\beta}+1}{e^{\beta}-1}=\ln \frac{1+e^{-\beta}}{1-e^{-\beta}}
+=-\ln \frac{1-e^{-\beta}}{1+e^{-\beta}}, \beta>0
+\]
+
+Кроме того, если $\beta>0$, тогда $f(\beta)>0$.
+
+Таким образом $0 < T_{ij} < 1$.
+
+Если $A_{ij}=1$, тогда:
+\[
+\ln \frac{1+A_{ij}T_{ij}}{1-A_{ij}T_{ij}}=\ln \frac{1+T_{ij}}{1-T_{ij}}=f(-\ln T_{ij})
+\]
+
+Иначе если  $A_{ij}=-1$, тогда:
+\[
+\ln \frac{1+A_{ij}T_{ij}}{1-A_{ij}T_{ij}}=\ln \frac{1-T_{ij}}{1+T_{ij}}=-f(-\ln T_{ij})
+\]
+
+Или объединяя оба случая:
+\[
+\ln \frac{1+A_{ij}T_{ij}}{1-A_{ij}T_{ij}}=A_{ij} \cdot f(-\ln T_{ij})
+\]
+
+Подставляя назад получаем:
+\[
+		\alpha'_i \beta'_i= \alpha_i \beta_i + \sum_{j=1}^J 
+		A_{ij} \cdot f(-\ln T_{ij})=
+\]
+\[
+=	\alpha_i \beta_i + \sum_{j=1}^J \prod_{h=1,col(j,h)!=i}^{K} \alpha_{jh} \cdot
+		f(\sum_{h=1,col(j,h)!=i}^{K}f(\beta_{jh}))
+\]
+
 \section{Реализация алгоритма декодирования на GPU}
 
 \section{Подсчет эффективности кода}
