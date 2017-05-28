@@ -18,7 +18,7 @@ arrAct/.style={->,auto,>=stealth,thick,draw=red}
 \node (s5) at (-2,1) [state] {5};
 \node (s6) at (-2,-1) [state] {6};
 
-\node[draw] at (0,-1) {\footnotesize 5 и 6 независимы};
+\node[draw] at (0,-1) {5 и 6 независимы};
 \draw [arrAct](s1)[] to node [right]{} node{}(s4);
 \draw [arrAct](s5)[] to node [right]{} node{}(s1);
 \draw [arrAct](s6)[] to node [right]{} node{}(s1);

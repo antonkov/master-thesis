@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  28 MAY 2017 06:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  28 MAY 2017 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1393,19 +1393,67 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen266
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
+)) (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count387
+\c@subtable=\count388
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen267
+\c@pgfplots@coordindex=\count389
+\c@pgfplots@scanlineindex=\count390
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count391
+)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count392
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count393
+\t@pgfplotstable@a=\toks57
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count394
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen268
+\pgfdecoratedremainingdistance=\dimen269
+\pgfdecoratedinputsegmentcompleteddistance=\dimen270
+\pgfdecoratedinputsegmentremainingdistance=\dimen271
+\pgf@decorate@distancetomove=\dimen272
+\pgf@decorate@repeatstate=\count395
+\pgfdecorationsegmentamplitude=\dimen273
+\pgfdecorationsegmentlength=\dimen274
+)
+\tikz@lib@dec@box=\box58
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count396
+\pgfplots@xmin@reg=\dimen275
+\pgfplots@xmax@reg=\dimen276
+\pgfplots@ymin@reg=\dimen277
+\pgfplots@ymax@reg=\dimen278
+\pgfplots@zmin@reg=\dimen279
+\pgfplots@zmax@reg=\dimen280
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
  (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count387
-\calc@Bcount=\count388
-\calc@Adimen=\dimen267
-\calc@Bdimen=\dimen268
+\calc@Acount=\count397
+\calc@Bcount=\count398
+\calc@Adimen=\dimen281
+\calc@Bdimen=\dimen282
 \calc@Askip=\skip104
 \calc@Bskip=\skip105
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count389
+\calc@Ccount=\count399
 \calc@Cskip=\skip106
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
@@ -1414,15 +1462,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count390
-\l_MT_multwidth_dim=\dimen269
+\g_MT_multlinerow_int=\count400
+\l_MT_multwidth_dim=\dimen283
 \origjot=\skip107
-\l_MT_shortvdotswithinadjustabove_dim=\dimen270
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen271
-\l_MT_above_intertext_sep=\dimen272
-\l_MT_below_intertext_sep=\dimen273
-\l_MT_above_shortintertext_sep=\dimen274
-\l_MT_below_shortintertext_sep=\dimen275
+\l_MT_shortvdotswithinadjustabove_dim=\dimen284
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen285
+\l_MT_above_intertext_sep=\dimen286
+\l_MT_below_intertext_sep=\dimen287
+\l_MT_above_shortintertext_sep=\dimen288
+\l_MT_below_shortintertext_sep=\dimen289
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1446,7 +1494,8 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
-) (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/preliminaries.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux
+) (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/preliminaries.aux)
+(/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux
 
 LaTeX Warning: Label `fig1' multiply defined.
 
@@ -1456,21 +1505,21 @@ LaTeX Warning: Label `eq4' multiply defined.
 ) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for T2A+ftm on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 33.
  (/usr/local/texlive/texmf-local/tex/latex/pscyr/t2aftm.fd
 File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
 )
@@ -1510,17 +1559,17 @@ File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count391
-\scratchdimen=\dimen276
-\scratchbox=\box58
-\nofMPsegments=\count392
-\nofMParguments=\count393
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count394
-\MPscratchDim=\dimen277
-\MPnumerator=\count395
-\makeMPintoPDFobject=\count396
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count401
+\scratchdimen=\dimen290
+\scratchbox=\box59
+\nofMPsegments=\count402
+\nofMParguments=\count403
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count404
+\MPscratchDim=\dimen291
+\MPnumerator=\count405
+\makeMPintoPDFobject=\count406
+\everyMPtoPDFconversion=\toks59
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1547,9 +1596,9 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: End \AtBeginDocument code.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/floatrow/fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
-\flrow@LT@lasthead=\box59
-\flrow@LT@prelastfoot=\box60
-\c@FBLTpage=\count397
+\flrow@LT@lasthead=\box60
+\flrow@LT@prelastfoot=\box61
+\c@FBLTpage=\count407
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
@@ -1559,78 +1608,82 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 29.
-\c@lstlisting=\count398
+(lastpage)             ! on input line 33.
+\c@lstlisting=\count408
 \appendixPrefix=\skip108
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into your preamble.
+ on input line 33.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1371) in paragraph at lines 116--116
+Underfull \hbox (badness 1371) in paragraph at lines 120--120
 []\T2A/ftm/m/n/12 01.04.02 При-клад-ная ма-те-ма-ти-ка и
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1]
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \T2A/ftm/bx/n/12 Студент \T2A/ftm/m/n/12 Ков-ша-ров А.П. \T2A/ftm/bx/n/12 Груп-па \T2A/ftm/m/n/12 M4239 \T2A/ftm/bx/n/12 Ка-фед-ра \T2A/ftm/m/n/12 ком-пью-тер-ных тех-но-ло-гий
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 116--116
+Underfull \hbox (badness 1043) in paragraph at lines 120--120
 \T2A/ftm/bx/n/12 Фа-куль-тет \T2A/ftm/m/n/12 ин-фор-ма-ци-он-ных тех-но-ло-гий и про-грам-ми-ро-ва-ния \T2A/ftm/bx/n/12 Ру-ко-во-ди-тель \T2A/ftm/m/n/12 Буз-да-лов
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 116--116
+Underfull \hbox (badness 2111) in paragraph at lines 120--120
 \T2A/ftm/bx/n/12 Направленность (про-филь): \T2A/ftm/m/n/12 Тех-но-ло-гии про-ек-ти-ро-ва-ния и раз-ра-бот-ки про-грамм-но-го
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []\T2A/ftm/m/n/12 D.J.C.MacKay. Encyclopedia of Sparse Graph Codes.
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 116--116
+Underfull \hbox (badness 2435) in paragraph at lines 120--120
 []\T2A/ftm/m/n/12 Срок вы-пол-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []\T2A/ftm/m/n/12 Отметка о
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \T2A/ftm/m/n/12 вы-пол-не-
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 116--116
+Underfull \hbox (badness 3009) in paragraph at lines 120--120
 []\T2A/ftm/m/n/12 Ознакомление с су-ще-ству-ю-щи-ми под-хо-да-ми
  []
 
 [2]
-\blx@maxsegment@1=\count399
-\blx@sectionciteorder@1=\count400
-Package biblatex Info: Reference section=1 on input line 116.
-Package biblatex Info: Setting label 'refsection:1' on input line 116.
-LaTeX Font Info:    Try loading font information for OT1+ftm on input line 116.
+\blx@maxsegment@1=\count409
+\blx@sectionciteorder@1=\count410
+Package biblatex Info: Reference section=1 on input line 120.
+Package biblatex Info: Setting label 'refsection:1' on input line 120.
+LaTeX Font Info:    Try loading font information for OT1+ftm on input line 120.
  (/usr/local/texlive/texmf-local/tex/latex/pscyr/ot1ftm.fd
 File: ot1ftm.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/ftm.
 ) [1]
-Package biblatex Info: Reference section=0 on input line 116.
+Package biblatex Info: Reference section=0 on input line 120.
  [2] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.toc)
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
@@ -1761,7 +1814,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
+[17] (../tikz/decoding1.tikz) (../tikz/decoding2.tikz) (../tikz/decoding3.tikz) (../tikz/decoding4.tikz)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1782,7 +1835,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20])
+[20]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1790,6 +1843,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
 \openout2 = `chapters/algo.aux'.
 
  (./chapters/algo.tex
@@ -1804,33 +1871,11 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22
+[24
 
 
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 17.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23]
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 17.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24] (../tikz/ex_graph2.tikz)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 201--205
-[][]\T2A/ftm/m/it/14.4 Пример \T2A/ftm/m/n/14.4 13\T2A/ftm/m/it/14.4 . []\T2A/ftm/m/n/14.4 Обо-зна-чим пу-ти $\OML/cmm/m/it/14.4 c[] \OT1/cmr/m/n/14.4 = 1 \OMS/cmsy/m/n/14.4 ! ^^@\OT1/cmr/m/n/14.4 4 \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 5 \OMS/cmsy/m/n/14.4 ! ^^@\OT1/cmr/m/n/14.4 2$\T2A/ftm/m/n/14.4 ,
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1844,7 +1889,15 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
+[26] (../tikz/ex_graph2.tikz)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 201--205
+[][]\T2A/ftm/m/it/14.4 Пример \T2A/ftm/m/n/14.4 13\T2A/ftm/m/it/14.4 . []\T2A/ftm/m/n/14.4 Обо-зна-чим пу-ти $\OML/cmm/m/it/14.4 c[] \OT1/cmr/m/n/14.4 = 1 \OMS/cmsy/m/n/14.4 ! ^^@\OT1/cmr/m/n/14.4 4 \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 5 \OMS/cmsy/m/n/14.4 ! ^^@\OT1/cmr/m/n/14.4 2$\T2A/ftm/m/n/14.4 ,
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1887,6 +1940,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
 Underfull \hbox (badness 1490) in paragraph at lines 493--496
 \T2A/ftm/m/n/14.4 ми-ро-ва-ния по ве-сам по-лу-ча-ем вре-мя необ-хо-ди-мое для под-сче-та $\OML/cmm/m/it/14.4 C[]$ \T2A/ftm/m/n/14.4 --
  []
@@ -1898,7 +1965,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[35]
 \openout2 = `chapters/experiments.aux'.
 
  (./chapters/experiments.tex
@@ -1909,11 +1976,11 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34
+[36
 
 
 
-] <../images/r4_576.pdf, id=138, 505.89pt x 505.89pt>
+] <../images/r4_576.pdf, id=144, 505.89pt x 505.89pt>
 File: ../images/r4_576.pdf Graphic file (type pdf)
  <use ../images/r4_576.pdf>
 Package pdftex.def Info: ../images/r4_576.pdf used on input line 80.
@@ -1925,12 +1992,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35] <../images/r4_2304.pdf, id=142, 505.89pt x 505.89pt>
+[37] <../images/r4_2304.pdf, id=148, 505.89pt x 505.89pt>
 File: ../images/r4_2304.pdf Graphic file (type pdf)
  <use ../images/r4_2304.pdf>
 Package pdftex.def Info: ../images/r4_2304.pdf used on input line 81.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/g3_576.pdf, id=143, 505.89pt x 505.89pt>
+ <../images/g3_576.pdf, id=149, 505.89pt x 505.89pt>
 File: ../images/g3_576.pdf Graphic file (type pdf)
  <use ../images/g3_576.pdf>
 Package pdftex.def Info: ../images/g3_576.pdf used on input line 82.
@@ -1942,20 +2009,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <../images/r4_576.pdf> <../images/r4_2304.pdf
+[38 <../images/r4_576.pdf> <../images/r4_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/r4_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <../images/g3_2304.pdf, id=174, 505.89pt x 505.89pt>
+>] <../images/g3_2304.pdf, id=180, 505.89pt x 505.89pt>
 File: ../images/g3_2304.pdf Graphic file (type pdf)
  <use ../images/g3_2304.pdf>
 Package pdftex.def Info: ../images/g3_2304.pdf used on input line 83.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/g4_576.pdf, id=175, 505.89pt x 505.89pt>
+ <../images/g4_576.pdf, id=181, 505.89pt x 505.89pt>
 File: ../images/g4_576.pdf Graphic file (type pdf)
  <use ../images/g4_576.pdf>
 Package pdftex.def Info: ../images/g4_576.pdf used on input line 84.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/q3_576.pdf, id=176, 505.89pt x 505.89pt>
+ <../images/q3_576.pdf, id=182, 505.89pt x 505.89pt>
 File: ../images/q3_576.pdf Graphic file (type pdf)
  <use ../images/q3_576.pdf>
 Package pdftex.def Info: ../images/q3_576.pdf used on input line 85.
@@ -1967,18 +2034,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37 <../images/g3_576.pdf> <../images/g3_2304.pdf
+[39 <../images/g3_576.pdf> <../images/g3_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/g3_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <../images/g4_576.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/g4_576.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <../images/q3_2304.pdf, id=221, 505.89pt x 505.89pt>
+>] <../images/q3_2304.pdf, id=227, 505.89pt x 505.89pt>
 File: ../images/q3_2304.pdf Graphic file (type pdf)
  <use ../images/q3_2304.pdf>
 Package pdftex.def Info: ../images/q3_2304.pdf used on input line 86.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/q4_576.pdf, id=222, 505.89pt x 505.89pt>
+ <../images/q4_576.pdf, id=228, 505.89pt x 505.89pt>
 File: ../images/q4_576.pdf Graphic file (type pdf)
  <use ../images/q4_576.pdf>
 Package pdftex.def Info: ../images/q4_576.pdf used on input line 87.
@@ -1990,7 +2057,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <../images/q3_576.pdf> <../images/q3_2304.pdf
+[40 <../images/q3_576.pdf> <../images/q3_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/q3_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <../images/q4_576.pdf
@@ -2006,18 +2073,18 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39
+[41
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+fer on input line 129.
+LaTeX Font Info:    Try loading font information for OT1+fer on input line 133.
  (/usr/local/texlive/texmf-local/tex/latex/pscyr/ot1fer.fd
 File: ot1fer.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/fer.
 )
 
 Package biblatex Warning: No driver for entry type 'artice'.
-(biblatex)                Using fallback driver on input line 129.
+(biblatex)                Using fallback driver on input line 133.
 
 
 AED: lastpage setting LastPage
@@ -2027,7 +2094,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40
+[42
 
 
 ] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/preliminaries.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
@@ -2043,18 +2110,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### semi simple group (level 1) entered at line 63 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29319 strings out of 493013
- 535944 string characters out of 6133343
- 1279431 words of memory out of 5000000
- 32228 multiletter control sequences out of 15000+600000
+ 39504 strings out of 493013
+ 876559 string characters out of 6133343
+ 1696304 words of memory out of 5000000
+ 42262 multiletter control sequences out of 15000+600000
  34265 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 55i,22n,62p,1118b,21665s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,22n,102p,1118b,29201s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (43 pages, 392188 bytes).
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (45 pages, 402867 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
+ 340 PDF objects out of 1000 (max. 8388607)
+ 202 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
