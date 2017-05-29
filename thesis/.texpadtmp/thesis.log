@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  28 MAY 2017 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  29 MAY 2017 09:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,7 +8,7 @@ entering extended mode
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./itmo-student-thesis.cls
-Document Class: itmo-student-thesis 2017/01/21 v1.1.1
+Document Class: itmo-student-thesis 2017/05/28 v1.1.2
 (/usr/local/texlive/2016/texmf-dist/tex/latex/extsizes/extreport.cls
 Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
 (/usr/local/texlive/2016/texmf-dist/tex/latex/extsizes/size14.clo
@@ -1634,7 +1634,12 @@ Underfull \hbox (badness 1371) in paragraph at lines 120--120
 
 [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1]
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+\T2A/ftm/bx/n/12 Студент \T2A/ftm/m/n/12 Ков-ша-ров А.П. \T2A/ftm/bx/n/12 Груп-па \T2A/ftm/m/n/12 M4239 \T2A/ftm/bx/n/12 Ка-фед-ра \T2A/ftm/m/n/12 ком-пью-тер-ных тех-но-ло-гий
+ []
+
+[1]
 Underfull \hbox (badness 10000) in paragraph at lines 120--120
 \T2A/ftm/bx/n/12 Студент \T2A/ftm/m/n/12 Ков-ша-ров А.П. \T2A/ftm/bx/n/12 Груп-па \T2A/ftm/m/n/12 M4239 \T2A/ftm/bx/n/12 Ка-фед-ра \T2A/ftm/m/n/12 ком-пью-тер-ных тех-но-ло-гий
  []
@@ -2112,13 +2117,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  39504 strings out of 493013
  876559 string characters out of 6133343
- 1696304 words of memory out of 5000000
+ 1696362 words of memory out of 5000000
  42262 multiletter control sequences out of 15000+600000
  34265 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,22n,102p,1118b,29201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,22n,102p,1118b,29203s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (45 pages, 402867 bytes).
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (45 pages, 402975 bytes).
 PDF statistics:
  340 PDF objects out of 1000 (max. 8388607)
  202 compressed objects within 3 object streams
