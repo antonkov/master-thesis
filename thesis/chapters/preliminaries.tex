@@ -112,3 +112,105 @@ P^2_3=
 матрицы из блоков циркулянтов единичной матрицы.
 
 Для построения б
+
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{0.2\textwidth}
+  \centering
+  \scalebox{1.2}{\inputTikZ{liftingBase}}
+  \caption{Протограф}
+  \label{liftingBase}
+\end{subfigure}%
+\begin{subfigure}{.8\textwidth}
+  \centering
+  \scalebox{1.2}{\inputTikZ{liftingExpanded}}
+  \caption{Расширенный граф}
+  \label{liftingExpanded}
+\end{subfigure}
+\caption{Пример лифтинга}
+\end{figure}
+
+\section{Граф Таннера}
+
+
+\newcommand\colorBox[2]{\setlength{\fboxsep}{2pt}\colorbox{#1!10}{#2}}
+
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{.3\textwidth}
+  \centering
+  \[
+    \begin{blockarray}{ccccc}
+        \colorBox{red}{1} & \colorBox{red}{2} & \colorBox{red}{3} & \colorBox{red}{4} \\
+        \begin{block}{(cccc)c}
+            1&1&0&1&\colorBox{green}{5}\\
+            1&1&1&0&\colorBox{green}{6}\\
+            1&0&1&1&\colorBox{green}{7} \\
+        \end{block}
+    \end{blockarray}
+  \]
+  \caption{Проверочная матрица $H$}
+  \label{checkMatrix}
+\end{subfigure}%
+\begin{subfigure}{.7\textwidth}
+  \centering
+   \scalebox{1.2}{\inputTikZ{ex_graph1}}
+  \caption{Граф Таннера}
+  \label{checkMatrix}
+\end{subfigure}
+\caption{Пример графа Таннера}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
