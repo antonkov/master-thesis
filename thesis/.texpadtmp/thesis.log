@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  31 MAY 2017 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  1 JUN 2017 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2093,17 +2093,17 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <../images/r4_576.pdf>] <../images/g3_576.pdf, id=207, 505.89pt x 505.89pt>
+[42 <../images/r4_576.pdf>] <../images/g3_576.pdf, id=204, 505.89pt x 505.89pt>
 File: ../images/g3_576.pdf Graphic file (type pdf)
  <use ../images/g3_576.pdf>
 Package pdftex.def Info: ../images/g3_576.pdf used on input line 120.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/g3_2304.pdf, id=208, 505.89pt x 505.89pt>
+ <../images/g3_2304.pdf, id=205, 505.89pt x 505.89pt>
 File: ../images/g3_2304.pdf Graphic file (type pdf)
  <use ../images/g3_2304.pdf>
 Package pdftex.def Info: ../images/g3_2304.pdf used on input line 121.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/g4_576.pdf, id=209, 505.89pt x 505.89pt>
+ <../images/g4_576.pdf, id=206, 505.89pt x 505.89pt>
 File: ../images/g4_576.pdf Graphic file (type pdf)
  <use ../images/g4_576.pdf>
 Package pdftex.def Info: ../images/g4_576.pdf used on input line 122.
@@ -2121,17 +2121,17 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/g3_576.pdf): PDF in
 > <../images/g3_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/g3_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] <../images/q3_576.pdf, id=254, 505.89pt x 505.89pt>
+>] <../images/q3_576.pdf, id=323, 505.89pt x 505.89pt>
 File: ../images/q3_576.pdf Graphic file (type pdf)
  <use ../images/q3_576.pdf>
 Package pdftex.def Info: ../images/q3_576.pdf used on input line 123.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/q3_2304.pdf, id=255, 505.89pt x 505.89pt>
+ <../images/q3_2304.pdf, id=324, 505.89pt x 505.89pt>
 File: ../images/q3_2304.pdf Graphic file (type pdf)
  <use ../images/q3_2304.pdf>
 Package pdftex.def Info: ../images/q3_2304.pdf used on input line 124.
 (pdftex.def)             Requested size: 216.81056pt x 216.81pt.
- <../images/q4_576.pdf, id=256, 505.89pt x 505.89pt>
+ <../images/q4_576.pdf, id=325, 505.89pt x 505.89pt>
 File: ../images/q4_576.pdf Graphic file (type pdf)
  <use ../images/q4_576.pdf>
 Package pdftex.def Info: ../images/q4_576.pdf used on input line 125.
@@ -2211,9 +2211,9 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  73i,22n,102p,1091b,29416s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (50 pages, 437705 bytes).
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (50 pages, 500740 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
+ 553 PDF objects out of 1000 (max. 8388607)
  217 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
