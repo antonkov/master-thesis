@@ -1,14 +1,27 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 # Plots SNR/FER for bad, good and average base matrices
 import sys
 import pandas as pd
 import os
 import seaborn as sns
+import argparse
 import matplotlib.pyplot as plt
 
 #sns.set(style="darkgrid", palette="Set2")
 plt.style.use('seaborn-ticks')
 
-filenames = sys.argv[1:] # rr3_2304
+DRAW = 1
+SAVE = 0
+parser = argparse.ArgumentParser(description='Draw or save images of SNR/FER graphs for LDPC-codes')
+parser.add_argument('folders', metavar='folder', type=str, nargs='+',
+                  help='folders with simulation result to draw')
+parser.add_argument('--draw', dest='operation', action='store_const',
+                    const=DRAW, default=SAVE,
+                    help='draw images in window (default: save images to files)')
+args = parser.parse_args()
+
+filenames = args.folders # rr3_2304
 for filename in filenames:
     def read_ssv(f):
         return pd.read_csv(f, delim_whitespace=True, header=1, index_col=False)
@@ -44,15 +57,21 @@ for filename in filenames:
     f, ax = plt.subplots(figsize=(7, 7))
     ax.set(yscale='log')
     ax.set_xlim([1, 3.5])
+    bot_plot, avg_plot, top_plot = None, None, None
     for xs, ys in bots:
-        ax.plot(xs, ys, color='red', lw=0.2)
+        bot_plot, = ax.plot(xs, ys, color='red', lw=0.2)
     for xs, ys in avgs:
-        ax.plot(xs, ys, color='blue', lw=0.2)
+        avg_plot, = ax.plot(xs, ys, color='blue', lw=0.2)
     for xs, ys in tops:
-        ax.plot(xs, ys, color='green', lw=0.2)
+        top_plot, = ax.plot(xs, ys, color='green', lw=0.2)
 
+    ax.set_xlabel('Отношение сигнал-шум (дБ)')
+    ax.set_ylabel('Вероятность ошибки на блок')
     #plt.rc('grid', linestyle="-", color='black')
     plt.grid(True)
 
-    plt.savefig('../images/' + filename + '.pdf')
-    plt.savefig('../images/' + filename + '.eps')
+    if args.operation == DRAW:
+        plt.show()
+    else:
+        plt.savefig('../images/' + filename + '.pdf')
+        plt.savefig('../images/' + filename + '.eps')
