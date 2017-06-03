@@ -46,8 +46,8 @@ for filename in filenames:
     greenTestIds = [x for x in tests if 'top' in x]
     redTestIds = [x for x in tests if 'bot' in x]
     tests = [x for x in tests if 'test' in x]
-    greenTestIds += tests[:len(tests)/2]
-    redTestIds += tests[len(tests)/2:]
+    greenTestIds += tests[:1]#tests[:len(tests)/2]
+    redTestIds += tests[-1:]#tests[len(tests)/2:]
 
     xgreen = []
     xred = []
@@ -64,7 +64,7 @@ for filename in filenames:
         if name[0] in greenTestIds:
             xgreen.append(snr)
             greenTests.append((xs,ys))
-        else:
+        elif name[0] in redTestIds:
             xred.append(snr)
             redTests.append((xs,ys))
 
