@@ -4,8 +4,8 @@ M=24
 SIZE=576
 COUNT_MARKING=15
 FVAL=50
-for depth in 4; do
-    for node in `seq 1 1`; do
+for depth in 2; do
+    for node in `seq 5 5`; do
         folder="depth$depth/node$node"
         echo "Starting processing $folder"
         numberFiles=`ls $rootFolder/$folder | wc -l`
