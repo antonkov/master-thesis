@@ -38,13 +38,16 @@ for filename in filenames:
 
     df = read_ssv('../reports/' + filename + '.rpt')
 
-    dfTypeTest = df['Filename'].str.extract('test(?P<baseTest>\d+)_(?P<markTest>\d+).mtx', expand=True)
+    dfTypeTest = df['Filename'].str.extract('/(?P<baseTest>[a-z0-9]+)_(?P<markTest>\d+).mtx', expand=True)
     df = pd.concat([dfTypeTest, df['SNR'], df['FER']], axis=1)
     df = df.rename(columns={'FER': 'fer', 'SNR': 'snr'})
 
     tests = sorted(df['baseTest'].unique().tolist())
-    greenTestIds = tests[:len(tests)/2]
-    redTestIds = tests[len(tests)/2:]
+    greenTestIds = [x for x in tests if 'top' in x]
+    redTestIds = [x for x in tests if 'bot' in x]
+    tests = [x for x in tests if 'test' in x]
+    greenTestIds += tests[:len(tests)/2]
+    redTestIds += tests[len(tests)/2:]
 
     xgreen = []
     xred = []
@@ -73,11 +76,13 @@ for filename in filenames:
         S1 = sum((x-M1)**2 for x in x1)/n1
         S2 = sum((x-M2)**2 for x in x2)/n2
         # Satervait
-        alpha = 0.99
-        v1 = S1/n1
-        v2 = S2/n2
-        ta = (v1 * t.isf(alpha,n1-1) + v2 * t.isf(alpha,n2-1))/(v1+v2)
-        print ta
+        for alpha in [0.2, 0.1, 0.05,0.01,0.001]:
+            alpha /= 2
+            v1 = S1/n1
+            v2 = S2/n2
+            ta = (v1 * t.isf(alpha,n1-1) + v2 * t.isf(alpha,n2-1))/(v1+v2)
+            print ta
+            #print t.isf(alpha,n1+n2-2)
         return (M1 - M2) / (S1/(n1-1) + S2/(n2-1))**0.5
 
     tStudent = calcStudent(xred, xgreen)
