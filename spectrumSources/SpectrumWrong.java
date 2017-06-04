@@ -35,10 +35,7 @@ public class SpectrumWrong {
     private void addBiEdge(int from, int to, int c, int M, int spectrumSize) {
         Edge e1 = new Edge(from, to, c, edges.size(), M, spectrumSize);
         edges.add(e1);
-        int c2 = M - c;
-        if (c == 0)
-            c2 = 0;
-        Edge e2 = new Edge(to, from, c2, edges.size(), M, spectrumSize);
+        Edge e2 = new Edge(to, from, M-c, edges.size(), M, spectrumSize);
         edges.add(e2);
 
         e1.backEdge = e2;
@@ -47,11 +44,19 @@ public class SpectrumWrong {
         g[to].add(e2);
     }
 
-    // params
-    private int SPECTRUM_SIZE;
+    private void removeBiEdge(Edge e) {
+        Edge backEdge = e.backEdge;
+        edges.remove(e);
+        edges.remove(backEdge);
+        g[e.from].remove(e);
+        g[backEdge.from].remove(backEdge);
+    }
+
+    final int spectrumSize = 20;
 
     SolveReport solve(int J, int K, int M, int[][] ws) {
         int n = J + K; // Count vertices
+        int m = J * K; // Count edges
         g = new ArrayList[n + 1];
         edges = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
@@ -63,25 +68,29 @@ public class SpectrumWrong {
                 int to = J + j;
                 int c = ws[i][j];
                 if (c != -1) {
-                    addBiEdge(from, to, c, M, SPECTRUM_SIZE);
+                    addBiEdge(from, to, c, M, spectrumSize);
                 }
             }
         }
 
-        long[][] cntCyclesThroughEdge = new long[M][SPECTRUM_SIZE + 1];
+        // Solve
+        long[] spectrum = new long[spectrumSize + 1];
         for (int root = 0; root < n; root++) {
             for (Edge eStart : g[root]) {
+                if (eStart.to < root)
+                    continue;
+
                 clearDp();
 
-                eStart.dp[0][0] = 1;
+                eStart.dp[1][eStart.c] = 1;
 
-                for (int len = 1; len <= SPECTRUM_SIZE; len++) {
+                for (int len = 2; len <= spectrumSize; len++) {
                     for (Edge eIncoming : edges) {
                         for (int w = 0; w < M; w++) {
                             long cntPaths = eIncoming.dp[len - 1][w];
                             if (cntPaths != 0) {
                                 for (Edge e : g[eIncoming.to]) {
-                                    if (e.edgeNum != eIncoming.backEdge.edgeNum) {
+                                    if (e.edgeNum != eIncoming.backEdge.edgeNum && e.to >= root) {
                                         int wNext = w + e.c;
                                         if (wNext >= M) {
                                             wNext -= M;
@@ -93,64 +102,17 @@ public class SpectrumWrong {
                         }
                     }
 
-                    for (int w = 0; w < M; w++)
-                        cntCyclesThroughEdge[w][len] += eStart.dp[len][w];
-                }
-            }
-        }
-        // Mobius inversion
-        int[] mu = new int[SPECTRUM_SIZE + 1];
-        mu[1] = 1;
-        nextX:
-        for (int i = 2; i < mu.length; i++) {
-            int x = i;
-            int r = 0;
-            for (int y = 2; y <= x; y++) {
-                if (x % (y * y) == 0) {
-                    continue nextX;
-                } else if (x % y == 0) {
-                    x /= y;
-                    r++;
-                }
-            }
-            mu[i] = (r % 2 == 0) ? 1 : -1;
-        }
-        long[] spectrum = new long[SPECTRUM_SIZE + 1];
-        long[][] g = new long[SPECTRUM_SIZE + 1][M]; // f[i][j] - count cycles with period and length i and weight j
-        for (int w = 0; w < M; w++) {
-            for (int period = 1; period <= SPECTRUM_SIZE; period++) {
-                for (int d = 1; d <= period; d++) {
-                    if (period % d == 0) {
-                        for (int subW = 0; subW < M; subW++) {
-                            if (subW * d % M == w)
-                                g[period][w] += mu[d] * cntCyclesThroughEdge[subW][period / d];
+                    for (Edge e : g[root]) {
+                        if (e.edgeNum != eStart.edgeNum) {
+                            Edge incoming = e.backEdge;
+                            spectrum[len] += incoming.dp[len][0];
                         }
                     }
                 }
-                if (g[period][w] % period != 0) {
-                    throw new AssertionError();
-                }
-                g[period][w] /= period;
             }
         }
-        // end Mobius inversion
-
-        for (int period = 1; period <= SPECTRUM_SIZE; period++) {
-            for (int num = 1; num * period <= SPECTRUM_SIZE; num++) {
-                for (int w = 0; w < M; w++) {
-                    if (w * num % M == 0) {
-                        spectrum[num * period] += g[period][w];
-                    }
-                }
-            }
-        }
-        for (int i = 2; i < spectrum.length; i++) {
-            if (spectrum[i] % 2 != 0) {
-                System.out.println(i);
-                throw new AssertionError("Division by 2 error");
-            }
-            spectrum[i] /= 2;
-        }
+        for (int i = 0; i < spectrum.length; i++)
+            spectrum[i] /= 2; // can go on cycle in two directions
 
         // Report
         SolveReport report = new SolveReport();
@@ -161,14 +123,13 @@ public class SpectrumWrong {
     class SolveReport {
         long[] spectrum;
 
-        public SolveReport() {
-        }
+        public SolveReport() {}
     }
 
     private void run(String[] filesAndFolders) {
         PrintWriter out = new PrintWriter(System.out);
 
-        final int MAX_ENTRIES_TO_SHOW = 8;
+        final int MAX_ENTRIES_TO_SHOW = 5;
         out.println("Results");
         out.print("Filename ");
         for (int i = 1; i <= MAX_ENTRIES_TO_SHOW; i++)
@@ -177,7 +138,6 @@ public class SpectrumWrong {
 
         Queue<String> q = new ArrayDeque<>();
         q.addAll(Arrays.asList(filesAndFolders));
-        long resultTime = 0;
         while (!q.isEmpty()) {
             String filename = q.poll();
             {
@@ -213,7 +173,6 @@ public class SpectrumWrong {
                 SolveReport report = solve(J, K, M, ws);
 
                 long time = System.currentTimeMillis() - startTime;
-                resultTime += time;
                 out.print(filename + " ");
                 int shown = 0;
                 for (int i = 1; i < report.spectrum.length; i++) {
@@ -227,17 +186,12 @@ public class SpectrumWrong {
                 System.err.println("File " + filename + " not found. Ignoring...");
             }
         }
-        System.out.println("took time " + resultTime);
+
         out.close();
     }
 
-    public SpectrumWrong(int spectrumSize) {
-        this.SPECTRUM_SIZE = spectrumSize;
-    }
-
     public static void main(String[] args) {
-        final int DEFAULT_SPECTRUM_SIZE = 20;
-        new SpectrumWrong(DEFAULT_SPECTRUM_SIZE).run(args);
+        new SpectrumWrong().run(args);
     }
 
 }
