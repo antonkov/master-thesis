@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  4 JUN 2017 06:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  4 JUN 2017 06:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2215,14 +2215,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [47 <../images/d4n1_576.pdf> <../images/d4n1_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/d4n1_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->])
+>]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
+[48])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
 \openout2 = `chapters/outro.aux'.
 
  (./chapters/outro.tex)
@@ -2232,7 +2239,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49
+[50
 
 
 
@@ -2251,7 +2258,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50
+[51
 
 
 ] 
@@ -2262,7 +2269,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/preliminaries.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
+[52] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/preliminaries.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2283,10 +2290,10 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  73i,22n,102p,1091b,29404s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (54 pages, 545125 bytes).
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (55 pages, 545312 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
+ 644 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

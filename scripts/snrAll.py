@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import t
 
-FER_THRESHOLD = 0.001
+FER_THRESHOLD = 0.01
 MAX_SNR = 3.5
 #sns.set(style="darkgrid", palette="Set2")
 plt.style.use('seaborn-ticks')
