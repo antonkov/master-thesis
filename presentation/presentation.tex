@@ -268,6 +268,8 @@ a_{2L}^i=a_0^i \cdot A^L
 \end{frame}
 
 \newcommand{\plotstandard}[1]{\centerline{\includegraphics[height=3in]{#1}}}
+
+\newcommand{\plotmedium}[1]{\centerline{\includegraphics[height=2.5in]{#1}}}
 \newcommand{\plotsmall}[1]{\includegraphics[height=1.3in]{#1}}
 
 \begin{frame}{Экспериментальные исследования \\ Ричардсон-Урбанке 4x8 576}
@@ -289,6 +291,68 @@ a_{2L}^i=a_0^i \cdot A^L
     \plotsmall{../images/g4_576.pdf}\\
   \end{tabular}
 \end{table}
+\end{frame}
+
+\begin{frame}{Критерий Стьюдента}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+	\hline
+	Ансамбль кодов & $t$ & Уровень значимости $\alpha$\\
+	\hline
+	Ричардсон-Урбанке 4x8 576 & 4.50 &  $\alpha = 0.0001$\\
+	\hline
+	Ричардсон-Урбанке 4x8 2304 & 29.7 & $\alpha < 0.0001$ \\
+	\hline
+	Галлагер 4x8 576 & 2.57 & $\alpha \approx 0.01$ \\
+	\hline
+	Квазициклические коды 4x8 576 & 8.53 & $\alpha < 0.0001$ \\
+	\hline
+	Галлагер 3x6 576 & 6.57 & $\alpha < 0.0001$ \\
+	\hline
+	Галлагер 3x6 2304 & 3.32 & $\alpha \approx 0.005$ \\
+	\hline
+	Квазициклические коды 3x6 2304 & 9.92 & $\alpha < 0.0001$ \\
+	\hline
+	Квазициклические коды 3x6 576 & 12.92 & $\alpha < 0.0001$ \\
+	\hline
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}{Два кода с одинаковым префиксом}
+$C_4=63, C_6=622, C_8=6961, C_{10}=83856$, $C_{12}=1068487$/$C_{12}=1070468$
+
+\begin{figure}[h!]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \plotmedium{../images/d4n1_576.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \plotmedium{../images/d4n1_2304.pdf}
+\end{subfigure}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Ричардсон-Урбанке 4x8 2304 \\ Фиксированный префикс}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+	\hline
+	Длина префикса & $t$ & Уровень значимости $\alpha$\\
+	\hline
+	0 & 29.7 &  $\alpha < 0.0001$\\
+	\hline
+	1 & 11.47 &  $\alpha < 0.0001$\\
+	\hline
+	2 & 4.28 & $\alpha < 0.0001$ \\
+	\hline
+	3 & 3.05 & $\alpha \approx 0.005$ \\
+	\hline
+	4 & 3.36 & $\alpha = 0.001$ \\
+	\hline
+\end{tabular}
+\end{center}
 \end{frame}
 
 \begin{frame}{Выводы}
