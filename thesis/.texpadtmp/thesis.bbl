@@ -436,6 +436,32 @@
       \field{volume}{14}
       \range{volume}{1}
     \endentry
+    \entry{kudryashov-huawei}{online}{}
+      \name{author}{1}{}{%
+        {{hash=42e53545a9df44fe2ee70e04c0bb1c0f}{%
+           family={MacKay},
+           familyi={M\bibinitperiod},
+           given={D.J.C},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{42e53545a9df44fe2ee70e04c0bb1c0f}
+      \strng{fullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
+      \strng{authornamehash}{42e53545a9df44fe2ee70e04c0bb1c0f}
+      \strng{authorfullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Encyclopedia of Sparse Graph Codes}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2017}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.inference.phy.cam.ac.uk/mackay/codes/data.html
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 

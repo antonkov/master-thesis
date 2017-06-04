@@ -3422,6 +3422,7 @@
     <bcf:citekey order="6">opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu</bcf:citekey>
     <bcf:citekey order="7">kudryashov-codingtheory</bcf:citekey>
     <bcf:citekey order="8">kudryashov-codingtheory</bcf:citekey>
+    <bcf:citekey order="9">kudryashov-huawei</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="1" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
