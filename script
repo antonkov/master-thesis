@@ -5,7 +5,7 @@ SIZE=2304
 COUNT_MARKING=5
 FVAL=50
 TVAL=0.01
-for depth in 3 2; do
+for depth in 1; do
     for node in `seq 0 6`; do
         folder="depth$depth/node$node"
         echo "Starting processing $folder"
