@@ -19,28 +19,39 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
-    \entry{gallager}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f76fbd9faddcec1968c0ac4304f480a2}{%
-           family={Gallager},
-           familyi={G\bibinitperiod},
-           given={R.G},
-           giveni={R\bibinitperiod}}}%
+    \entry{understanding-belief-propogation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=904aba2e3a25ef4891a565bf5c9318ac}{%
+           family={Yedidia},
+           familyi={Y\bibinitperiod},
+           given={J.S.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c872a8f18de6231e42272a967a4ba04a}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={W.T.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=448e9c874a02562019991c06386e18b7}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Massachusetts: MIT Press}%
+        {Mitsubishi electric research laboratories}%
       }
-      \strng{namehash}{f76fbd9faddcec1968c0ac4304f480a2}
-      \strng{fullhash}{f76fbd9faddcec1968c0ac4304f480a2}
-      \strng{authornamehash}{f76fbd9faddcec1968c0ac4304f480a2}
-      \strng{authorfullhash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \strng{namehash}{995f1310b24e0ead3cb32f75c35feda9}
+      \strng{fullhash}{995f1310b24e0ead3cb32f75c35feda9}
+      \strng{authornamehash}{995f1310b24e0ead3cb32f75c35feda9}
+      \strng{authorfullhash}{995f1310b24e0ead3cb32f75c35feda9}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Low-Density Parity-Check Codes}
-      \field{year}{1963}
+      \field{month}{11}
+      \field{title}{Understanding Belief Propagation and its Generalizations}
+      \field{year}{2001}
     \endentry
     \entry{kudryashov-codingtheory}{book}{}
       \name{author}{1}{}{%
@@ -64,29 +75,6 @@
       \field{langid}{russian}
       \field{title}{Основы теории кодирования}
       \field{year}{2016}
-    \endentry
-    \entry{hall-combinatorics}{book}{}
-      \name{author}{1}{}{%
-        {{hash=c7b504c94950e245efb53bb89537a012}{%
-           family={Холл},
-           familyi={Х\bibinitperiod},
-           given={М.},
-           giveni={М\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Издательство "Мир" Москва}%
-      }
-      \strng{namehash}{c7b504c94950e245efb53bb89537a012}
-      \strng{fullhash}{c7b504c94950e245efb53bb89537a012}
-      \strng{authornamehash}{c7b504c94950e245efb53bb89537a012}
-      \strng{authorfullhash}{c7b504c94950e245efb53bb89537a012}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{russian}
-      \field{title}{Комбинаторика}
-      \field{year}{1970}
     \endentry
     \entry{finding-and-counting-given-length-cycles}{article}{}
       \name{author}{3}{}{%
@@ -124,63 +112,37 @@
       \field{pages}{209\bibrangedash 223}
       \range{pages}{15}
     \endentry
-    \entry{counting-short-cycles-of-quasi-cyclic-protograph-ldpc-codes}{article}{}
+    \entry{on-the-number-of-cycles-in-a-graph}{article}{}
       \name{author}{2}{}{%
-        {{hash=bf9714f9810cae8c42698521fa7b8303}{%
-           family={Karimi},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4cf6e30bd5613c90871ac7302edd3003}{%
-           family={Banihashemi},
-           familyi={B\bibinitperiod},
-           given={A.H.},
-           giveni={A\bibinitperiod}}}%
+        {{hash=d410ee57252a3f270a32781656c7ca5b}{%
+           family={Harray},
+           familyi={H\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=824c146dea4914f024e77baef56ca277}{%
+           family={Manvel},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{d1eaf8f344213afe79aa43771dce7daf}
-      \strng{fullhash}{d1eaf8f344213afe79aa43771dce7daf}
-      \strng{authornamehash}{d1eaf8f344213afe79aa43771dce7daf}
-      \strng{authorfullhash}{d1eaf8f344213afe79aa43771dce7daf}
+      \strng{namehash}{29bc577b3f7d80944e9c15e5777820a7}
+      \strng{fullhash}{29bc577b3f7d80944e9c15e5777820a7}
+      \strng{authornamehash}{29bc577b3f7d80944e9c15e5777820a7}
+      \strng{authorfullhash}{29bc577b3f7d80944e9c15e5777820a7}
       \field{sortinit}{4}
       \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Communications Letters}
+      \field{journaltitle}{Matematicky casopis}
       \field{langid}{english}
-      \field{month}{3}
-      \field{title}{Counting short cycles of quasi cyclic protograph LDPC-codes}
-      \field{year}{2012}
-      \field{number}{3}
+      \field{title}{On the number of cycles in a graph}
+      \field{year}{1971}
+      \field{number}{1}
       \range{number}{1}
-      \field{pages}{400\bibrangedash 403}
-      \range{pages}{4}
-      \field{volume}{16}
+      \field{pages}{55\bibrangedash 63}
+      \range{pages}{9}
+      \field{volume}{21}
       \range{volume}{1}
-    \endentry
-    \entry{message-passing-algorithm-for-counting-short-cycles-in-graph}{article}{}
-      \name{author}{2}{}{%
-        {{hash=bf9714f9810cae8c42698521fa7b8303}{%
-           family={Karimi},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6c16c74b5e9367754508fa404ef0207f}{%
-           family={Banihashemi},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{329eee2ad440eadc9940fa93c3312fb9}
-      \strng{fullhash}{329eee2ad440eadc9940fa93c3312fb9}
-      \strng{authornamehash}{329eee2ad440eadc9940fa93c3312fb9}
-      \strng{authorfullhash}{329eee2ad440eadc9940fa93c3312fb9}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{A message-passing algorithm for counting short cycles in graph}
-      \field{year}{2013}
     \endentry
     \entry{how-to-find-long-paths-efficiently}{article}{}
       \name{author}{1}{}{%
@@ -197,8 +159,8 @@
       \strng{fullhash}{ef6532737259def13d5ce9df3b7635a8}
       \strng{authornamehash}{ef6532737259def13d5ce9df3b7635a8}
       \strng{authorfullhash}{ef6532737259def13d5ce9df3b7635a8}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annals of Discrete Mathematics}
@@ -232,13 +194,71 @@
       \strng{fullhash}{bd702f5af34e752e7904f0cc4e2b39c6}
       \strng{authornamehash}{bd702f5af34e752e7904f0cc4e2b39c6}
       \strng{authorfullhash}{bd702f5af34e752e7904f0cc4e2b39c6}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Color-coding}
       \field{year}{1995}
+    \endentry
+    \entry{message-passing-algorithm-for-counting-short-cycles-in-graph}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf9714f9810cae8c42698521fa7b8303}{%
+           family={Karimi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6c16c74b5e9367754508fa404ef0207f}{%
+           family={Banihashemi},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{329eee2ad440eadc9940fa93c3312fb9}
+      \strng{fullhash}{329eee2ad440eadc9940fa93c3312fb9}
+      \strng{authornamehash}{329eee2ad440eadc9940fa93c3312fb9}
+      \strng{authorfullhash}{329eee2ad440eadc9940fa93c3312fb9}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{A message-passing algorithm for counting short cycles in graph}
+      \field{year}{2013}
+    \endentry
+    \entry{counting-short-cycles-of-quasi-cyclic-protograph-ldpc-codes}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf9714f9810cae8c42698521fa7b8303}{%
+           family={Karimi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4cf6e30bd5613c90871ac7302edd3003}{%
+           family={Banihashemi},
+           familyi={B\bibinitperiod},
+           given={A.H.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1eaf8f344213afe79aa43771dce7daf}
+      \strng{fullhash}{d1eaf8f344213afe79aa43771dce7daf}
+      \strng{authornamehash}{d1eaf8f344213afe79aa43771dce7daf}
+      \strng{authorfullhash}{d1eaf8f344213afe79aa43771dce7daf}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Letters}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Counting short cycles of quasi cyclic protograph LDPC-codes}
+      \field{year}{2012}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{400\bibrangedash 403}
+      \range{pages}{4}
+      \field{volume}{16}
+      \range{volume}{1}
     \endentry
     \entry{algorithm-for-counting-for-counting-short-cycles-in-bipartite-graphs}{article}{}
       \name{author}{2}{}{%
@@ -257,8 +277,8 @@
       \strng{fullhash}{c1ecb61eccd0a3b9ccb5fd2195467e55}
       \strng{authornamehash}{c1ecb61eccd0a3b9ccb5fd2195467e55}
       \strng{authorfullhash}{c1ecb61eccd0a3b9ccb5fd2195467e55}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Information Theory}
@@ -271,96 +291,60 @@
       \field{volume}{52}
       \range{volume}{1}
     \endentry
-    \entry{on-the-number-of-cycles-in-a-graph}{article}{}
+    \entry{ace}{article}{}
       \name{author}{2}{}{%
-        {{hash=d410ee57252a3f270a32781656c7ca5b}{%
-           family={Harray},
-           familyi={H\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=824c146dea4914f024e77baef56ca277}{%
-           family={Manvel},
-           familyi={M\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
+        {{hash=900f14ed968f7afe8f207afc2d784c68}{%
+           family={Vukobratovic},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=589ecaab159c303aea7cb951963ce912}{%
+           family={Senk},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{29bc577b3f7d80944e9c15e5777820a7}
-      \strng{fullhash}{29bc577b3f7d80944e9c15e5777820a7}
-      \strng{authornamehash}{29bc577b3f7d80944e9c15e5777820a7}
-      \strng{authorfullhash}{29bc577b3f7d80944e9c15e5777820a7}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \strng{namehash}{406178ea362fbb82a6ea5229749aa2e9}
+      \strng{fullhash}{406178ea362fbb82a6ea5229749aa2e9}
+      \strng{authornamehash}{406178ea362fbb82a6ea5229749aa2e9}
+      \strng{authorfullhash}{406178ea362fbb82a6ea5229749aa2e9}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Matematicky casopis}
+      \field{journaltitle}{IEEE Communications Letters}
       \field{langid}{english}
-      \field{title}{On the number of cycles in a graph}
-      \field{year}{1971}
-      \field{number}{1}
+      \field{title}{Generalized ACE constrained progressive edge-growth LDPC code design}
+      \field{year}{2008}
+      \field{number}{12}
       \range{number}{1}
-      \field{pages}{55\bibrangedash 63}
-      \range{pages}{9}
-      \field{volume}{21}
+      \field{pages}{32\bibrangedash 34}
+      \range{pages}{3}
+      \field{volume}{1}
       \range{volume}{1}
     \endentry
-    \entry{understanding-belief-propogation}{article}{}
-      \name{author}{3}{}{%
-        {{hash=904aba2e3a25ef4891a565bf5c9318ac}{%
-           family={Yedidia},
-           familyi={Y\bibinitperiod},
-           given={J.S.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c872a8f18de6231e42272a967a4ba04a}{%
-           family={Freeman},
-           familyi={F\bibinitperiod},
-           given={W.T.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=448e9c874a02562019991c06386e18b7}{%
-           family={Weiss},
-           familyi={W\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
+    \entry{gallager}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f76fbd9faddcec1968c0ac4304f480a2}{%
+           family={Gallager},
+           familyi={G\bibinitperiod},
+           given={R.G},
+           giveni={R\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Mitsubishi electric research laboratories}%
+        {Massachusetts: MIT Press}%
       }
-      \strng{namehash}{995f1310b24e0ead3cb32f75c35feda9}
-      \strng{fullhash}{995f1310b24e0ead3cb32f75c35feda9}
-      \strng{authornamehash}{995f1310b24e0ead3cb32f75c35feda9}
-      \strng{authorfullhash}{995f1310b24e0ead3cb32f75c35feda9}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{title}{Understanding Belief Propagation and its Generalizations}
-      \field{year}{2001}
-    \endentry
-    \entry{mackay-codes}{online}{}
-      \name{author}{1}{}{%
-        {{hash=42e53545a9df44fe2ee70e04c0bb1c0f}{%
-           family={MacKay},
-           familyi={M\bibinitperiod},
-           given={D.J.C},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \strng{fullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \strng{authornamehash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \strng{authorfullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \field{sortinit}{4}
-      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \strng{namehash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \strng{fullhash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \strng{authornamehash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \strng{authorfullhash}{f76fbd9faddcec1968c0ac4304f480a2}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Encyclopedia of Sparse Graph Codes}
-      \field{urlday}{8}
-      \field{urlmonth}{5}
-      \field{urlyear}{2017}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb http://www.inference.phy.cam.ac.uk/mackay/codes/data.html
-      \endverb
+      \field{title}{Low-Density Parity-Check Codes}
+      \field{year}{1963}
     \endentry
     \entry{stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters}{artice}{useauthor=false}
       \name{author}{5}{}{%
@@ -392,8 +376,8 @@
       }
       \strng{authornamehash}{1313ffa65b7a775eb97b51ce0096e84e}
       \strng{authorfullhash}{4607ac61b562aea34fffef9e5ee37036}
-      \field{sortinit}{5}
-      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Tenth International Symposium on Wireless Communication Systems}
       \field{langid}{english}
@@ -422,8 +406,8 @@
       \strng{fullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
       \strng{authornamehash}{4cc2aa4e32b3ffcd754673835cc929e4}
       \strng{authorfullhash}{4cc2aa4e32b3ffcd754673835cc929e4}
-      \field{sortinit}{6}
-      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of \LaTeX class files}
@@ -436,31 +420,54 @@
       \field{volume}{14}
       \range{volume}{1}
     \endentry
-    \entry{kudryashov-huawei}{online}{}
+    \entry{hall-combinatorics}{book}{}
       \name{author}{1}{}{%
-        {{hash=42e53545a9df44fe2ee70e04c0bb1c0f}{%
-           family={MacKay},
-           familyi={M\bibinitperiod},
-           given={D.J.C},
-           giveni={D\bibinitperiod}}}%
+        {{hash=c7b504c94950e245efb53bb89537a012}{%
+           family={Холл},
+           familyi={Х\bibinitperiod},
+           given={М.},
+           giveni={М\bibinitperiod}}}%
       }
-      \strng{namehash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \strng{fullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \strng{authornamehash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \strng{authorfullhash}{42e53545a9df44fe2ee70e04c0bb1c0f}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \list{publisher}{1}{%
+        {Издательство "Мир" Москва}%
+      }
+      \strng{namehash}{c7b504c94950e245efb53bb89537a012}
+      \strng{fullhash}{c7b504c94950e245efb53bb89537a012}
+      \strng{authornamehash}{c7b504c94950e245efb53bb89537a012}
+      \strng{authorfullhash}{c7b504c94950e245efb53bb89537a012}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{title}{Комбинаторика}
+      \field{year}{1970}
+    \endentry
+    \entry{kudryashov-huawei}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5460e8e6f029b9880ee7af4027c75286}{%
+           family={Kudryashov},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bf6468dfb0a6c84dfcd3c9c5424e46b0}{%
+           family={Bocharova},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f4d275254f01ac8bb90b0c686e7f021}
+      \strng{fullhash}{7f4d275254f01ac8bb90b0c686e7f021}
+      \strng{authornamehash}{7f4d275254f01ac8bb90b0c686e7f021}
+      \strng{authorfullhash}{7f4d275254f01ac8bb90b0c686e7f021}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Encyclopedia of Sparse Graph Codes}
-      \field{urlday}{8}
-      \field{urlmonth}{5}
-      \field{urlyear}{2017}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb http://www.inference.phy.cam.ac.uk/mackay/codes/data.html
-      \endverb
+      \field{month}{1}
+      \field{title}{Binary images of nonbinary LDPC codes for WiMAX scenario}
+      \field{year}{2016}
     \endentry
   \endsortlist
 \endrefsection

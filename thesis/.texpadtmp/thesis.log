@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  4 JUN 2017 07:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  5 JUN 2017 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1734,7 +1734,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ]
 \openout2 = `chapters/intro.aux'.
 
- (./chapters/intro.tex)
+ (./chapters/intro.tex
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1744,7 +1744,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [5
 
 
-]
+])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
 \openout2 = `chapters/preliminaries.aux'.
 
  (./chapters/preliminaries.tex
@@ -1755,7 +1762,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6
+[7
 
 
 
@@ -1769,14 +1776,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
+[8]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 194--199
 [][]\T2A/ftm/m/it/14.4 Определение \T2A/ftm/m/n/14.4 12\T2A/ftm/m/it/14.4 . []\T2A/ftm/m/n/14.4 [2] Рас-ши-рен-ным гра-фом на-зы-ва-ет-ся граф
  []
@@ -1793,14 +1800,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9])
+[10])
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[11]
 \openout2 = `chapters/decoder.aux'.
 
  (./chapters/decoder.tex
@@ -1811,7 +1818,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11
+[12
 
 
 
@@ -1822,18 +1829,11 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
-Overfull \hbox (35.24959pt too wide) detected at line 124
+[13]
+Overfull \hbox (35.24959pt too wide) detected at line 123
 []
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 17.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1875,14 +1875,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19] (../tikz/decoding1.tikz) (../tikz/decoding2.tikz) (../tikz/decoding3.tikz) (../tikz/decoding4.tikz)
+[19]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
+[20] (../tikz/decoding1.tikz) (../tikz/decoding2.tikz) (../tikz/decoding3.tikz) (../tikz/decoding4.tikz)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1904,20 +1904,6 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-Underfull \hbox (badness 2261) in paragraph at lines 555--558
-[]\T2A/ftm/m/n/14.4 На экс-пе-ри-мен-тах из ис-сле-до-ва-ния ре-а-ли-зо-ван-ный ал-го-ритм поз-
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 555--558
-\T2A/ftm/m/n/14.4 во-лил по-лу-чить по-чти 60-кратное уско-ре-ния по срав-не-нию с вер-си-я-ми
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 555--558
-\T2A/ftm/m/n/14.4 на CPU. Ис-ход-ный код де-ко-де-ра мо-жет быть най-ден в се-ти ин-тер-нет
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1925,6 +1911,20 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
+Underfull \hbox (badness 2261) in paragraph at lines 554--557
+[]\T2A/ftm/m/n/14.4 На экс-пе-ри-мен-тах из ис-сле-до-ва-ния ре-а-ли-зо-ван-ный ал-го-ритм поз-
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 554--557
+\T2A/ftm/m/n/14.4 во-лил по-лу-чить по-чти 60-кратное уско-ре-ния по срав-не-нию с вер-си-я-ми
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 554--557
+\T2A/ftm/m/n/14.4 на CPU. Ис-ход-ный код де-ко-де-ра мо-жет быть най-ден в се-ти ин-тер-нет
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -1938,14 +1938,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26])
+[26]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
+[27])
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
 \openout2 = `chapters/algo.aux'.
 
  (./chapters/algo.tex
@@ -1960,7 +1967,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28
+[29
 
 
 
@@ -1971,14 +1978,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[30]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30] (../tikz/ex_graph2.tikz)
+[31] (../tikz/ex_graph2.tikz)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1987,13 +1994,6 @@ Underfull \hbox (badness 2970) in paragraph at lines 201--205
 [][]\T2A/ftm/m/it/14.4 Пример \T2A/ftm/m/n/14.4 16\T2A/ftm/m/it/14.4 . []\T2A/ftm/m/n/14.4 Обо-зна-чим пу-ти $\OML/cmm/m/it/14.4 c[] \OT1/cmr/m/n/14.4 = 1 \OMS/cmsy/m/n/14.4 ! ^^@\OT1/cmr/m/n/14.4 4 \OMS/cmsy/m/n/14.4 ! \OT1/cmr/m/n/14.4 5 \OMS/cmsy/m/n/14.4 ! ^^@\OT1/cmr/m/n/14.4 2$\T2A/ftm/m/n/14.4 ,
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 17.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -2043,6 +2043,13 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [38]
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 17.0pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
 Underfull \hbox (badness 1490) in paragraph at lines 493--496
 \T2A/ftm/m/n/14.4 ми-ро-ва-ния по ве-сам по-лу-ча-ем вре-мя необ-хо-ди-мое для под-сче-та $\OML/cmm/m/it/14.4 C[]$ \T2A/ftm/m/n/14.4 --
  []
@@ -2054,7 +2061,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[40]
 \openout2 = `chapters/experiments.aux'.
 
  (./chapters/experiments.tex
@@ -2065,7 +2072,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40
+[41
 
 
 
@@ -2076,34 +2083,34 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[42]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 142--146
 []\T2A/ftm/m/n/14.4 Исследование бы-ло про-ве-де-но на трех раз-лич-ных ан-сам-блях
  []
 
-<../images/r4_576.pdf, id=164, 505.89pt x 505.89pt>
+<../images/r4_576.pdf, id=167, 505.89pt x 505.89pt>
 File: ../images/r4_576.pdf Graphic file (type pdf)
  <use ../images/r4_576.pdf>
 Package pdftex.def Info: ../images/r4_576.pdf used on input line 161.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/r4_2304.pdf, id=165, 505.89pt x 505.89pt>
+ <../images/r4_2304.pdf, id=168, 505.89pt x 505.89pt>
 File: ../images/r4_2304.pdf Graphic file (type pdf)
  <use ../images/r4_2304.pdf>
 Package pdftex.def Info: ../images/r4_2304.pdf used on input line 166.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/g4_576.pdf, id=166, 505.89pt x 505.89pt>
+ <../images/g4_576.pdf, id=169, 505.89pt x 505.89pt>
 File: ../images/g4_576.pdf Graphic file (type pdf)
  <use ../images/g4_576.pdf>
 Package pdftex.def Info: ../images/g4_576.pdf used on input line 173.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q4_576.pdf, id=167, 505.89pt x 505.89pt>
+ <../images/q4_576.pdf, id=170, 505.89pt x 505.89pt>
 File: ../images/q4_576.pdf Graphic file (type pdf)
  <use ../images/q4_576.pdf>
 Package pdftex.def Info: ../images/q4_576.pdf used on input line 178.
@@ -2112,22 +2119,22 @@ Package pdftex.def Info: ../images/q4_576.pdf used on input line 178.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../images/g3_576.pdf, id=168, 505.89pt x 505.89pt>
+<../images/g3_576.pdf, id=171, 505.89pt x 505.89pt>
 File: ../images/g3_576.pdf Graphic file (type pdf)
  <use ../images/g3_576.pdf>
 Package pdftex.def Info: ../images/g3_576.pdf used on input line 189.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/g3_2304.pdf, id=169, 505.89pt x 505.89pt>
+ <../images/g3_2304.pdf, id=172, 505.89pt x 505.89pt>
 File: ../images/g3_2304.pdf Graphic file (type pdf)
  <use ../images/g3_2304.pdf>
 Package pdftex.def Info: ../images/g3_2304.pdf used on input line 194.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q3_2304.pdf, id=170, 505.89pt x 505.89pt>
+ <../images/q3_2304.pdf, id=173, 505.89pt x 505.89pt>
 File: ../images/q3_2304.pdf Graphic file (type pdf)
  <use ../images/q3_2304.pdf>
 Package pdftex.def Info: ../images/q3_2304.pdf used on input line 200.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q3_576.pdf, id=171, 505.89pt x 505.89pt>
+ <../images/q3_576.pdf, id=174, 505.89pt x 505.89pt>
 File: ../images/q3_576.pdf Graphic file (type pdf)
  <use ../images/q3_576.pdf>
 Package pdftex.def Info: ../images/q3_576.pdf used on input line 205.
@@ -2142,14 +2149,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43]
+[44]
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <../images/r4_576.pdf> <../images/r4_2304.pdf
+[45 <../images/r4_576.pdf> <../images/r4_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/r4_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <../images/g4_576.pdf
@@ -2165,7 +2172,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45 <../images/g3_576.pdf> <../images/g3_2304.pdf
+[46 <../images/g3_576.pdf> <../images/g3_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/g3_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <../images/q3_2304.pdf
@@ -2195,12 +2202,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46] <../images/d4n1_576.pdf, id=484, 505.89pt x 505.89pt>
+[47] <../images/d4n1_576.pdf, id=487, 505.89pt x 505.89pt>
 File: ../images/d4n1_576.pdf Graphic file (type pdf)
  <use ../images/d4n1_576.pdf>
 Package pdftex.def Info: ../images/d4n1_576.pdf used on input line 306.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/d4n1_2304.pdf, id=485, 505.89pt x 505.89pt>
+ <../images/d4n1_2304.pdf, id=488, 505.89pt x 505.89pt>
 File: ../images/d4n1_2304.pdf Graphic file (type pdf)
  <use ../images/d4n1_2304.pdf>
 Package pdftex.def Info: ../images/d4n1_2304.pdf used on input line 311.
@@ -2212,7 +2219,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <../images/d4n1_576.pdf> <../images/d4n1_2304.pdf
+[48 <../images/d4n1_576.pdf> <../images/d4n1_2304.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/d4n1_2304.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
@@ -2222,14 +2229,14 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48])
+[49])
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
+[50]
 \openout2 = `chapters/outro.aux'.
 
  (./chapters/outro.tex)
@@ -2239,29 +2246,16 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50
+[51
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+fer on input line 136.
- (/usr/local/texlive/texmf-local/tex/latex/pscyr/ot1fer.fd
-File: ot1fer.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/fer.
-)
 
 Package biblatex Warning: No driver for entry type 'artice'.
 (biblatex)                Using fallback driver on input line 136.
 
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 17.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51
-
-
-] 
 AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2269,7 +2263,10 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/preliminaries.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
+[52
+
+
+] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.aux (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/intro.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/preliminaries.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/decoder.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/algo.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2282,18 +2279,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### semi simple group (level 1) entered at line 63 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 39968 strings out of 493013
- 883018 string characters out of 6133343
- 1704368 words of memory out of 5000000
- 42705 multiletter control sequences out of 15000+600000
- 34910 words of font info for 93 fonts, out of 8000000 for 9000
+ 39942 strings out of 493013
+ 882605 string characters out of 6133343
+ 1704361 words of memory out of 5000000
+ 42684 multiletter control sequences out of 15000+600000
+ 34507 words of font info for 91 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  73i,22n,102p,1091b,29404s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (55 pages, 546062 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (55 pages, 542374 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
+ 640 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
