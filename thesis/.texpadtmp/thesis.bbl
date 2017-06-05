@@ -323,6 +323,31 @@
       \field{volume}{1}
       \range{volume}{1}
     \endentry
+    \entry{trapping-sets}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf9714f9810cae8c42698521fa7b8303}{%
+           family={Karimi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4cf6e30bd5613c90871ac7302edd3003}{%
+           family={Banihashemi},
+           familyi={B\bibinitperiod},
+           given={A.H.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1eaf8f344213afe79aa43771dce7daf}
+      \strng{fullhash}{d1eaf8f344213afe79aa43771dce7daf}
+      \strng{authornamehash}{d1eaf8f344213afe79aa43771dce7daf}
+      \strng{authorfullhash}{d1eaf8f344213afe79aa43771dce7daf}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{An Efficient Algorithm for Finding Dominant Trapping Sets of LDPC Codes}
+      \field{year}{}
+    \endentry
     \entry{gallager}{article}{}
       \name{author}{1}{}{%
         {{hash=f76fbd9faddcec1968c0ac4304f480a2}{%
@@ -338,8 +363,8 @@
       \strng{fullhash}{f76fbd9faddcec1968c0ac4304f480a2}
       \strng{authornamehash}{f76fbd9faddcec1968c0ac4304f480a2}
       \strng{authorfullhash}{f76fbd9faddcec1968c0ac4304f480a2}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}

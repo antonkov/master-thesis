@@ -3415,15 +3415,16 @@
     <bcf:citekey order="6">counting-short-cycles-of-quasi-cyclic-protograph-ldpc-codes</bcf:citekey>
     <bcf:citekey order="7">algorithm-for-counting-for-counting-short-cycles-in-bipartite-graphs</bcf:citekey>
     <bcf:citekey order="8">ace</bcf:citekey>
-    <bcf:citekey order="9">gallager</bcf:citekey>
-    <bcf:citekey order="10">kudryashov-codingtheory</bcf:citekey>
+    <bcf:citekey order="9">trapping-sets</bcf:citekey>
+    <bcf:citekey order="10">gallager</bcf:citekey>
     <bcf:citekey order="11">kudryashov-codingtheory</bcf:citekey>
-    <bcf:citekey order="12">stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters</bcf:citekey>
-    <bcf:citekey order="13">opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu</bcf:citekey>
-    <bcf:citekey order="14">kudryashov-codingtheory</bcf:citekey>
+    <bcf:citekey order="12">kudryashov-codingtheory</bcf:citekey>
+    <bcf:citekey order="13">stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters</bcf:citekey>
+    <bcf:citekey order="14">opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu</bcf:citekey>
     <bcf:citekey order="15">kudryashov-codingtheory</bcf:citekey>
-    <bcf:citekey order="16">hall-combinatorics</bcf:citekey>
-    <bcf:citekey order="17">kudryashov-huawei</bcf:citekey>
+    <bcf:citekey order="16">kudryashov-codingtheory</bcf:citekey>
+    <bcf:citekey order="17">hall-combinatorics</bcf:citekey>
+    <bcf:citekey order="18">kudryashov-huawei</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="1" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
