@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  8 JUN 2017 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  12 JUN 2017 02:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,6 +1213,12 @@ Package: ulem 2012/05/18
 Package: pscyr 2002/07/04 v0.4d Cyrillic Type1 fonts as default
 )) (/usr/local/texlive/2016/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+
+
+Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
+
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks42
 \pgfutil@tempdima=\dimen163
@@ -1256,8 +1262,7 @@ File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 Driver file for pgf: pgfsys-pdftex.def
  (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ))) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
@@ -1274,7 +1279,8 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@toks=\toks49
 \pgfmath@stack@operand=\toks50
 \pgfmath@stack@operation=\toks51
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count375
 )) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
@@ -1309,8 +1315,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen192
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen193
 \pgf@pt@y=\dimen194
@@ -1335,7 +1340,8 @@ File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box52
 )) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
@@ -1378,8 +1384,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofchildren=\count380
 \tikznumberofcurrentchild=\count381
 \tikz@fig@count=\count382
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+ (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count383
 \pgfmatrixcurrentcolumn=\count384
@@ -1406,7 +1411,8 @@ Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
 \pgfplots@tmpa=\dimen267
 \c@pgfplots@coordindex=\count389
 \c@pgfplots@scanlineindex=\count390
- (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary arithmetics for your pgf version...
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count391
@@ -1534,24 +1540,24 @@ LaTeX Warning: Label `eq4' multiply defined.
 ) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/experiments.aux) (/Users/antonkov/masterWork/thesis/.texpadtmp/chapters/outro.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for T2A+ftm on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 37.
  (/usr/local/texlive/texmf-local/tex/latex/pscyr/t2aftm.fd
 File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
-)
+)<<t2a.cmap>>
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1637,87 +1643,88 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
+Package biblatex Info: Reference section=0 on input line 37.
+Package biblatex Info: Reference segment=0 on input line 37.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 36.
+(lastpage)             ! on input line 37.
 \c@lstlisting=\count412
 \appendixPrefix=\skip110
  ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.14} into your preamble.
- on input line 36.
+ on input line 37.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 122.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 122.
+LaTeX Font Info:    Try loading font information for U+msb on input line 123.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1371) in paragraph at lines 122--122
+Underfull \hbox (badness 1371) in paragraph at lines 123--123
 []\T2A/ftm/m/n/12 01.04.02 При-клад-ная ма-те-ма-ти-ка и
  []
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T2A/ftm/bx/n/12 Студент \T2A/ftm/m/n/12 Ков-ша-ров А.П. \T2A/ftm/bx/n/12 Груп-па \T2A/ftm/m/n/12 M4239 \T2A/ftm/bx/n/12 Ка-фед-ра \T2A/ftm/m/n/12 ком-пью-тер-ных тех-но-ло-гий
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T2A/ftm/bx/n/12 Студент \T2A/ftm/m/n/12 Ков-ша-ров А.П. \T2A/ftm/bx/n/12 Груп-па \T2A/ftm/m/n/12 M4239 \T2A/ftm/bx/n/12 Ка-фед-ра \T2A/ftm/m/n/12 ком-пью-тер-ных тех-но-ло-гий
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 122--122
+Underfull \hbox (badness 1043) in paragraph at lines 123--123
 \T2A/ftm/bx/n/12 Фа-куль-тет \T2A/ftm/m/n/12 ин-фор-ма-ци-он-ных тех-но-ло-гий и про-грам-ми-ро-ва-ния \T2A/ftm/bx/n/12 Ру-ко-во-ди-тель \T2A/ftm/m/n/12 Буз-да-лов
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 122--122
+Underfull \hbox (badness 2111) in paragraph at lines 123--123
 \T2A/ftm/bx/n/12 Направленность (про-филь): \T2A/ftm/m/n/12 Тех-но-ло-гии про-ек-ти-ро-ва-ния и раз-ра-бот-ки про-грамм-но-го
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []\T2A/ftm/m/n/12 D.J.C.MacKay. Encyclopedia of Sparse Graph Codes.
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 122--122
+Underfull \hbox (badness 2435) in paragraph at lines 123--123
 []\T2A/ftm/m/n/12 Срок вы-пол-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []\T2A/ftm/m/n/12 Отметка о
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T2A/ftm/m/n/12 вы-пол-не-
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 122--122
+Underfull \hbox (badness 3009) in paragraph at lines 123--123
 []\T2A/ftm/m/n/12 Ознакомление с су-ще-ству-ю-щи-ми под-хо-да-ми
  []
 
 [2]
 \blx@maxsegment@1=\count413
 \blx@sectionciteorder@1=\count414
-Package biblatex Info: Reference section=1 on input line 122.
-Package biblatex Info: Setting label 'refsection:1' on input line 122.
-LaTeX Font Info:    Try loading font information for OT1+ftm on input line 122.
+Package biblatex Info: Reference section=1 on input line 123.
+Package biblatex Info: Setting label 'refsection:1' on input line 123.
+LaTeX Font Info:    Try loading font information for OT1+ftm on input line 123.
  (/usr/local/texlive/texmf-local/tex/latex/pscyr/ot1ftm.fd
 File: ot1ftm.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/ftm.
 ) [1]
-Package biblatex Info: Reference section=0 on input line 122.
+Package biblatex Info: Reference section=0 on input line 123.
  [2] (/Users/antonkov/masterWork/thesis/.texpadtmp/thesis.toc)
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
@@ -2097,22 +2104,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--146
 []\T2A/ftm/m/n/14.4 Исследование бы-ло про-ве-де-но на трех раз-лич-ных ан-сам-блях
  []
 
-<../images/r4_576.pdf, id=170, 505.89pt x 505.89pt>
+<../images/r4_576.pdf, id=175, 505.89pt x 505.89pt>
 File: ../images/r4_576.pdf Graphic file (type pdf)
  <use ../images/r4_576.pdf>
 Package pdftex.def Info: ../images/r4_576.pdf used on input line 161.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/r4_2304.pdf, id=171, 505.89pt x 505.89pt>
+ <../images/r4_2304.pdf, id=176, 505.89pt x 505.89pt>
 File: ../images/r4_2304.pdf Graphic file (type pdf)
  <use ../images/r4_2304.pdf>
 Package pdftex.def Info: ../images/r4_2304.pdf used on input line 166.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/g4_576.pdf, id=172, 505.89pt x 505.89pt>
+ <../images/g4_576.pdf, id=177, 505.89pt x 505.89pt>
 File: ../images/g4_576.pdf Graphic file (type pdf)
  <use ../images/g4_576.pdf>
 Package pdftex.def Info: ../images/g4_576.pdf used on input line 173.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q4_576.pdf, id=173, 505.89pt x 505.89pt>
+ <../images/q4_576.pdf, id=178, 505.89pt x 505.89pt>
 File: ../images/q4_576.pdf Graphic file (type pdf)
  <use ../images/q4_576.pdf>
 Package pdftex.def Info: ../images/q4_576.pdf used on input line 178.
@@ -2121,22 +2128,22 @@ Package pdftex.def Info: ../images/q4_576.pdf used on input line 178.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../images/g3_576.pdf, id=174, 505.89pt x 505.89pt>
+<../images/g3_576.pdf, id=179, 505.89pt x 505.89pt>
 File: ../images/g3_576.pdf Graphic file (type pdf)
  <use ../images/g3_576.pdf>
 Package pdftex.def Info: ../images/g3_576.pdf used on input line 189.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/g3_2304.pdf, id=175, 505.89pt x 505.89pt>
+ <../images/g3_2304.pdf, id=180, 505.89pt x 505.89pt>
 File: ../images/g3_2304.pdf Graphic file (type pdf)
  <use ../images/g3_2304.pdf>
 Package pdftex.def Info: ../images/g3_2304.pdf used on input line 194.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q3_2304.pdf, id=176, 505.89pt x 505.89pt>
+ <../images/q3_2304.pdf, id=181, 505.89pt x 505.89pt>
 File: ../images/q3_2304.pdf Graphic file (type pdf)
  <use ../images/q3_2304.pdf>
 Package pdftex.def Info: ../images/q3_2304.pdf used on input line 200.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q3_576.pdf, id=177, 505.89pt x 505.89pt>
+ <../images/q3_576.pdf, id=182, 505.89pt x 505.89pt>
 File: ../images/q3_576.pdf Graphic file (type pdf)
  <use ../images/q3_576.pdf>
 Package pdftex.def Info: ../images/q3_576.pdf used on input line 205.
@@ -2204,12 +2211,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48] <../images/d4n1_576.pdf, id=490, 505.89pt x 505.89pt>
+[48] <../images/d4n1_576.pdf, id=495, 505.89pt x 505.89pt>
 File: ../images/d4n1_576.pdf Graphic file (type pdf)
  <use ../images/d4n1_576.pdf>
 Package pdftex.def Info: ../images/d4n1_576.pdf used on input line 306.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/d4n1_2304.pdf, id=491, 505.89pt x 505.89pt>
+ <../images/d4n1_2304.pdf, id=496, 505.89pt x 505.89pt>
 File: ../images/d4n1_2304.pdf Graphic file (type pdf)
  <use ../images/d4n1_2304.pdf>
 Package pdftex.def Info: ../images/d4n1_2304.pdf used on input line 311.
@@ -2255,7 +2262,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ]
 
 Package biblatex Warning: No driver for entry type 'artice'.
-(biblatex)                Using fallback driver on input line 135.
+(biblatex)                Using fallback driver on input line 136.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -2287,18 +2294,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### semi simple group (level 1) entered at line 63 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 39975 strings out of 493013
- 883188 string characters out of 6133343
- 1704384 words of memory out of 5000000
- 42715 multiletter control sequences out of 15000+600000
+ 40060 strings out of 493013
+ 884476 string characters out of 6133343
+ 1704742 words of memory out of 5000000
+ 42730 multiletter control sequences out of 15000+600000
  36265 words of font info for 93 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,22n,102p,1091b,29412s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,22n,102p,1091b,29425s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (57 pages, 548346 bytes).
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (57 pages, 552988 bytes).
 PDF statistics:
- 646 PDF objects out of 1000 (max. 8388607)
+ 651 PDF objects out of 1000 (max. 8388607)
  238 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
