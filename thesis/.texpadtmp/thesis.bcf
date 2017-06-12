@@ -3424,7 +3424,10 @@
     <bcf:citekey order="15">kudryashov-codingtheory</bcf:citekey>
     <bcf:citekey order="16">kudryashov-codingtheory</bcf:citekey>
     <bcf:citekey order="17">hall-combinatorics</bcf:citekey>
-    <bcf:citekey order="18">kudryashov-huawei</bcf:citekey>
+    <bcf:citekey order="18">finding-and-counting-given-length-cycles</bcf:citekey>
+    <bcf:citekey order="19">algorithm-for-counting-for-counting-short-cycles-in-bipartite-graphs</bcf:citekey>
+    <bcf:citekey order="20">message-passing-algorithm-for-counting-short-cycles-in-graph</bcf:citekey>
+    <bcf:citekey order="21">kudryashov-huawei</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="1" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

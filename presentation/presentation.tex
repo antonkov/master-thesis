@@ -276,28 +276,27 @@ a_{2L}^i=a_0^i \cdot A^L
 \begin{minipage}{\linewidth}
 	\begin{algorithm}[H]
 	\begin{algorithmic}
-	\Function{CountCycles}{$A$, $L_{MAX}$}
-		\State $E \gets size(A,1)$
-		\For{$L \gets [1; \lfloor\frac{L_{MAX}}{2}\rfloor$]}
+		\Function{CountCycles}{$A$, $L_{\max}$}
+		\State $E \gets \textsc{size}(A,1)$
+		\For{$L \gets [1; \lfloor\frac{L_{\max}}{2}\rfloor$]}
 			\For{$i \gets [0; E)$}
 				\State $a_0^i \gets (\underbrace{0,0,...,0}_{i \text{ раз}},1,0,...,0)$
-				\State $a_{2L}^i \gets a_0^i \cdot A^L$
-				\State $b_{2L} \mathrel{+}= a_{2L}^i$
+				\State $a_{2L}^i \gets a_0^i \cdot A^L$ \label{aeq2}
+				\State $b_{2L} \gets b_{2L} + a_{2L}^i$ \label{aeq3}
 			\EndFor
 			\State $g_{2L} \gets 0$
 			\For{$d \gets [1; 2L]$, $d|2L$}
-				\State $g_{2L} \mathrel{+}= \mu(d) \cdot T_d(b_{2L/d})$
+				\State $g_{2L} \gets g_{2L} + \mu(d) \cdot T_d(b_{2L/d})$
 			\EndFor
-			\State $g_{2L} /= 2L$
+			\State $g_{2L} \gets g_{2L} / 2L$
 			\For{$d \gets [1; 2L]$, $d|2L$}
 				\For{$w \gets [0; M)$, $\frac{w \cdot 2L}{d}=0\pmod{M}$}
-					\State $C_{2L} \mathrel{+}= g^{(w)}_d(0)$
+					\State $C_{2L} \gets C_{2L} + g^{(w)}_d(0)$ \label{aeq5}
 				\EndFor
 			\EndFor
 		\EndFor
-		\State\Return C
-	\EndFunction	
-\end{algorithmic}
+		\State\Return $C$
+	\EndFunction	\end{algorithmic}
 \end{algorithm}
 \end{minipage}
 }
