@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  12 JUN 2017 05:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  12 JUN 2017 05:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2167,6 +2167,15 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/g4_576.pdf): PDF in
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/q4_576.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--159
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -2183,17 +2192,27 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/q3_2304.pdf): PDF i
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../images/q3_576.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 206--211
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 []\T2A/ftm/m/n/14.4 –ассмотрим ги-по-те-зу при неко-то-ром фик-си-ро-ван-ном пре-фик-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--211
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 \T2A/ftm/m/n/14.4 се. Ќа-при-мер, сге-не-ри-ру-ем несколь-ко ко-дов спектр ко-то-рых име-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--211
+Underfull \hbox (badness 10000) in paragraph at lines 227--232
 \T2A/ftm/m/n/14.4 ет оди-на-ко-вый пре-фикс. “ак спектр сле-ду-ю-щих ко-дов со-став-л€-ет
  []
 
@@ -2206,12 +2225,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [48] <../images/d4n1_576.pdf, id=496, 505.89pt x 505.89pt>
 File: ../images/d4n1_576.pdf Graphic file (type pdf)
  <use ../images/d4n1_576.pdf>
-Package pdftex.def Info: ../images/d4n1_576.pdf used on input line 216.
+Package pdftex.def Info: ../images/d4n1_576.pdf used on input line 237.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
  <../images/d4n1_2304.pdf, id=497, 505.89pt x 505.89pt>
 File: ../images/d4n1_2304.pdf Graphic file (type pdf)
  <use ../images/d4n1_2304.pdf>
-Package pdftex.def Info: ../images/d4n1_2304.pdf used on input line 221.
+Package pdftex.def Info: ../images/d4n1_2304.pdf used on input line 242.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
 
 
@@ -2292,9 +2311,9 @@ Here is how much of TeX's memory you used:
  42755 multiletter control sequences out of 15000+600000
  40041 words of font info for 98 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,22n,102p,1091b,29431s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,22n,102p,1091b,29432s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (57 pages, 564367 bytes).
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (57 pages, 564972 bytes).
 PDF statistics:
  655 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams
