@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  12 JUN 2017 02:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.4.12)  12 JUN 2017 04:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1886,6 +1886,9 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 [20] (../tikz/decoding1.tikz) (../tikz/decoding2.tikz) (../tikz/decoding3.tikz) (../tikz/decoding4.tikz)
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
  We now make it that large for the rest of the document.
@@ -1913,20 +1916,10 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
-Underfull \hbox (badness 2261) in paragraph at lines 554--557
-[]\T2A/ftm/m/n/14.4 На экс-пе-ри-мен-тах из ис-сле-до-ва-ния ре-а-ли-зо-ван-ный ал-го-ритм поз-
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 554--557
-\T2A/ftm/m/n/14.4 во-лил по-лу-чить по-чти 60-кратное уско-ре-ния по срав-не-нию с вер-си-я-ми
- []
-
-
-Underfull \hbox (badness 1226) in paragraph at lines 554--557
-\T2A/ftm/m/n/14.4 на CPU. Ис-ход-ный код де-ко-де-ра мо-жет быть най-ден в се-ти ин-тер-нет
- []
-
+LaTeX Font Info:    Try loading font information for T2A+fer on input line 555.
+ (/usr/local/texlive/texmf-local/tex/latex/pscyr/t2afer.fd
+File: t2afer.fd 2004/09/21 Fontinst v1.914 font definitions for T2A/fer.
+)
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 17.0pt.
@@ -2099,22 +2092,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--146
 []\T2A/ftm/m/n/14.4 Исследование бы-ло про-ве-де-но на трех раз-лич-ных ан-сам-блях
  []
 
-<../images/r4_576.pdf, id=175, 505.89pt x 505.89pt>
+<../images/r4_576.pdf, id=176, 505.89pt x 505.89pt>
 File: ../images/r4_576.pdf Graphic file (type pdf)
  <use ../images/r4_576.pdf>
 Package pdftex.def Info: ../images/r4_576.pdf used on input line 161.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/r4_2304.pdf, id=176, 505.89pt x 505.89pt>
+ <../images/r4_2304.pdf, id=177, 505.89pt x 505.89pt>
 File: ../images/r4_2304.pdf Graphic file (type pdf)
  <use ../images/r4_2304.pdf>
 Package pdftex.def Info: ../images/r4_2304.pdf used on input line 166.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/g4_576.pdf, id=177, 505.89pt x 505.89pt>
+ <../images/g4_576.pdf, id=178, 505.89pt x 505.89pt>
 File: ../images/g4_576.pdf Graphic file (type pdf)
  <use ../images/g4_576.pdf>
 Package pdftex.def Info: ../images/g4_576.pdf used on input line 173.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q4_576.pdf, id=178, 505.89pt x 505.89pt>
+ <../images/q4_576.pdf, id=179, 505.89pt x 505.89pt>
 File: ../images/q4_576.pdf Graphic file (type pdf)
  <use ../images/q4_576.pdf>
 Package pdftex.def Info: ../images/q4_576.pdf used on input line 178.
@@ -2123,22 +2116,22 @@ Package pdftex.def Info: ../images/q4_576.pdf used on input line 178.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../images/g3_576.pdf, id=179, 505.89pt x 505.89pt>
+<../images/g3_576.pdf, id=180, 505.89pt x 505.89pt>
 File: ../images/g3_576.pdf Graphic file (type pdf)
  <use ../images/g3_576.pdf>
 Package pdftex.def Info: ../images/g3_576.pdf used on input line 189.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/g3_2304.pdf, id=180, 505.89pt x 505.89pt>
+ <../images/g3_2304.pdf, id=181, 505.89pt x 505.89pt>
 File: ../images/g3_2304.pdf Graphic file (type pdf)
  <use ../images/g3_2304.pdf>
 Package pdftex.def Info: ../images/g3_2304.pdf used on input line 194.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q3_2304.pdf, id=181, 505.89pt x 505.89pt>
+ <../images/q3_2304.pdf, id=182, 505.89pt x 505.89pt>
 File: ../images/q3_2304.pdf Graphic file (type pdf)
  <use ../images/q3_2304.pdf>
 Package pdftex.def Info: ../images/q3_2304.pdf used on input line 200.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/q3_576.pdf, id=182, 505.89pt x 505.89pt>
+ <../images/q3_576.pdf, id=183, 505.89pt x 505.89pt>
 File: ../images/q3_576.pdf Graphic file (type pdf)
  <use ../images/q3_576.pdf>
 Package pdftex.def Info: ../images/q3_576.pdf used on input line 205.
@@ -2206,12 +2199,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48] <../images/d4n1_576.pdf, id=495, 505.89pt x 505.89pt>
+[48] <../images/d4n1_576.pdf, id=496, 505.89pt x 505.89pt>
 File: ../images/d4n1_576.pdf Graphic file (type pdf)
  <use ../images/d4n1_576.pdf>
 Package pdftex.def Info: ../images/d4n1_576.pdf used on input line 306.
 (pdftex.def)             Requested size: 231.2687pt x 231.26378pt.
- <../images/d4n1_2304.pdf, id=496, 505.89pt x 505.89pt>
+ <../images/d4n1_2304.pdf, id=497, 505.89pt x 505.89pt>
 File: ../images/d4n1_2304.pdf Graphic file (type pdf)
  <use ../images/d4n1_2304.pdf>
 Package pdftex.def Info: ../images/d4n1_2304.pdf used on input line 311.
@@ -2289,18 +2282,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### semi simple group (level 1) entered at line 63 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 40060 strings out of 493013
- 884476 string characters out of 6133343
+ 40091 strings out of 493013
+ 884930 string characters out of 6133343
  1704742 words of memory out of 5000000
- 42730 multiletter control sequences out of 15000+600000
- 36265 words of font info for 93 fonts, out of 8000000 for 9000
+ 42753 multiletter control sequences out of 15000+600000
+ 37249 words of font info for 96 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 73i,22n,102p,1091b,29425s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
-Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (57 pages, 553128 bytes).
+ 73i,22n,102p,1091b,29427s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/t2/t2a.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/ercour.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/times.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesbd.pfb></usr/local/texlive/texmf-local/fonts/type1/public/pscyr/timesi.pfb>
+Output written on /Users/antonkov/masterWork/thesis/.texpadtmp/thesis.pdf (57 pages, 561512 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
+ 655 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
