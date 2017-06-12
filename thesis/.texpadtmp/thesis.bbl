@@ -19,7 +19,7 @@
 
 \refsection{0}
   \sortlist[entry]{none/global/}
-    \entry{understanding-belief-propogation}{article}{}
+    \entry{understanding-belief-propogation}{report}{}
       \name{author}{3}{}{%
         {{hash=904aba2e3a25ef4891a565bf5c9318ac}{%
            family={Yedidia},
@@ -37,7 +37,7 @@
            given={Y.},
            giveni={Y\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
+      \list{institution}{1}{%
         {Mitsubishi electric research laboratories}%
       }
       \strng{namehash}{995f1310b24e0ead3cb32f75c35feda9}
@@ -51,7 +51,10 @@
       \field{langid}{english}
       \field{month}{11}
       \field{title}{Understanding Belief Propagation and its Generalizations}
+      \field{type}{techreport}
       \field{year}{2001}
+      \field{number}{2001\bibrangedash 22}
+      \range{number}{22}
     \endentry
     \entry{kudryashov-codingtheory}{book}{}
       \name{author}{1}{}{%
@@ -73,6 +76,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{russian}
+      \field{pagetotal}{400}
       \field{title}{Основы теории кодирования}
       \field{year}{2016}
     \endentry
@@ -198,9 +202,14 @@
       \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the ACM}
       \field{langid}{english}
       \field{title}{Color-coding}
       \field{year}{1995}
+      \field{number}{42}
+      \range{number}{1}
+      \field{pages}{844\bibrangedash 856}
+      \range{pages}{13}
     \endentry
     \entry{message-passing-algorithm-for-counting-short-cycles-in-graph}{article}{}
       \name{author}{2}{}{%
@@ -223,9 +232,16 @@
       \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Communications}
       \field{langid}{english}
       \field{title}{A message-passing algorithm for counting short cycles in graph}
       \field{year}{2013}
+      \field{issue}{2}
+      \range{issue}{1}
+      \field{pages}{485\bibrangedash 495}
+      \range{pages}{11}
+      \field{volume}{61}
+      \range{volume}{1}
     \endentry
     \entry{counting-short-cycles-of-quasi-cyclic-protograph-ldpc-codes}{article}{}
       \name{author}{2}{}{%
@@ -253,8 +269,8 @@
       \field{month}{3}
       \field{title}{Counting short cycles of quasi cyclic protograph LDPC-codes}
       \field{year}{2012}
-      \field{number}{3}
-      \range{number}{1}
+      \field{issue}{3}
+      \range{issue}{1}
       \field{pages}{400\bibrangedash 403}
       \range{pages}{4}
       \field{volume}{16}
@@ -286,8 +302,10 @@
       \field{month}{1}
       \field{title}{An algorithm for counting short cycles in bipartite graphs}
       \field{year}{2006}
-      \field{number}{1}
-      \range{number}{1}
+      \field{issue}{1}
+      \range{issue}{1}
+      \field{pages}{287\bibrangedash 292}
+      \range{pages}{6}
       \field{volume}{52}
       \range{volume}{1}
     \endentry
@@ -344,11 +362,18 @@
       \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Theory}
       \field{langid}{english}
       \field{title}{An Efficient Algorithm for Finding Dominant Trapping Sets of LDPC Codes}
       \field{year}{2012}
+      \field{issue}{11}
+      \range{issue}{1}
+      \field{pages}{6942\bibrangedash 6958}
+      \range{pages}{17}
+      \field{volume}{58}
+      \range{volume}{1}
     \endentry
-    \entry{gallager}{article}{}
+    \entry{gallager}{book}{}
       \name{author}{1}{}{%
         {{hash=f76fbd9faddcec1968c0ac4304f480a2}{%
            family={Gallager},
@@ -368,10 +393,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
+      \field{pagetotal}{90}
       \field{title}{Low-Density Parity-Check Codes}
       \field{year}{1963}
     \endentry
-    \entry{stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters}{artice}{useauthor=false}
+    \entry{stressing-the-ber-simulation-of-ldpc-codes-in-the-error-floor-region-using-gpu-clusters}{inproceedings}{useauthor=false}
       \name{author}{5}{}{%
         {{hash=ca215bec44d0744f9d3086c55d92b9a8}{%
            family={Falcao},
@@ -404,12 +430,12 @@
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The Tenth International Symposium on Wireless Communication Systems}
+      \field{booktitle}{Proceedings of the Tenth International Symposium on Wireless Communication Systems}
       \field{langid}{english}
       \field{title}{Stressing the BER simulation of LDPC codes in the error floor region using GPU clusters}
       \field{year}{2013}
     \endentry
-    \entry{opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu}{article}{}
+    \entry{opencl-cuda-algorithms-for-parallel-decoding-of-any-irregular-ldpc-code-using-gpu}{online}{}
       \name{author}{3}{}{%
         {{hash=b45dcbe794925b65aedd3ad828836772}{%
            family={Broulim},
@@ -435,15 +461,13 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of \LaTeX class files}
+      \field{eprintclass}{cs.IT}
+      \field{eprinttype}{arXiv}
       \field{langid}{english}
-      \field{month}{8}
       \field{title}{OpenCL/CUDA algorithms for parallel decoding of any irregular LDPC code using GPU}
-      \field{year}{2015}
-      \field{number}{8}
-      \range{number}{1}
-      \field{volume}{14}
-      \range{volume}{1}
+      \verb{eprint}
+      \verb 1609.01567
+      \endverb
     \endentry
     \entry{hall-combinatorics}{book}{}
       \name{author}{1}{}{%
@@ -454,7 +478,7 @@
            giveni={М\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Издательство "Мир" Москва}%
+        {Издательство <<Мир>> Москва}%
       }
       \strng{namehash}{c7b504c94950e245efb53bb89537a012}
       \strng{fullhash}{c7b504c94950e245efb53bb89537a012}
@@ -465,10 +489,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{russian}
+      \field{pagetotal}{424}
       \field{title}{Комбинаторика}
       \field{year}{1970}
     \endentry
-    \entry{kudryashov-huawei}{article}{}
+    \entry{kudryashov-huawei}{report}{}
       \name{author}{2}{}{%
         {{hash=5460e8e6f029b9880ee7af4027c75286}{%
            family={Kudryashov},
@@ -492,6 +517,7 @@
       \field{langid}{english}
       \field{month}{1}
       \field{title}{Binary images of nonbinary LDPC codes for WiMAX scenario}
+      \field{type}{techreport}
       \field{year}{2016}
     \endentry
   \endsortlist
