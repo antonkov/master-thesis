@@ -599,16 +599,16 @@
         \pagebreak[3]
         \noindent \textbf{2 Задачи, решаемые в работе:} \theresearchtargets \par
         \pagebreak[3]
-        \noindent \textbf{3 Число источников, использованных при составлении обзора:} \uhspace{4em} \par
+        \noindent \textbf{3 Число источников, использованных при составлении обзора:} 12 \par
         \noindent \textbf{4 Полное число источников, использованных в работе:} \total{citnum} \par
         \noindent \textbf{5 В том числе источников по годам} \par
         \begin{tabular}{|c|c|c|c|c|c|}\hline
             \multicolumn{3}{|c|}{Отечественных} & \multicolumn{3}{c|}{Иностранных} \\\hline
             Последние & От 5      & Более  & Последние & От 5 & Более \\
             5 лет     & до 10 лет & 10 лет & 5 лет     & до 10 лет & 10 лет \\\hline
-            ~ & ~ & ~ & ~ & ~ & ~ \\\hline
+            1 & 0 & 1 & 5 & 2 & 7 \\\hline
         \end{tabular}\par
-        \noindent \textbf{6 Использование информационных ресурсов Internet:} \uhspace{4em} \par
+        \noindent \textbf{6 Использование информационных ресурсов Internet:} 0 \par
         \pagebreak[3]
         \noindent \textbf{7 Использование современных пакетов компьютерных программ и технологий:}
             \theadvancedtechnologyusage\par
